@@ -9,6 +9,11 @@ def function_b():
     c = 3
     return a + c
 
+def function_c():
+    z=235
+    y=32
+    return z*y
+
 
 print(function_a())
 print(function_b())
