@@ -1,6 +1,6 @@
 from datetime import datetime
 
-odds=range(1,60,2)
+odds=range(1,34,2)
 
 right_this_minute=datetime.today().minute
 
