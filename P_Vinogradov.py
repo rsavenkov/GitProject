@@ -6,7 +6,7 @@ def decorator(res):
             return a
         return fnd
     return ress
-@decorator('Programmist ')
+@decorator('Programmist Pentagon cracker ')
 def funcshon(name):
     return "hello " + name
 s = input('add name : ')
