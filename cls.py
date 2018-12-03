@@ -1,5 +1,4 @@
 class Lamp():
-    def __init__(self):
     def swich_on(self):
         print('lamp on')
     def swich_off(self):
