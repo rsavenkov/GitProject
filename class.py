@@ -4,7 +4,7 @@ class Student:
         self.surname = surname
         self.teacher = teacher
 
-
+        
 class Teacher:
     def __init__(self, name, surname):
         self.name = name
