@@ -1,4 +1,4 @@
-# объявление классов
+
 class MotoTechnic:
     firm = ''
 
@@ -14,8 +14,6 @@ class MotoTechnic:
 
 
 firms = []
-firmsspec = []
-diction = {}
 
 ducati = MotoTechnic("Monster", 2004)
 ducati.specifications(143, 234, "Naked")
@@ -49,7 +47,8 @@ firms.append(suzuki)
 
 for firms in firms:
     print("=" * 85)
-    print("[Salon :>", firms.salon, "][ Firm :>", firms.firm, "][ Model :>", firms.model, "][ Year :>", firms.year, "]")
+    print("[Salon :>", firms.salon, "][ Firm :>", firms.firm, "][ Model :>",
+          firms.model, "][ Year :>", firms.year, "]")
     print("[Weight of model:>", firms.weight, "][ Top Speed :>", firms.top_speed, "][ Class :>",
           firms.type_of_class, "]")
     print("=" * 85)
