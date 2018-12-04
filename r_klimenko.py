@@ -1,7 +1,7 @@
 from math import cos
 from random import randint
 
-l = [1,2]
+l = [1,4,5]
 max = 0
 
 for i in range(1,7):
