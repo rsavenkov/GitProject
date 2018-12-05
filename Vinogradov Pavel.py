@@ -10,7 +10,11 @@ class Person:
         print('имя ' + name, 'вес ' + weigth, 'рост ' + growth)
 
 
-ee = Person('Igorb', '75', '190')
+class Dir(Person):
+    pass
+
+
+ee = Dir('имя Igorb', 'вес 75', 'рост 190')
 
 print(ee.name)
 print(ee.weigth)
