@@ -33,7 +33,6 @@ while flag:
     else:
         flag = False
         break
-
-
+    print(namepizza,sise,weight,price)
 
 
