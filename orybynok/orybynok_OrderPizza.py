@@ -1,4 +1,4 @@
-from orybynok.f_price import fprice
+from f_price import fprice
 
 
 class Orders:
