@@ -1,8 +1,10 @@
-from mycar import MyCar
-from truck import Truck
-from bas import Bass
+from typing import List, Any
 
-cars = []
+from mycar import MyCar
+from truck import Truck, m
+from bas import Bass, x2, n
+
+cars: List[Any] = []
 l = 0
 for car in cars:
     if 'workability' == 'на ходу':
@@ -27,4 +29,5 @@ for bass in basses:
         l = 1 + 0
     print(bass)
 
-
+z = l + m + n
+print("\nНе находу в автопарке - ",z)

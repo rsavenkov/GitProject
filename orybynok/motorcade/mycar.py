@@ -57,5 +57,5 @@ for car in cars:
         l= l+0
     print(car)
 
-print("Кол-во машин - ",len(cars))
+print("Кол-во легковых машин - ",len(cars))
 print("Из них не на ходу - ",l)

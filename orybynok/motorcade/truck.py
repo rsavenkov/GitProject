@@ -26,14 +26,14 @@ trucks.append(truck1)
 truck2 = 'Truck', 'Tatra', '2500', 'tractor', 'red', 2014, 60 * 1000, 'на ходу', 'tractor', '15,0 ton'
 trucks.append(truck2)
 print('\n')
-l = 0
+m = 0
 for truck in trucks:
     if 'workability' == 'на ходу':
-        l= l+1
+        m= m+1
     else:
-        l= l+0
+        m= m+0
     print(truck)
 
-print("Кол-во машин - ",len(trucks))
-print("Из них не на ходу - ",l)
+print("Кол-во грузовых машин - ",len(trucks))
+print("Из них не на ходу - ",m)
 
