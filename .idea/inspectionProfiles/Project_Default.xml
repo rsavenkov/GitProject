@@ -8,5 +8,14 @@
         </list>
       </option>
     </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tuple.fullInfo" />
+          <option value="orybynok.motorcade.bas.mycar" />
+          <option value="orybynok.motorcade.mycar.*" />
+        </list>
+      </option>
+    </inspection_tool>
   </profile>
 </component>
