@@ -48,6 +48,7 @@ car2 = 'Car', 'Subary', 'Forester', 'sedan', 'white', 2016, 105*1000, 'на хо
 cars.append(car2)
 car3 = 'Car', 'Mersedes', '320,S-klass', 'sedan', 'black', 2017, 35*1000, 'на ходу'
 cars.append(car3)
+print('\n')
 l = 0
 for car in cars:
     if 'workability' == 'на ходу':
@@ -56,5 +57,5 @@ for car in cars:
         l= l+0
     print(car)
 
-print("\nКол-во машин - ",len(cars))
+print("Кол-во машин - ",len(cars))
 print("Из них не на ходу - ",l)

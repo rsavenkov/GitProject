@@ -20,6 +20,7 @@ bass1 = 'Bass', 'Liaz', '1500', 'bass', 'yellow', 2012, 80 * 1000, 'на ход�
 basses.append(bass1)
 bass2 = 'Bass', 'Ford', '1900', 'minibass', 'white', 2016, 40 * 1000, 'не на ходу', '20 passenger'
 basses.append(bass2)
+print('\n')
 l = 0
 for bass in basses:
     if 'workability' == 'на ходу':
@@ -28,6 +29,6 @@ for bass in basses:
         l = 1 + 0
     print(bass)
 
-print("\nКол-во машин - ", len(basses))
+print("Кол-во машин - ", len(basses))
 print("Из них не на ходу - ", l)
 
