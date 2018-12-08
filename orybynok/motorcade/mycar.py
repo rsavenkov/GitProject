@@ -1,4 +1,3 @@
-
 class MyCar:
     def __init__(self, type, brend, model, body, color, year_of_man, distance, workability):
         self.type = type
