@@ -36,26 +36,27 @@ class MyCar:
     @property
     def fullInfo(self):
         return 'Tipe = {}\nBrend = {}\nModel = {}\nBody = {}\nColor = {}' \
-               '\nYear_of_man = {}\nDistance = {}\nWorkability ={}'\
+               '\nYear_of_man = {}\nDistance = {}\nWorkability ={}' \
             .format(self.type, self.brend, self.model, self.body, self.color,
                     self.year_of_man, self.distance, self.workability)
 
+
 cars = []
 
-car1 = 'Car', 'Audi', 'A5', 'sedan', 'red', 2009, 120*1000, 'на ходу'
+car1 = 'Car', 'Audi', 'A5', 'sedan', 'red', 2009, 120 * 1000, 'на ходу'
 cars.append(car1)
-car2 = 'Car', 'Subary', 'Forester', 'sedan', 'white', 2016, 105*1000, 'на ходу'
+car2 = 'Car', 'Subary', 'Forester', 'sedan', 'white', 2016, 105 * 1000, 'на ходу'
 cars.append(car2)
-car3 = 'Car', 'Mersedes', '320,S-klass', 'sedan', 'black', 2017, 35*1000, 'на ходу'
+car3 = 'Car', 'Mersedes', '320,S-klass', 'sedan', 'black', 2017, 35 * 1000, 'на ходу'
 cars.append(car3)
 print('\n')
 l = 0
 for car in cars:
     if 'workability' == 'на ходу':
-        l= l+1
+        l = l + 1
     else:
-        l= l+0
+        l = l + 0
     print(car)
-
-print("Кол-во легковых машин - ",len(cars))
-print("Из них не на ходу - ",l)
+a: int = len(cars)
+print("Кол-во легковых машин - ", a)
+print("Из них не на ходу - ", l)

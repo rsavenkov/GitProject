@@ -33,7 +33,7 @@ for truck in trucks:
     else:
         m= m+0
     print(truck)
-
-print("Кол-во грузовых машин - ",len(trucks))
+b: int = len(trucks)
+print("Кол-во грузовых машин - ",b)
 print("Из них не на ходу - ",m)
 

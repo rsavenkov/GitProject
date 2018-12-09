@@ -28,7 +28,6 @@ for bass in basses:
     else:
         n = 1 + 0
     print(bass)
-
-x2 = print("Кол-во машин - ", len(basses))
-y2 = print("Из них не на ходу - ", n)
-
+c: int = len(basses)
+print("Кол-во машин - ",c)
+print("Из них не на ходу - ", n)
