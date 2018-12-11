@@ -1,7 +1,8 @@
-from ts import Ts
+# from ts import Ts
+from machine import Machine
 
 
-class Moto(Ts):
+class Moto(Machine):
     type = "Moto"
 
     def __init__(self, firm, model, style):
@@ -10,15 +11,6 @@ class Moto(Ts):
         self.model = model
         self.style = style
 
-    def GetFirm(self):
-        return self.firm
-
-    def GetModel(self):
-        return self.model
-
-    def Style(self):
-        return self.style
-
     def Info(self):
-        return super().worked() + "\nBrend = {}\nModel = {}\nStyle = {}\n" \
+        return super().isWorkable() + "===============================\nBrend = {}\nModel = {}\nStyle = {}\n" \
             .format(self.firm, self.model, self.style)

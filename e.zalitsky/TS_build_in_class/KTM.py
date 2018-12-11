@@ -11,12 +11,16 @@ class KTM(Moto):
         self.speed = speed
 
     def fullInfo(self):
-        return super().Info() + 'Color = {}\nPower = {}\nPrice = {}\nTop speed = {}\n' \
-            .format(self.color, self.power, self.price, self.speed)
+        return super().Info() + 'Color = {}\nPower (hp) = {}\nPrice ($) = {}\nTop speed (km/h) = {}\n' \
+            .format(self.color, self.power, self.price, self.speed) + "" \
+                                                                      "===============================\n"
 
+moto_ktm = []
 
-moto1 = KTM("black", "54 hp", 520000, 130)
-print('KTM - 1: ' + moto1.fullInfo())
+moto1 = KTM("black", 54, 5000, 130)
+print('Moto - 1: ' + moto1.fullInfo())
+moto_ktm.append(moto1)
 
-moto2 = KTM("orange", "84 hp", 640000, 150)
-print('KTM - 2: ' + moto2.fullInfo())
+moto2 = KTM("orange", 84, 6500, 150)
+print('Moto - 2: ' + moto2.fullInfo())
+moto_ktm.append(moto2)

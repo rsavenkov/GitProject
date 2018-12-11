@@ -1,7 +1,7 @@
-from ts import Ts
+from machine import Machine
 
 
-class Buss(Ts):
+class Buss(Machine):
     type = "Buss"
 
     def __init__(self, firm, model, type_work):
@@ -10,15 +10,6 @@ class Buss(Ts):
         self.model = model
         self.type_work = type_work
 
-    def GetFirm(self):
-        return self.firm
-
-    def GetModel(self):
-        return self.model
-
-    def Get_Work(self):
-        return self.type_work
-
     def Informat(self):
-        return super().worked() + "Brend = {}\nModel = {}\nWork = {}\n" \
-            .format(self.firm, self.model, self, self.type_work)
+        return super().isWorkable() + "===============================\n" + "Brend = {}\nModel = {}\nWork = {}\n" \
+            .format(self.firm, self.model, self.type_work)
