@@ -24,3 +24,5 @@ moto_ktm.append(moto1)
 moto2 = KTM("orange", 84, 6500, 150)
 print('Moto - 2: ' + moto2.fullInfo())
 moto_ktm.append(moto2)
+
+
