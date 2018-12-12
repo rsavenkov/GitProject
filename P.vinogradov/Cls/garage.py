@@ -1,12 +1,13 @@
 from truck import Truck
 
+class NotMachineLikeTruckAcceptableInGarage:
 
-class NotMachineLikeTruckAcceptableInGarage(Exception):
     text = '''
-        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        !!!!!!!!!!!!!!!!!  {}   !!!!!!!!!
-        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
-    '''
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        !!! Only truck acceptable to insert in garage  {}   !!!!!!
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            '''
+
     def __init__(self, message):
         self.message = NotMachineLikeTruckAcceptableInGarage.text.format(message)
 
@@ -23,4 +24,4 @@ class Garage:
             if (isinstance(truck, Truck)):
                 self.trucks_list.append(truck)
             else:
-                raise NotMachineLikeTruckAcceptableInGarage(truck.type)
+                raise NotMachineL
