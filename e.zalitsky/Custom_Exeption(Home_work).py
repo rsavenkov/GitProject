@@ -7,23 +7,25 @@ class NotNumberException(Exception):
 
 class NotPositiveNumberException(NotNumberException):
 
-    def __init__(self, message):
-        super().message = message
+    error_message = 'Ошибка! Отрицательное число {}!'
 
-input = input('Пожалуйста введите число:')
+    def __init__(self, message):
+        self.message = NotPositiveNumberException.error_message.format(message)
+
+my_input = input('Пожалуйста введите число:')
 
 try:
-    number = int(input)
+    number = int(my_input)
     if number < 0:
         try:
-            raise NotPositiveNumberException()  # rise передает ошибку на уровень вверх
-        except TypeError:
-            print('Вы ввели отрицательное число')
+            raise NotPositiveNumberException(my_input)  # raise передает ошибку на уровень вверх
+        except NotPositiveNumberException as e:
+            print(e.message)
     else:
         print('Спасибо, вы ввели число:', number)
 
 except ValueError:
     try:
-        raise NotNumberException(input)
+        raise NotNumberException(my_input)
     except NotNumberException as error:
         print(error.message)
