@@ -9,7 +9,7 @@ class NotNumberException(Exception):
 
 class NotPositiveNumberException(NotNumberException):
 
-    error1_message = 'Ошибка! Вы ввели отрицательное число!'
+    error1_message = 'Ошибка! Вы ввели отрицательное число! {}'
 
     def __init__(self, message1):
         self.message1 = NotPositiveNumberException.error1_message.format(message1)
