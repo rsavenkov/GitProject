@@ -1,7 +1,7 @@
 from truck import Truck
 
 
-class NotMachineLikeTruckAcceptableInGarage:
+class NotMachineLikeTruckAcceptableInGarage(Exception):
 
     text = '''
            !!!!!!!!!!!!!!!!!!!!!!
@@ -24,7 +24,6 @@ class Truck_Garage:
         for truck in trucks:
             if (isinstance(truck, Truck)):#Если у нас грузовик, то мы добавляем его в список
                 self.trucks_list.append(truck)
-            else
+            else:
                 raise NotMachineLikeTruckAcceptableInGarage(truck.type)
 
-Garage = Garage()
