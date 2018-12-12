@@ -1,5 +1,5 @@
 from car import Car
-from Garage import Garage
+from Garage import Truck_Garage
 
 class AudiA5(Car):
 
@@ -30,3 +30,8 @@ print('Auto-1: ' + auto1.fullInfo())
 print('And thus there are', len(auto_garage), 'cars in the garage.')
 
 garage = Truck_Garage('8', 500, [], [])
+garage.setTrucks([auto1, auto2])
+try:
+    garage.setTrucks(truck, Truck)
+except NotMachineLikeTruckAcceptableInGarage as e:
+    print(e.message)
