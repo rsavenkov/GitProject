@@ -1,13 +1,13 @@
 class NotNumberException(Exception):
 
-    error_message = 'Ошибка! Вы ввели не число \'{}\'!'
+    error_message = 'Ошибка! Вы ввели не число {}!'
 
     def __init__(self, message):
         self.message = NotNumberException.error_message.format(message)
 
 class NotPositiveNumberException(Exception):
 
-    error_message = 'Ошибка! Вы ввели отрицательное число \'{}\'!'
+    error_message = 'Ошибка! Вы ввели отрицательное число {}!'
 
     def __init__(self, message):
         self.message = NotPositiveNumberException.error_message.format(message)
