@@ -1,5 +1,5 @@
 try:
-    f = open("C:\\Users\\Ruslan\\PycharmProjects\\GitProject\\trunk\\rsavenkov\\exception handling\\try-finally.py")
+    f = open("C:\\Users\\Ruslan\\PycharmProjects\\GitProject\\rsavenkov\\exception handling\\try-finally.py")
     print(f.read())
     print('try block executed')
 finally:

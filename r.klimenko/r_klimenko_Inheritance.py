@@ -1,5 +1,12 @@
+from car import Car
 from truck import Truck
-from Garage import Garage
+from r_klimenko_garage import Garage
+
+class Owner:
+
+    def __init__(self, name, surname):
+        self.name = name
+        self.surname = surname
 
 class VolvoFMX(Truck):
 
@@ -31,35 +38,33 @@ class VolvoFE(Truck):
         return info + 'Color = {}\nDistance = {}\nPrice = {}\nTransmission = {}\nOwner = {}\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'\
             .format(self.color, self.distance, self.price, self.transmission, self.owner)
 
-class Owner:
+class AudiA5(Car):
 
-    def __init__(self, name, surname):
-        self.name = name
-        self.surname = surname
+    def __init__(self, color, distance, price, owner):
+        super().__init__('audi', 'A5', 'sedan')
+        self.color = color
+        self.distance = distance
+        self.price = price
+        self.owner = owner
 
-truck_garage = []
+    def fullInfo(self):
+        info = super().fullInfo()
+        return info + 'Color = {}\nDistance = {}\nPrice = {}\n-----------------'.format(self.color, self.distance, self.price)
 
 
-truck1 = VolvoFMX('lime', 0, 500000*79, '12-gear mechanical transmission', None)
-print('Truck-1: ' + truck1.fullInfo())
-truck_garage.append(truck1)
+auto1 = AudiA5('white', 0, 500 * 1000, None)
+print('Auto-1: ' + auto1.fullInfo())
+auto2 = AudiA5('black', 10 * 1000, 350 * 1000, None)
+print('Auto-2: ' + auto2.fullInfo())
 
-truck2 = VolvoFMX('red', 0, 450000*79, '10-gear mechanical transmission', None)
-print('Truck-2: ' + truck2.fullInfo())
-truck_garage.append(truck2)
+auto1.setBody('cabriolet')
+auto1.setWorkable(False)
+print('Auto-1: ' + auto1.fullInfo())
 
-owner3 = Owner('Petr','Frolov')
-truck3 = VolvoFE('blue', 500000, 100000*79, '9-gear mechanical transmission', owner3)
-print('Truck-3: ' + truck3.fullInfo())
-truck_garage.append(truck3)
+owner1 = Owner('Oleg', 'Kononov')
+truck1 = VolvoFE('white', 10000, 2000000, 'auto', owner1)
 
-owner4 = Owner('Philip', 'Soloviev')
-truck4 = VolvoFE('gray', 700000, 50000*79, '9-gear mechanical transmission', owner4)
-truck4.setWorkable(False)
-print('Truck-4: ' + truck4.fullInfo())
-truck_garage.append(truck4)
+owner2 = Owner('Dribler', 'Ivanov')
+truck2 = VolvoFMX('black', 20000, 1000000, 'auto', owner2)
 
-print('And thus there are', len(truck_garage), 'trucks in the garage.')
-
-garage=Truck_Garage('7', 100, [], [])
-
+garage = Garage('10', 5, [], [])
