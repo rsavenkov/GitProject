@@ -21,10 +21,10 @@ garage_truks.append(truk1)
 
 truk2 = truks(210000, 4000, "Shipping Company")
 truk2.setWorkable(False)
-print('Truk - 1: ' + truk2.Inform())
+print('Truk - 2: ' + truk2.Inform())
 garage_truks.append(truk2)
 
 truk3 = truks(92000, 3200, "Shipping Company")
-print('Truk - 1: ' + truk3.Inform())
+print('Truk - 3: ' + truk3.Inform())
 garage_truks.append(truk3)
 
