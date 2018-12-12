@@ -1,6 +1,6 @@
 from truck import Truck
 
-class NotMachineLikeTruckAcceptableInGarage:
+class NotMachineLikeTruckAcceptableInGarage(Exception):
 
     text = '''
         !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
