@@ -1,10 +1,13 @@
-import Transport_trucks
 import Inheritance
+import Transport_trucks
 
 class Garage:
-    type = int
-    def __init__(self):
-        pass
+
+    def __init__(self, number, volume, list1, list2):
+        self.number = number
+        self.volume = volume
+        self.cars_list = list1
+        self.trucks_list = list2
 
     def garageInfo(self):
         a=len(auto_garage)
@@ -12,4 +15,3 @@ class Garage:
         return a+t
 
 Garage = Garage()
-print('And thus there are ', Garage.garageInfo(), ' machines in the garage.')

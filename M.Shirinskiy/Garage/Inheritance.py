@@ -1,4 +1,5 @@
 from car import Car
+from Garage import Garage
 
 class AudiA5(Car):
 
@@ -27,3 +28,5 @@ auto1.setBody('cabriolet')
 auto1.setWorkable(False)
 print('Auto-1: ' + auto1.fullInfo())
 print('And thus there are', len(auto_garage), 'cars in the garage.')
+
+garage = Garage('8', 500, [], [])
