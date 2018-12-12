@@ -60,5 +60,5 @@ truck_garage.append(truck4)
 
 print('And thus there are', len(truck_garage), 'trucks in the garage.')
 
-garage=Garage('7', 100, [], [])
+garage=Truck_Garage('7', 100, [], [])
 

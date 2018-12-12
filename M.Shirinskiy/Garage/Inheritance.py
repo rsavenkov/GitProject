@@ -29,4 +29,4 @@ auto1.setWorkable(False)
 print('Auto-1: ' + auto1.fullInfo())
 print('And thus there are', len(auto_garage), 'cars in the garage.')
 
-garage = Garage('8', 500, [], [])
+garage = Truck_Garage('8', 500, [], [])
