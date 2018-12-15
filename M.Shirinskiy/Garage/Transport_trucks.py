@@ -1,5 +1,5 @@
 from truck import Truck
-from garage import Garage, NotMachineLikeTruckAcceptableInGarage
+from Garage import Garage, NotMachineLikeTruckAcceptableInGarage, Garage_Box, NotVolvoFMXInBox, NotVolvoFEInBox
 
 class VolvoFMX(Truck):
 
@@ -38,32 +38,41 @@ class Owner:
         self.surname = surname
 
 garage = []
+garage_box_VolvoFMX = []
 
 truck1 = VolvoFMX('lime', 0, 500000*79, '12-gear mechanical transmission', None)
 print('Truck-1: ' + truck1.fullInfo())
 garage.append(truck1)
 
+
 truck2 = VolvoFMX('red', 0, 450000*79, '10-gear mechanical transmission', None)
 print('Truck-2: ' + truck2.fullInfo())
 garage.append(truck2)
+
 
 owner3 = Owner('Petr','Frolov')
 truck3 = VolvoFE('blue', 500000, 100000*79, '9-gear mechanical transmission', owner3)
 print('Truck-3: ' + truck3.fullInfo())
 garage.append(truck3)
 
+
 owner4 = Owner('Philip', 'Soloviev')
 truck4 = VolvoFE('gray', 700000, 50000*79, '9-gear mechanical transmission', owner4)
 truck4.setWorkable(False)
 print('Truck-4: ' + truck4.fullInfo())
-garage.append(truck4)
+
 
 print('And thus there are', len(garage), 'trucks in the garage.')
 
 garage=Garage('7', 100, [], [])
-garage.setTrucks([truck1, truck2, truck3, truck4])
 try:
     garage.setTrucks([truck1, truck2, truck3, truck4])
 except NotMachineLikeTruckAcceptableInGarage as e:
+    print(e.message)
+
+garage_box_VolvoFMX=Garage_Box('2',[])
+try:
+    garage_box_VolvoFMX.setVolvoFMXBox([truck1,truck2,truck3, truck4])
+except NotVolvoFMXInBox as a:
     print(e.message)
 
