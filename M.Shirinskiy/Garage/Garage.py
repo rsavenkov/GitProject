@@ -12,7 +12,7 @@ class NotMachineLikeTruckAcceptableInGarage(Exception):
     def __init__(self, message):
         self.message = NotMachineLikeTruckAcceptableInGarage.text.format(message)
 
-class Truck_Garage:
+class Garage:
 
     def __init__(self, number, volume, list1, list2):
         self.number = number
