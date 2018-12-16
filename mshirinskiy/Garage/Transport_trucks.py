@@ -40,7 +40,6 @@ class Owner:
 garage = []
 garage_box_VolvoFMX = []
 
-
 truck1 = VolvoFMX('lime', 0, 500000*79, '12-gear mechanical transmission', None)
 print('Truck-1: ' + truck1.fullInfo())
 garage.append(truck1)

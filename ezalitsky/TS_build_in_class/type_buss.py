@@ -1,4 +1,4 @@
-from bass import Buss
+from ezalitsky.TS_build_in_class.buss import Buss
 
 
 class Street(Buss):
@@ -27,21 +27,23 @@ class School(Buss):
             .format(self.school, self.distance, self.state) + "===============================\n"
 
 
-garage_bass = []
+parck_buss = []
 
 buss1 = Street(213, 180000, 'Colorado')
 print('Buss - 1: ' + buss1.fullInfo())
-garage_bass.append(buss1)
+parck_buss.append(buss1)
 
 buss2 = Street(843, 143600, 'Orisone')
 print('Buss - 2: ' + buss2.fullInfo())
-garage_bass.append(buss2)
+parck_buss.append(buss2)
 
 buss3 = School("Horace Mann School", 74000, 'Missuri')
 print(' Buss - 3: ' + buss3.fullInfo())
-garage_bass.append(buss3)
+parck_buss.append(buss3)
 
 buss4 = School('Likeside School', 95400, 'Cansass')
 buss4.setWorkable(False)
 print('Buss - 4: ' + buss4.fullInfo())
-garage_bass.append(buss4)
+parck_buss.append(buss4)
+
+

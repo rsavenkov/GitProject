@@ -1,4 +1,3 @@
-# from ts import Ts
 from machine import Machine
 
 

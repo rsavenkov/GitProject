@@ -45,4 +45,4 @@ for file in source_files:
         unchanged = []
         unchanged.append(file)
 print("Files within three months are left in the log folder unchanged.", len(unchanged))
-print("The program has finished")яем
+print("The program has finished")
