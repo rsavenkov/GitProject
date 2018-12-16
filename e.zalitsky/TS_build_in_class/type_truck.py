@@ -28,3 +28,4 @@ truk3 = truks(92000, 3200, "Shipping Company")
 print('Truk - 3: ' + truk3.Inform())
 garage_truks.append(truk3)
 
+garage = garage_truks
