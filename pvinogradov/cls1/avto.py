@@ -38,7 +38,7 @@ class Car:
     clss = property(get_clss, set_clss)
 
     def show_info(self):
-        print(f'model :{self.__brand}')
+        print(f'model. :{self.__brand}')
         print(f'color avto :{self.__color}')
         print(f'win number :{self.__win}')
         print(f'class avto :{self.__clss}')
