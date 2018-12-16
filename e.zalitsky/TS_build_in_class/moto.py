@@ -1,8 +1,8 @@
-# from ts import Ts
 from machine import Machine
 
 
 class Moto(Machine):
+
     type = "Moto"
 
     def __init__(self, firm, model, style):
@@ -10,6 +10,12 @@ class Moto(Machine):
         self.firm = firm
         self.model = model
         self.style = style
+
+    def setModel(self):
+        return self.model
+
+    def setStyle(self):
+        return self.style
 
     def Info(self):
         return super().isWorkable() + "===============================\nBrend = {}\nModel = {}\nStyle = {}\n" \

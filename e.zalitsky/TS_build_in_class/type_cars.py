@@ -1,7 +1,8 @@
-from car import Car_all
+from car import Carall
 
 
-class car_datsun(Car_all):
+
+class datsun(Carall):
 
     def __init__(self, color, distatnce, owner):
         super().__init__("Datsun", "Undo", "sedan")
@@ -13,7 +14,7 @@ class car_datsun(Car_all):
         return super().fullinf() + "Color = {}\nDistance = {}\nOwner = {}\n" \
             .format(self.color, self.distance, self.owner) + "=============================\n"
 
-class car_hundai(Car_all):
+class hundai(Carall):
 
     def __init__(self, color, distance, owner):
         super().__init__("Hundai", "Tucson", "jeep")
@@ -27,15 +28,15 @@ class car_hundai(Car_all):
 
 type_car = []
 
-type_car1 = car_datsun("Green", 12300, "Below Nikolay")
+type_car1 = datsun("Green", 12300, "Below Nikolay")
 type_car.append(type_car1)
 print("Auto 1 : " + type_car1.fullinfo())
-type_car2 = car_hundai("Green", 12300, "Zaicev Oleg")
+type_car2 = hundai("Green", 12300, "Zaicev Oleg")
 type_car.append(type_car2)
 print("Auto 2 : " + type_car2.fullinfo())
-type_car3 = car_datsun("Green", 12300, "Ivanov Ilya")
+type_car3 = datsun("Green", 12300, "Ivanov Ilya")
 type_car.append(type_car3)
 print("Auto 3 : " + type_car3.fullinfo())
-type_car4 = car_hundai("Green", 12300, "Carev Mihail")
+type_car4 = hundai("Green", 12300, "Carev Mihail")
 type_car.append(type_car4)
 print("Auto 4 : " + type_car4.fullinfo())
