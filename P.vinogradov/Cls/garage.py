@@ -24,4 +24,4 @@ class Garage:
             if (isinstance(truck, Truck)):
                 self.trucks_list.append(truck)
             else:
-                raise NotMachineLikeTruckAcceptableInGarage(truck.type)
+                raise NotMachineL
