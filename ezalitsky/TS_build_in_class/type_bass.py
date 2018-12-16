@@ -1,4 +1,4 @@
-from bass import Buss
+from ezalitsky.TS_build_in_class.bass import Buss
 
 
 class Street(Buss):
@@ -45,3 +45,5 @@ buss4 = School('Likeside School', 95400, 'Cansass')
 buss4.setWorkable(False)
 print('Buss - 4: ' + buss4.fullInfo())
 garage_bass.append(buss4)
+
+cl = ALeviev()
