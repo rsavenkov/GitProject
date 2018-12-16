@@ -76,3 +76,8 @@ try:
 except NotVolvoFMXInBox as a:
     print(e.message)
 
+garage_box_VolvoFMX=Garage_Box('3',[])
+try:
+    garage_box_VolvoFE.setVolvoFEBox([truck3, truck4])
+except NotVolvoFEInBox as b:
+    print(e.message)

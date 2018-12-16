@@ -1,11 +1,12 @@
 from truck import Truck
-
+from Transport_trucks import VolvoFMX
+from Transport_trucks import VolvoFE
 
 class NotMachineLikeTruckAcceptableInGarage(Exception):
 
     text = '''
            !!!!!!!!!!!!!!!!!!!!!!
-           !!!!!! Only trucks are acceptable to be parked in this garage   {} !!!!!!!!!!!!
+           !!!!!! Only trucks are acceptable to be parked in this garage {} !!!!!!!!!!!!
            !!!!!!!!!!!!!!!!!!!!!!
     '''
 
@@ -55,14 +56,14 @@ class Garage_Box(Garage):
 
     def setVolvoFMXBox(self, trucks):
         for truck in trucks:
-            if(isinstance(truck, FMX)):
-                self.trucks_list.append(truck.model)
+            if(isinstance(Truck.model, FMX)):
+                self.trucks_list.append(truck)
             else:
-                raise NotVolvoFMXInBox
+                raise NotVolvoFMXInBox(truck.model)
 
     def setVolvoFEBox(self, trucks):
         for truck in trucks:
-            if(isinstance(truck, FE)):
+            if(isinstance(Truck.model, FE)):
                 self.trucks_list.append(truck)
             else:
                 raise NotVolvoFEInBox(truck.model)
