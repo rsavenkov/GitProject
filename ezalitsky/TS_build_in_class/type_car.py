@@ -17,7 +17,7 @@ class Mitsubishi(Car):
 class Nissan(Car):
 
     def __init__(self, color, power, price):
-        super().__init__('Nissan', 'Patrol', 'Внедорожник')
+        super().__init__("Nissan", "Patrol", "Внедорожник")
         self.color = color
         self.power = power
         self.price = price
