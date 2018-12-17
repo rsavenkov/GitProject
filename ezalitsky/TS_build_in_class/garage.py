@@ -3,7 +3,7 @@ from ezalitsky.TS_build_in_class.car import *
 from ezalitsky.TS_build_in_class.truck import *
 from ezalitsky.TS_build_in_class.buss import *
 from ezalitsky.TS_build_in_class.exeption_messages import *
-from ezalitsky.TS_build_in_class.type_moto import *
+# from ezalitsky.TS_build_in_class.type_moto import *
 
 
 

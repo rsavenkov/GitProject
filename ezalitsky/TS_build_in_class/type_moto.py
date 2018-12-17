@@ -31,22 +31,3 @@ class Ducati(Moto):
                                                                       "===============================\n"
 
 
-parck_moto = []
-
-moto1 = KTM("black", 54, 5000, 130)
-print('Moto - 1: ' + moto1.fullInfo())
-parck_moto.append(moto1)
-
-moto2 = KTM("orange", 84, 6500, 150)
-print('Moto - 2: ' + moto2.fullInfo())
-parck_moto.append(moto2)
-
-
-moto3 = Ducati("black", 200, 11000, 299)
-print('Moto - 1: ' + moto3.fullInfo())
-parck_moto.append(moto3)
-
-moto4 = Ducati("Red", 210, 15000, 310)
-print('Moto - 2: ' + moto4.fullInfo())
-parck_moto.append(moto4)
-
