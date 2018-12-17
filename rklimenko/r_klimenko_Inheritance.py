@@ -1,6 +1,6 @@
 from car import Car
 from truck import Truck
-from garage import Garage, NotMachineLikeTruckAcceptableInGarage
+from r_klimenko_garage import Garage
 
 class Owner:
 
@@ -61,17 +61,10 @@ auto1.setBody('cabriolet')
 auto1.setWorkable(False)
 print('Auto-1: ' + auto1.fullInfo())
 
-owner1 = Owner('Misha', 'Petrov')
+owner1 = Owner('Oleg', 'Kononov')
 truck1 = VolvoFE('white', 10000, 2000000, 'auto', owner1)
 
-owner2 = Owner('Petya', 'Ivanov')
+owner2 = Owner('Dribler', 'Ivanov')
 truck2 = VolvoFMX('black', 20000, 1000000, 'auto', owner2)
 
 garage = Garage('10', 5, [], [])
-try:
-    garage.setTrucks([truck1, truck2, auto1])
-except NotMachineLikeTruckAcceptableInGarage as e:
-    print(e.message)
-
-
-

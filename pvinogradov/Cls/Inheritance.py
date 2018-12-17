@@ -72,6 +72,3 @@ try:
     garage.setTrucks([truck1, truck2, auto1])
 except NotMachineLikeTruckAcceptableInGarage as e:
     print(e.message)
-
-
-
