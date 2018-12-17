@@ -1,6 +1,6 @@
 from typing import List, Any
 
-from mycar import MyCar, a
+from mycar import car1, a
 from truck import Truck, m, b
 from bas import Bass, n, c
 

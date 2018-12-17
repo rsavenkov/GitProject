@@ -1,4 +1,4 @@
-from mycar import MyCar
+from mycar import car1
 
 class Truck():
     def __init__(self, destination, login_capfbility):
@@ -23,7 +23,7 @@ trucks = []
 
 truck1 = 'Truck', 'Kamaz', '1300', 'truk', 'red', 2012, 80*1000, 'на ходу','dump truck','5,0 ton'
 trucks.append(truck1)
-truck2 = 'Truck', 'Tatra', '2500', 'tractor', 'red', 2014, 60 * 1000, 'на ходу', 'tractor', '15,0 ton'
+truck2 = 'Truck', 'Tatra', '2500', 'tractor', 'red', 2014, 60 * 1000, 'нa ходу', 'tractor', '15,0 ton'
 trucks.append(truck2)
 print('\n')
 m = 0

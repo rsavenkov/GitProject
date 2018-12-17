@@ -1,6 +1,6 @@
-from mycar import MyCar
+from mycar import car1
 
-class Bass(MyCar):
+class Bass(car1):
     def __init__(self, passenger_capacity):
         assert isinstance(passenger_capacity, object)
         self.passenger_capacity = passenger_capacity
