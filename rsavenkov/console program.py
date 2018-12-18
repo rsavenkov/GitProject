@@ -21,7 +21,7 @@ for dir in dirs:
 
 # доработать программу так чтобы последняя строчка сохранялась когда на ней нажимаю ctrl + z
 first = input('Введите содержимое файла:')
-with open('C:\\Users\\Ruslan\\PycharmProjects\\GitProject\\rsavenkov\\1.txt', 'w', encoding='utf-8') as f:
+with open(file, 'w', encoding='utf-8') as f:
     try:
         f.writelines(first + '\n')
         while True:

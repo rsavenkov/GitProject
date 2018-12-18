@@ -20,7 +20,7 @@ cars = []
 
 car1= Mashina("Car", 'Audi', 'A5', 'red', 2009, 120 * 1000, ' на ходу')
 cars.append(car1)
-car2 = Mashina('Car', 'Subary', 'Forester', 'white', 2016, 105 * 1000, ' на ходу')
+car2 = Mashina('Car', 'Subary', 'Forester', 'white', 2016, 105 * 1000, " на ходу")
 cars.append(car2)
 car3 = Mashina('Car', 'Mersedes', "black", '320,S-klass', 2017, 35 * 1000, ' не на ходу')
 cars.append(car3)
@@ -33,7 +33,6 @@ MyCar3 = MyCar('sedan', '150 mm')
 print("Car-3 :", car3.fullInfo + MyCar1.fullInfoCar())
 
 print("Кол-во легковых машин - ",len(cars))
-
-
+a = len(cars)
 
 

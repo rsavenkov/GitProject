@@ -1,6 +1,9 @@
+import self as self
+
 class Mashina:
-    def __init__(self, type, brend, model, color, year_of_man,
-                 distance, workability):
+
+    def __init__(self, type: object, brend: object, model: object, color: object, year_of_man: object,
+                 distance: object, workability: object) -> object:
         """
 
         :rtype: object
@@ -30,6 +33,7 @@ class Mashina:
         return self.year_of_man
 
     def getDistance(self):
+        assert isinstance(self.distance, object)
         return self.distance
 
     def getWorkability(self):
@@ -41,5 +45,3 @@ class Mashina:
                '\nYear_of_man = {}\nDistance = {}\nWorkability ={}' \
             .format(self.type, self.brend, self.model, self.color,
                     self.year_of_man, self.distance, self.workability)
-
-
