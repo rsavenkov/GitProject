@@ -1,11 +1,11 @@
-From Vehicle import vehicle
+from afrolov.Class.vehicle import Vehicle
 
-class car(vehicle):
+class Car(Vehicle):
 
-    type = 'car'
+    type = 'Car'
 
     def __init__(self, brend, model):
-        super().__init__(car.type, True)
+        super().__init__(Car)# почему не работает Car.type
         self.brend = brend
         self.model = model
 
@@ -15,6 +15,6 @@ class car(vehicle):
     def getModel(self):
         return self.model
 
-    def fullInfo(self):
+    def infoCar(self):
         return super().isWorkable() + "Brend = {}\nModel = {}\n"\
-            .fornat(self.brend, self.model)
+            .format(self.brend, self.model)

@@ -1,6 +1,6 @@
-class vehicle:
+class Vehicle:
 
-    def __init__(self, type, workable):
+    def __init__(self, type):
         self.type = type
         self.workable = True
 
