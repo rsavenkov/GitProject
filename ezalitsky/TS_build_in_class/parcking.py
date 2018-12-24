@@ -1,5 +1,5 @@
 from ezalitsky.TS_build_in_class import type_moto, type_car, type_truck, type_buss
-from ezalitsky.TS_build_in_class.exeption_messages import *
+from ezalitsky.TS_build_in_class import exeption_messages
 from ezalitsky.TS_build_in_class.garage import *
 parck_moto = []
 
@@ -106,10 +106,8 @@ except OnlygroundTransport:
     print(OnlygroundTransport.message)
 
 garage_moto = Garage_Box_Moto('2', [])
-
-
 try:
-    Garage_Box_Moto.setKTMBox([moto1, moto2, moto3])
+    garage_moto.setKTMBox([moto1, moto2, moto3])
 except OnlyMotoKTMTransport:
     print(OnlyMotoKTMTransport.message)
 

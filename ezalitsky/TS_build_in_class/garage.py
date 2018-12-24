@@ -3,6 +3,11 @@ from ezalitsky.TS_build_in_class.car import *
 from ezalitsky.TS_build_in_class.truck import *
 from ezalitsky.TS_build_in_class.buss import *
 from ezalitsky.TS_build_in_class.exeption_messages import *
+from ezalitsky.TS_build_in_class.type_moto import *
+from ezalitsky.TS_build_in_class.type_car import *
+from ezalitsky.TS_build_in_class.type_truck import *
+from ezalitsky.TS_build_in_class.type_buss import *
+
 # from ezalitsky.TS_build_in_class.type_moto import *
 
 
@@ -39,14 +44,14 @@ class Garage_Box_Moto(Garage):
 
     def setKTMBox(self, moto):
         for mot in moto:
-            if isinstance(Moto.firm, "KTM"):
+            if isinstance(mot, KTM):
                 self.list_moto.append(mot)
             else:
                 raise OnlyMotoKTMTransport(mot.model)
 
     def setDucatiBox(self, moto):
         for mot in moto:
-            if isinstance(Moto.firm, "Ducati"):
+            if isinstance(moto, Ducati):
                 self.list_moto.append(mot)
             else:
                 raise OnlyMotoDucatiTransport(mot.model)
@@ -60,14 +65,14 @@ class Garage_Box_Car(Garage):
 
     def setMitsubishiBox(self, cars):
         for car in cars:
-            if isinstance(Car.firm, "Mitsubishi"):
+            if isinstance(car, Mitsubishi):
                 self.list_car.append(car)
             else:
                 raise OnlyCarMitsubishiTransport(car.model)
 
     def setNissanBox(self, cars):
         for car in cars:
-            if isinstance(Car.firm, "Nissan"):
+            if isinstance(car, Nissan):
                 self.list_moto.append(car)
             else:
                 raise OnlyCarNissanTransport(car.model)
@@ -81,14 +86,14 @@ class Garage_Box_Truck(Garage):
 
     def setFordBox(self, trucks):
         for truck in trucks:
-            if isinstance(Truck.brend, "Ford"):
+            if isinstance(truck, Ford):
                 self.list_car.append(truck)
             else:
                 raise OnlyTruckFordTransport(truck.model)
 
     def setGMCBox(self, trucks):
         for truck in trucks:
-            if isinstance(Truck.brend, "GMC"):
+            if isinstance(truck, GMC):
                 self.list_moto.append(truck)
             else:
                 raise OnlyTruckGMCTransport(truck.model)
@@ -102,14 +107,14 @@ class Garage_Box_Buss(Garage):
 
     def setGMBox(self, busses):
         for buss in busses:
-            if isinstance(Buss.firm, "GM"):
+            if isinstance(buss, GM):
                 self.list_car.append(buss)
             else:
                 raise OnlyBussGMTransport(buss.model)
 
     def setBlueBirdBox(self, busses):
         for buss in busses:
-            if isinstance(Buss.firm, "Blue Bird"):
+            if isinstance(buss, Blue_Bird):
                 self.list_moto.append(buss)
             else:
                 raise OnlyBussBlueBirdTransport(buss.model)
