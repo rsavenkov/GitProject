@@ -21,7 +21,7 @@ def checkIsWinCorrectPath(file):
         print('В поле ввода ничего не ввели !'.format(file))
         return -1
     elif file == "":
-        print('Введенное значение "{}" не является файлом !'.format(file))
+        print('Поле ввода пустое !'.format(file))
         return -1
 
     if (file[0] not in disk_letters) or (file[1:3] != ':\\'):

@@ -3,16 +3,14 @@ from ezalitsky.console_work_with_file.file_in_console import checkIsWinCorrectPa
 
 def press(button):
     def Read():
-        print(button)
         file = app.getEntry("file")
         result = checkIsWinCorrectPath(file)
 
         if result != 0:
-            app.setEntryInvalid("file")
+           return app.setEntryInvalid("file")
         else:
             with open(file, "r", encoding="utf-8") as f:
-                f.readlines(app.getTextArea("text"))
-        return print("read")
+                f.readlines(app.TextArea("text"))
 
     def MakeFile():
         file = app.getEntry("file")
@@ -20,10 +18,9 @@ def press(button):
         if result != 0:
             app.setEntryInvalid("file")
         else:
-            with open(file, "w+", encoding="utf-8") as f:
+            with open(file, "w", encoding="utf-8") as f:
                 f.writelines(app.getTextArea("text"))
 
-        return print("make")
     def Addfile():
         file = app.getEntry("file")
         result = checkIsWinCorrectPath(file)
@@ -33,38 +30,26 @@ def press(button):
             with open(file, "a", encoding="utf-8") as f:
                 f.writelines(app.getTextArea("text"))
 
-    def Rewrite():
-        file = app.getEntry("file")
-        result = checkIsWinCorrectPath(file)
-        if result != 0:
-            app.setEntryInvalid("file")
-        else:
-            with open(file, "w", encoding="utf-8") as f:
-                f.writelines(app.getTextArea("text"))
-
-    def Savefile():
-        pass
+    def Quit():
+        app.stop()
 
     switcher = {
-        "Чтение файла": Read,
-        "Создать файл": MakeFile,
-        "Дополнить файл": Addfile,
-        "Перезаписать файл": Rewrite,
-        "Сохранить содержимое": Savefile
+        "Чтение файла": Read(),
+        "Создать/перезаписать файл": MakeFile(),
+        "Дополнить файл": Addfile(),
+        "Выход": Quit()
     }
     def switch(act):
         return switcher.get(act)
     switch(button)
 
 
-
-
 app = gui("Программа работы с файлами: чтение, создание нового файла, запись, перезапись.", "900x400")
-app.setBg("light green")
+app.setBg("lime")
 app.addValidationEntry("file")
 app.setEntryDefault("file", "Полный путь с именем файла")
-app.addTextArea("text", text=None)
-app.setTextArea("text", "Введите текст", end=False, callFunction=False)
-app.addButtons(["Чтение файла", "Создать файл", "Дополнить файл", "Перезаписать файл"], press)
-app.addButtons(["Сохранить содержимое"], press)
+app.addTextArea("text")
+app.setTextArea("text", "Введите текст")
+app.addButtons(["Чтение файла", "Создать/перезаписать файл", "Дополнить файл"], press)
+app.addButtons(["Выход"], press)
 app.go()
