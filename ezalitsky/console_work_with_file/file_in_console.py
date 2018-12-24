@@ -1,15 +1,19 @@
 import os
 
+
 class QuitProgramException(Exception):
     '''
     Моя ошибка которая описывает пользовательски выход из программы
     '''
+
     def __init__(self):
         self.message = 'Сеанс ввода завершен. Посмотрите содержимое файла {}'
+
 
 disk_letters = ['A', 'B', 'C', 'D']
 
 print('Добро пожаловать в консольную программу записи файла! Для выхода из нее введите команду quit()')
+
 
 def checkIsWinCorrectPath(file):
     '''
@@ -38,6 +42,8 @@ def checkIsWinCorrectPath(file):
             return -1
 
     return 0
+
+
 """
 if __name__ == '__main__':
 
