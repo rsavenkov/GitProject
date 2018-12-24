@@ -4,8 +4,8 @@ from rsavenkov.console import checkIsWinCorrectPath
 def press1(button):
     file = app1.getEntry("file")
     with open(file, "w+", encoding="utf-8") as f:
-        f.writelines(app.getTextArea("text"))
-    exit(0)
+        f.writelines(app1.getTextArea("text"))
+    app.stop()
 
 def press(button):
     file = app.getEntry("file")
@@ -14,8 +14,8 @@ def press(button):
         app.setEntryInvalid("file")
     else:
         print("Попробуйте ещё раз")
-        exit(-1)
-    exit(0)
+        app.go()
+    app.stop()
 
 app = gui("Оконная программа", "500x300")
 
