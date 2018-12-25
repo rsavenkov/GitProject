@@ -1,6 +1,7 @@
 from typing import List, Any
 from appJar import gui
 import json
+file_name = 'registration.txt'
 
 testn = []
 # handle button events
@@ -15,10 +16,16 @@ def press(button):
         testn.append(usr)
         pwd = app.getEntry('Паспорт')
         testn.append(pwd)
-        print("Фамилия:", usr, "Паспорт:", pwd)
 
-        with open(str(testn), 'a') as f_obj:
-            json.dump(testn,f_obj)
+        with open(file_name, 'a', encoding="utf-8") as f:
+            f.write(str(testn))
+
+        with open(file_name, 'r', encoding='utf-8') as f:
+            contents = f.read()
+            x = contents.count('Test')
+            # content = f.read()
+            print(contents)
+            print(x)
 
 
 
