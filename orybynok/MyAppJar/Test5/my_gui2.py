@@ -2,6 +2,7 @@ from typing import List, Any
 from appJar import gui
 import json
 file_name = 'registration.txt'
+number = 'number.txt'
 
 testn = []
 # handle button events
@@ -26,6 +27,9 @@ def press(button):
             # content = f.read()
             print(contents)
             print(x)
+
+        with open(number, 'w', encoding="utf-8") as f:
+            f.write(str(x))
 
 
 
