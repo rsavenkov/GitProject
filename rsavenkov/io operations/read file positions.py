@@ -1,4 +1,4 @@
-file_name = 'C:/Users/Public/Projects/GitProject/trunk/rsavenkov/io operations/стих utf8.txt'
+file_name = 'стих utf8.txt'
 
 f = open(file_name, 'r+', encoding='utf-8')
 data = f.read(20)

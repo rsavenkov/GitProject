@@ -1,1 +1,3 @@
-['Test!', 'Rybynok', '0209']['Test2', 'Galina', '2412']['', '', '']['Test3', 'Vity', '2410']
+['Test1', 'Oleg', '0209']
+['Test2', 'Galina', '2412']
+['Test3', 'Marianna', '2303']

@@ -1,4 +1,4 @@
-file_name = 'C:/Users/Ruslan/PycharmProjects/GitProject/trunk/rsavenkov/io operations/стих.txt'
+file_name = 'стих utf8.txt'
 
 f = open(file_name, 'r+')
 print('File attributes:')

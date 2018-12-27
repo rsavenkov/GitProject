@@ -19,12 +19,13 @@ def press(button):
         testn.append(pwd)
 
         with open(file_name, 'a', encoding="utf-8") as f:
-            f.write(str(testn))
+            f.write(str(testn)+'\n')
+
+# content = f.read()
 
         with open(file_name, 'r', encoding='utf-8') as f:
             contents = f.read()
             x = contents.count('Test')
-            # content = f.read()
             print(contents)
             print(x)
 
@@ -35,13 +36,13 @@ def press(button):
 
 # create a GUI variable called app
 app = gui("Login Window", "400x400")
-app.setBg("lightyellow")
+app.setBg("yellow")
 app.setFont(18)
 
 # add & configure widgets - widgets get a name, to help referencing them later
 app.addLabel("title", "Welcome to appJar")
-app.setLabelBg("title", "lightblue")
-app.setLabelFg("title", "lightyellow")
+app.setLabelBg("title", "blue")
+app.setLabelFg("title", "yellow")
 
 app.addLabelEntry("Имя файла")
 app.addLabelEntry("Фамилия")

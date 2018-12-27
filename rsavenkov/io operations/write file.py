@@ -1,4 +1,4 @@
-file_name = 'C:/Users/Ruslan/PycharmProjects/GitProject/trunk/rsavenkov/io operations/новый файл.txt'
+file_name = 'файл.txt'
 
 with open(file_name, 'w', encoding="utf-8") as f:
     f.write('Это первая строка которую я записал в файл из программы\n')
