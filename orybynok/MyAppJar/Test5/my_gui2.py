@@ -36,7 +36,7 @@ def press(button):
 
 
 # create a GUI variable called app
-app = gui("Login Window", "400x400")
+app = gui("Login Window", "300x400")
 app.setBg("yellow")
 app.setFont(18)
 
@@ -49,6 +49,8 @@ app.addLabelEntry("Имя файла")
 app.addLabelEntry("Фамилия")
 app.addLabelSecretEntry('Паспорт')
 app.addScrolledTextArea(str(testn))
+
+
 # link the buttons to the function called press
 
 

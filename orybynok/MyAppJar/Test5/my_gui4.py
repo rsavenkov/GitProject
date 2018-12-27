@@ -32,7 +32,7 @@ def press(button):
             print(y)
 
 # create a GUI variable called app
-app = gui("Login Window", "400x400")
+app = gui("Login Window", "270x400")
 app.setBg("yellow")
 app.setFont(18)
 

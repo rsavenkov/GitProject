@@ -41,7 +41,7 @@ def press(button):
 
 
 # create a GUI variable called app
-app = gui("Login Window", "400x400")
+app = gui("Login Window", "380x400")
 app.setBg("yellow")
 app.setFont(18)
 
@@ -56,6 +56,7 @@ app.addLabelOptionBox("- Ваш Возраст -",["18-25","26-35","36-45","46-5
 app.addLabelOptionBox("- Цель Визита -", ["Консультация",
                                      "Классический массаж", "СПА", "Медитация"])
 app.addScrolledTextArea("Дополнительные сведения о себе")
+
 # link the buttons to the function called press
 
 
