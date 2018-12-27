@@ -25,12 +25,13 @@ def press(button):
 
         with open(file_name, 'r', encoding='utf-8') as f:
             contents = f.read()
-            x = contents.count('Test')
+            lines = contents.splitlines()
+            num_lines = len(lines)
             print(contents)
-            print(x)
+            print(num_lines)
 
-        with open(number, 'w', encoding="utf-8") as f:
-            f.write(str(x))
+            with open(number, 'w', encoding="utf-8") as f:
+                f.write(str(num_lines))
 
 
 

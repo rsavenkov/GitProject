@@ -1,3 +1,2 @@
-['Test1', 'Oleg', '0209']
-['Test2', 'Galina', '2412']
-['Test3', 'Marianna', '2303']
+['Rybynok', 'Marianna', '2303']
+['Test1', 'Romanova', '2412']

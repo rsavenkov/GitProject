@@ -1,6 +1,5 @@
 from typing import List, Any
 from appJar import gui
-import json
 file_name = 'registration3.txt'
 number = 'number3.txt'
 
@@ -31,13 +30,13 @@ def press(button):
 
         with open(file_name, 'r', encoding='utf-8') as f:
             contents = f.read()
-            x = contents.splitlines()
-            y = len(x)
+            lines = contents.splitlines()
+            num_lines = len(lines)
             print(contents)
-            print(str(y))
+            print(num_lines)
 
-        with open(number, 'w', encoding="utf-8") as f:
-            f.write(str(y))
+            with open(number, 'w', encoding="utf-8") as f:
+                f.write(str(num_lines))
 
 
 
