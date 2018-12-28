@@ -23,19 +23,19 @@ def press(button):
 
 
         with open(file_name, 'a', encoding="utf-8") as f:
-            f.write(str(testn)+'\n')
+            f.write(str(testn)+'\n\n')
 
 # content = f.read()
 
         with open(file_name, 'r', encoding='utf-8') as f:
             contents = f.read()
             lines = contents.splitlines()
-            num_lines = int(len(lines))/2
+            num_lines = int(len(lines))/3
             print(contents)
             print(num_lines)
             with open(number, 'w', encoding="utf-8") as f:
                 f.write(str(num_lines))
-            if  num_lines *2 %2 != 0:
+            if  num_lines *3 %3 != 0:
                 print("Вы не записались, повторите запись!")
             else:
                 print("Спасибо, что Вы обратились к нам. Мы Вас ждём!")
