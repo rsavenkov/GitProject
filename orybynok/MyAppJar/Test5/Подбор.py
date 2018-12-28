@@ -41,12 +41,12 @@ def press(button):
                 print("Спасибо, что Вы обратились к нам. Мы Вас ждём!")
 
 # create a GUI variable called app
-app = gui("Login Window", "270x400")
+app = gui("Галина Рыбынок", "270x400")
 app.setBg("yellow")
 app.setFont(18)
 
 # add & configure widgets - widgets get a name, to help referencing them later
-app.addLabel("title", "Welcome to appJar")
+app.addLabel("title", "Добро пожаловать !!")
 app.setLabelBg("title", "blue")
 app.setLabelFg("title", "yellow")
 

@@ -34,12 +34,12 @@ def press(button):
             print("Подберите удобное для Вас время и место!")
 
 # create a GUI variable called app
-app = gui("Login Window", "380x400")
+app = gui("Галина Рыбынок ", "380x400")
 app.setBg("yellow")
 app.setFont(18)
 
 # add & configure widgets - widgets get a name, to help referencing them later
-app.addLabel("title", "Welcome to appJar")
+app.addLabel("title", "Добро пожаловать !!")
 app.setLabelBg("title", "blue")
 app.setLabelFg("title", "yellow")
 
