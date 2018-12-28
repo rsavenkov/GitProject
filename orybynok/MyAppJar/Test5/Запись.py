@@ -19,9 +19,10 @@ def press(button):
                                      "Классический массаж", "СПА", "Медитация"], press)
         pwd = app.getAllOptionBoxes()
         testn.append(pwd)
-        inf = app.getTextArea("Дополнительные сведения о себе")
-        testn.append(inf)
-
+        tel = app.getEntry("Ваш телефон")
+        testn.append(tel)
+        e_mail = app.getEntry("Ваш e-mail")
+        testn.append(e_mail)
 
         with open(file_name, 'a', encoding="utf-8") as f:
             f.write(str(testn)+'\n')
@@ -34,7 +35,7 @@ def press(button):
             print("Подберите удобное для Вас время и место!")
 
 # create a GUI variable called app
-app = gui("Галина Рыбынок ", "380x400")
+app = gui("Галина Рыбынок ", "380x350")
 app.setBg("yellow")
 app.setFont(18)
 
@@ -48,7 +49,8 @@ app.addLabelEntry("Имя")
 app.addLabelOptionBox("- Ваш Возраст -",["18-25","26-35","36-45","46-55+"])
 app.addLabelOptionBox("- Цель Визита -", ["Консультация",
                                      "Классический массаж", "СПА", "Медитация"])
-app.addScrolledTextArea("Дополнительные сведения о себе")
+app.addLabelEntry("Ваш телефон")
+app.addLabelEntry("Ваш e-mail")
 
 # link the buttons to the function called press
 

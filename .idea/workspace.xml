@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0157a880-1105-490e-a985-7c0dd6d6a655" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/file_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/file_read.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/number3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/number3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/registration3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/registration3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Подбор.py" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Подбор.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Запись.py" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Запись.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +25,10 @@
     <SUITE FILE_PATH="coverage/GitProject$my_gui4.coverage" NAME="my_gui4 Coverage Results" MODIFIED="1545978569273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
     <SUITE FILE_PATH="coverage/GitProject$close_file.coverage" NAME="close file Coverage Results" MODIFIED="1545830653081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/io operations" />
     <SUITE FILE_PATH="coverage/GitProject$rename_and_delete_file.coverage" NAME="rename and delete file Coverage Results" MODIFIED="1545831037823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/io operations" />
-    <SUITE FILE_PATH="coverage/GitProject$.coverage" NAME="Подбор Coverage Results" MODIFIED="1545985005248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$.coverage" NAME="Подбор Coverage Results" MODIFIED="1545986702493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
     <SUITE FILE_PATH="coverage/GitProject$read_file.coverage" NAME="read file Coverage Results" MODIFIED="1545830825071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/io operations" />
     <SUITE FILE_PATH="coverage/GitProject$write_file.coverage" NAME="write file Coverage Results" MODIFIED="1545831010059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/io operations" />
-    <SUITE FILE_PATH="coverage/GitProject$my_gui2.coverage" NAME="my_gui2 Coverage Results" MODIFIED="1545944081618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$my_gui2.coverage" NAME="my_gui2 Coverage Results" MODIFIED="1545986555343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
     <SUITE FILE_PATH="coverage/GitProject$my_multiprocessing.coverage" NAME="my_multiprocessing Coverage Results" MODIFIED="1545831102253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/multithreading" />
     <SUITE FILE_PATH="coverage/GitProject$my_gui3.coverage" NAME="my_gui3 Coverage Results" MODIFIED="1545978888708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
     <SUITE FILE_PATH="coverage/GitProject$inut_output_operations.coverage" NAME="inut output operations Coverage Results" MODIFIED="1545830764292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/io operations" />
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/Запись.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="266">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -52,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/my_gui2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="340">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -102,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/Подбор.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="153">
+              <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -136,8 +135,8 @@
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/my_gui4.py" />
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/my_gui3.py" />
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/file_read.py" />
-        <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Запись.py" />
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Подбор.py" />
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Запись.py" />
       </list>
     </option>
   </component>
@@ -268,6 +267,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="my_gui2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/my_gui2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="my_gui3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,35 +311,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="my_gui4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GitProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Lenovo\PycharmProjects\GitProject\orybynok\MyAppJar\Test5\Подбор.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Подбор" />
         <item itemvalue="Python.Запись" />
+        <item itemvalue="Python.my_gui2" />
         <item itemvalue="Python.file_read" />
         <item itemvalue="Python.my_gui3" />
-        <item itemvalue="Python.my_gui4" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +339,7 @@
       <workItem from="1545934577129" duration="8225000" />
       <workItem from="1545943194162" duration="576000" />
       <workItem from="1545943941065" duration="193000" />
-      <workItem from="1545976366062" duration="8641000" />
+      <workItem from="1545976366062" duration="10330000" />
     </task>
     <task id="LOCAL-00001" summary="File work">
       <created>1545890583122</created>
@@ -384,11 +383,25 @@
       <option name="project" value="LOCAL" />
       <updated>1545981476655</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="File work">
+      <created>1545985052884</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545985052884</updated>
+    </task>
+    <task id="LOCAL-00008" summary="File work">
+      <created>1545985649697</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545985649697</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43630000" />
+    <option name="totallyTimeSpent" value="45319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="390" y="16" width="1493" height="1008" extended-state="0" />
@@ -543,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/my_gui2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/number3.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -560,10 +566,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/my_gui2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/Запись.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="266">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -572,8 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/Подбор.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="153">
+          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
