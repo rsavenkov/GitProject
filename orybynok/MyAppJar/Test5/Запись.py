@@ -30,15 +30,8 @@ def press(button):
 
         with open(file_name, 'r', encoding='utf-8') as f:
             contents = f.read()
-            lines = contents.splitlines()
-            num_lines = len(lines)
             print(contents)
-            print(num_lines)
-
-            with open(number, 'w', encoding="utf-8") as f:
-                f.write(str(num_lines))
-
-
+            print("Подберите удобное для Вас время и место!")
 
 # create a GUI variable called app
 app = gui("Login Window", "380x400")
