@@ -51,14 +51,14 @@ r = 1
 c = 0
 for i in bttn_list: 
     cmd=lambda x = i:calc(x)
-    ttk.Button(root, text=i, command=cmd).grid(row=r, column=c, sticky=E)
+    ttk.Button(root, text=i, command=cmd    ).grid(row=r, column=c, sticky=E)
     c += 1
 # расстановка окон по 4 в строке
     if c > 4: 
         c = 0
         r += 1
 # создание окна вывода 
-calc_entry = Entry(root, width = 50, borderwidth = 5)
+calc_entry = Entry(root, width = 50, borderwidth = 5   )
  # его длинна ( width = 50) и рамка (borderwidth = 5)   
 calc_entry.grid(row=0, column=0, columnspan=5)
 root.mainloop()
