@@ -9,8 +9,8 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-fromaddr = "from_mail@gmail.com"
-toaddr = "to_mail@gmail.com"
+toaddr = "vinogradovpavel32@gmail.com"
+fromaddr = "vinogradovpavel32@gmail.com"
 mypass = ""
 
 msg = MIMEMultipart()
