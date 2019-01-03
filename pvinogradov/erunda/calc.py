@@ -21,7 +21,7 @@ def calc(key):
         except:
             calc_entry.insert(END, " Ошибка!")
             messagebox.showerror('Ошибка', 'проверь правельность данных')
-# оцистка поля вывода если нажато 'c'
+# очистка поля вывода если нажато 'c'
     elif key == "c": 
         calc_entry.delete(0, END)
 # смена -+
