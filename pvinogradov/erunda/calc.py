@@ -51,7 +51,7 @@ r = 1
 c = 0
 for i in bttn_list: 
     cmd=lambda x = i:calc(x)
-    ttk.Button(root, text=i, command=cmd    ).grid(row=r, column=c, sticky=E)
+    ttk.Button(root, text=i, command=cmd).grid(row=r, column=c, sticky=E)
     c += 1
 # расстановка окон по 4 в строке
     if c > 4: 
