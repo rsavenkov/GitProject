@@ -1,4 +1,4 @@
- from tkinter import * # 
+from tkinter import * # 
 from tkinter import messagebox #
 from tkinter import ttk #
  
@@ -21,7 +21,7 @@ def calc(key):
         except:
             calc_entry.insert(END, " Ошибка!")
             messagebox.showerror('Ошибка', 'проверь правельность данных')
-# оцистка поля вывода если нажато 'c'
+# очистка поля вывода если нажато 'c'
     elif key == "c": 
         calc_entry.delete(0, END)
 # смена -+
@@ -51,7 +51,7 @@ r = 1
 c = 0
 for i in bttn_list: 
     cmd=lambda x = i:calc(x)
-    ttk.Button(root, text=i, command=cmd    ).grid(row=r, column=c, sticky=E)
+    ttk.Button(root, text=i, command=cmd).grid(row=r, column=c, sticky=E)
     c += 1
 # расстановка окон по 4 в строке
     if c > 4: 
