@@ -23,7 +23,7 @@ def press(button):
 
 
 # create a GUI variable called app
-app = gui("Login Window", "400x250")
+app = gui("Login Window", "378x265")
 app.setBg("yellow")
 app.setButtonFont(14)
 app.setFont(18)
