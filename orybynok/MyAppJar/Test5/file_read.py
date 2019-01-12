@@ -9,6 +9,7 @@ with open(file_name, 'r', encoding='utf-8') as f:
     print('\n')
 
 
+
 with open(file_name2, 'r', encoding='utf-8') as f:
     text = f.read()
     bs = eval(str(text[1:-2]))
