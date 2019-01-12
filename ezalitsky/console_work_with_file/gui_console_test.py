@@ -42,11 +42,12 @@ def press(button):
     }
     def switch(act):
         return switcher.get(act)
-    switch(button)()
+    swit = switch(button)
+    swit()
 
 
 app = gui("Программа работы с файлами: чтение, создание нового файла, запись, перезапись.", "900x400")
-app.setBg("green")
+app.setBg("springgreen")
 app.addValidationEntry("file")
 app.setEntryDefault("file", "Полный путь с именем файла")
 app.addTextArea("text")
