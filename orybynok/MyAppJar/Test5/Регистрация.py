@@ -31,7 +31,7 @@ def press(button):
         users.update(ents)
         testn.append(users)
 
-        with open(file_name, 'w', encoding="utf-8") as f:
+        with open(file_name, 'a', encoding="utf-8") as f:
             f.write(str(testn))
 
 # content = f.read()

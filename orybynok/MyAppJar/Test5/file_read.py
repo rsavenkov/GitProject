@@ -7,11 +7,13 @@ with open(file_name, 'r', encoding='utf-8') as f:
     for k,v in ds.items():
         print(v)
     print('\n')
-    print("Ваша запись:")
+
 
 with open(file_name2, 'r', encoding='utf-8') as f:
     text = f.read()
     bs = eval(str(text[1:-2]))
-    for k, v in bs.items():
-        print(v)
-
+    print("Ваша запись:")
+    print(bs['-Месяц-'])
+    print(bs['-Дата-'])
+    print(bs['-Время-'])
+    print(bs['-Место-'])

@@ -19,12 +19,13 @@ def press(button):
         ents.update(inf)
         testn.append(ents)
 
-        with open(file_name2, 'w', encoding="utf-8") as f:
+        with open(file_name2, 'a', encoding="utf-8") as f:
             f.write(str(testn)+'\n')
 
 # content = f.read()
         with open(file_name, 'r', encoding='utf-8') as f:
             contents = f.read()
+            print(contents)
             if e_mail and sek in contents:
                 ...
             else:
@@ -43,7 +44,7 @@ app.setLabelFg("title", "yellow")
 app.addLabelEntry("Ваш e-mail")
 app.addLabelSecretEntry("Паспорт")
 app.addLabelOptionBox("-Месяц-",["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"])
-app.addLabelOptionBox("-Дата- ",["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31"])
+app.addLabelOptionBox("-Дата-",["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31"])
 app.addLabelOptionBox("-Время-",["10-12", "12-14", "14-16", "16-18", "18-20", "20-22"])
 app.addLabelOptionBox("-Место-",["Полянка", "Тверская", "Митино"])
 
