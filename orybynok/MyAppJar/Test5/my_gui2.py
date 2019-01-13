@@ -2,7 +2,7 @@ from typing import List, Any
 from appJar import gui
 import json
 file_name = 'registration.txt'
-number = 'number.txt'
+number = 'number_1.txt'
 
 testn = []
 # handle button events

@@ -32,17 +32,17 @@ def press(button):
         testn.append(users)
 
         with open(file_name,'a', encoding="utf-8") as f:
-            f.write(str(testn))
+            f.write(str(testn) + '\n')
 
 # content = f.read()
 
         with open(file_name, 'r', encoding="utf-8") as f:
-            user1 = f.readlines()
-            print(user1)
-            l = len(user1)
-            print(len(user1))
-            with open(number, 'w', encoding="utf-8") as f:
-                f.write('l')
+            cont = f.readlines()
+            print(cont)
+            l = len(cont)
+            print(l)
+        with open(number, 'w', encoding="utf-8") as f:
+            f.write(str(l))
             print("Подберите удобное для Вас время и место!")
 
 

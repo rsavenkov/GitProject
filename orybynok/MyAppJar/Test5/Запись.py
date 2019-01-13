@@ -23,7 +23,7 @@ def press(button):
             f.write(str(testn)+'\n')
 
 # content = f.read()
-        with open(file_name, 'r', encoding='utf-8') as f:
+        with open(file_name2, 'r', encoding='utf-8') as f:
             contents = f.read()
             print(contents)
             if e_mail and sek in contents:
