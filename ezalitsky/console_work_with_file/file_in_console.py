@@ -43,8 +43,8 @@ def checkIsWinCorrectPath(file):
 
     return 0
 
-
 """
+
 if __name__ == '__main__':
 
     file = input('Введите полный путь и имя файла:')
@@ -74,4 +74,5 @@ if __name__ == '__main__':
         os.remove(file)
 
     exit(error_code)
+
 """
