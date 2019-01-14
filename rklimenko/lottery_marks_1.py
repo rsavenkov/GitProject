@@ -5,23 +5,23 @@ def press(button):
     app.clearLabel('title')
     app.setSize('fullscreen')
     a = randint(1, 17)
-    app.setMessage('title', 'И оценку "5" получает учащийся под номером ' + str(a))
+    app.setMessage('title', 'Р РѕС†РµРЅРєСѓ "5" РїРѕР»СѓС‡Р°РµС‚ СѓС‡Р°С‰РёР№СЃСЏ РїРѕРґ РЅРѕРјРµСЂРѕРј ' + str(a))
 
 
 
 def press1(button):
     app.stop()
-    print('Кажется, вы испугались')
+    print('РљР°Р¶РµС‚СЃСЏ, РІС‹ РёСЃРїСѓРіР°Р»РёСЃСЊ')
 
 
-app = gui('Лотерея', '800x400')
+app = gui('Р›РѕС‚РµСЂРµСЏ', '800x400')
 
 app.setFont(20)
-app.addLabel("title", "Лотерея оценок по информатике для 11Т")
+app.addLabel("title", "Р›РѕС‚РµСЂРµСЏ РѕС†РµРЅРѕРє РїРѕ РёРЅС„РѕСЂРјР°С‚РёРєРµ РґР»СЏ 11Рў")
 #app.setLabelBg('title', 'orange')
 app.addEmptyMessage('title')
-app.addButton('Вперёд!', press)
-app.addButton('Назад', press1)
+app.addButton('Р’РїРµСЂС‘Рґ!', press)
+app.addButton('РќР°Р·Р°Рґ', press1)
 
 
 app.go()
