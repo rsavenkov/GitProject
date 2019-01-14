@@ -1,7 +1,7 @@
 from appJar import gui
 from random import randint
 
-def press(button)
+def press(button):
     app.clearLabel('title')
     app.setSize('fullscreen')
     a = randint(1, 17)
