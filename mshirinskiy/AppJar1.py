@@ -11,10 +11,13 @@ def press(btn):
 
     if btn == 'PRESS THIS BUTTON!':
         app.setFg('red')
+        app.setBg('yellow')
     elif btn == 'PRESS ANOTHER BUTTON!':
         app.setFg('green')
+        app.setBg('black')
     elif btn == 'PRESS THIS KIND OF BUTTON!':
         app.setFg('cyan')
+        app.setBg('lime')
 
 
     if count >=5:
