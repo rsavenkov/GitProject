@@ -25,4 +25,4 @@ start_new_thread(factorial, (5,))
 start_new_thread(factorial, (4,))
 start_new_thread(factorial, (3,))
 
-c = input("Waiting for threads to return...\n")
+c = input("Waiting for threads to return.../n")
