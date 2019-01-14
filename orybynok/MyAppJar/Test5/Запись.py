@@ -22,11 +22,11 @@ def press(button):
         with open(file_name, 'r', encoding='utf-8') as f:
             contents = f.read()
             if e_mail and sek in contents:
-                with open(file_name2, 'w', encoding="utf-8") as f:
+                with open(file_name2, 'a', encoding="utf-8") as f:
                     f.write(str(testn) + '\n')
-                with open(file_name2, 'r', encoding='utf-8') as f:
-                    contents = f.read()
-                    print(contents)
+                with open(file_name2, 'r', encoding="utf-8") as f:
+                    text = f.read()
+                    print(text)
             else:
                 print("Вы ещё не зарегистрировались. Зарегистрируйтесь пожалуйста. ")
 
