@@ -9,7 +9,8 @@ with open(file_name, 'r', encoding='utf-8') as f:
             print(v)
         print('\n')
 
-
-
-
+with open(file_name, 'r', encoding="utf-8") as f:
+    cont = f.readlines()
+    Kol_pacientov: int = len(cont)
+    print('Kol_pacientov = ', Kol_pacientov)
 
