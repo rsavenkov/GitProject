@@ -1,4 +1,7 @@
 class Machine:
+    '''
+    Этот класс - корень иерархии, который содержит в себе ТС и рабочий
+    '''
 
     def __init__(self, type, workable):
         self.type = type

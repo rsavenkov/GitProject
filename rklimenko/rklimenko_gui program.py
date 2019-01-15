@@ -16,6 +16,7 @@ def press(button):
         print("Попробуйте ещё раз")
         app.go()
     app.stop()
+    #exit(-1)
 
 app = gui("Оконная программа", "500x300")
 
