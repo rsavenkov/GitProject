@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0157a880-1105-490e-a985-7c0dd6d6a655" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orybynok/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/orybynok/.idea/libraries/R_User_Library.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/orybynok/.idea/misc.xml" beforeDir="false" />
@@ -470,7 +471,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rsavenkov/serializing/dump2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="153">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
@@ -481,9 +482,13 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/number.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -494,7 +499,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/f_read_registr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="221">
               <caret line="13" column="34" selection-start-line="11" selection-end-line="14" selection-end-column="44" />
             </state>
           </provider>
@@ -509,10 +514,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/Регистрация.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
+            <state relative-caret-position="262">
               <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -569,7 +574,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -582,6 +586,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -737,6 +742,7 @@
       <workItem from="1547482281171" duration="5832000" />
       <workItem from="1547488869108" duration="2244000" />
       <workItem from="1547491316636" duration="1021000" />
+      <workItem from="1547542324795" duration="465000" />
     </task>
     <task id="LOCAL-00001" summary="finish">
       <created>1547371420285</created>
@@ -766,16 +772,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547529837487</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finish">
+      <created>1547542787442</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547542787442</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13365000" />
+    <option name="totallyTimeSpent" value="13830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.2889699" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.2889699" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50284094" side_tool="true" weight="0.16317229" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -788,7 +802,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4995442" weight="0.32987553" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004558" side_tool="true" visible="true" weight="0.26970956" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5004558" side_tool="true" visible="true" weight="0.26970956" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
@@ -843,19 +857,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/f_r_zap.py" />
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/f_read_zapisi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/registration3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/number.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/rsavenkov/1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -911,25 +912,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rsavenkov/serializing/dump2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/number3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/f_read_registr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="221">
           <caret line="13" column="34" selection-start-line="11" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/f_read_zapisi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/Регистрация.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
+        <state relative-caret-position="262">
           <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/registration3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/number.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
