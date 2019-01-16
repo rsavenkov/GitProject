@@ -1,4 +1,5 @@
 file_name = 'стих utf8.txt'
+file_name1 = 'файл.txt'
 
 f = open(file_name, 'r+', encoding='utf-8')
 data = f.read(20)
@@ -16,7 +17,7 @@ f.close()
 
 print('--------------------------------')
 
-with open('C:/Users/Public/Projects/GitProject/trunk/rsavenkov/io operations/myfile.txt', 'r+') as f:
+with open('file_name1', 'r+') as f:
     f.write('0123456789abcdef')
     f.seek(5, 0)  # Перемещаемся к 6-му байту от начала файла.
     data = f.read(3)  # '5'

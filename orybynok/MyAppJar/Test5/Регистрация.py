@@ -38,11 +38,11 @@ def press(button):
 
         with open(file_name, 'r', encoding="utf-8") as f:
             cont = f.readlines()
-            print(cont)
-            l = len(cont)
-            print(l)
+            Kol_pacientov: int = len(cont)
+            print('Kol_pacientov = ', Kol_pacientov)
+
         with open(number, 'w', encoding="utf-8") as f:
-            f.write(str(l))
+            f.write(str(Kol_pacientov))
             print("Подберите удобное для Вас время и место!")
 
 
