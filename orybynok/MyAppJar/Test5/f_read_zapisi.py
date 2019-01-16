@@ -9,18 +9,19 @@ with open(file_name1, 'r', encoding='utf-8') as f:
         S.append(ds['Пациент'])
     n = [1,2,3,...,100]
     S = list(zip(n,S))
-l = []
+
 L = []
 with open(file_name, 'r', encoding='utf-8') as f:
     text = f.readlines()
     for line in text:
-        bs = eval(str(line[1:-2]))
-        l.append(bs['-Месяц-'])
-        l.append(bs['-Дата-'])
-        l.append(bs['-Время-'])
-        l.append(bs['-Место-'])
+        line = eval(str(line[1:-2]))
+        l = [line['-Месяц-'], line['-Дата-'], line['-Время-'], line['-Место-']]
         L.append(l)
     for line in zip(S,L):
         for x in line:
             print(x)
         print('\n')
+
+
+
+
