@@ -9,6 +9,7 @@ def Main():
 
     mySocket.listen(1)
     conn, addr = mySocket.accept()
+    print("Connection from:" + str(addr))
 
     while True:
         data = conn.recv(1024).decode()
