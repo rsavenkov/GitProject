@@ -2,7 +2,7 @@ import pickle
 import os
 
 '''
-Поменяйте путь к файлу
+Change file's directory
 '''
 
 a = True
