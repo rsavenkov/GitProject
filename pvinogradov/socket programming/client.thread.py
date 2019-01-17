@@ -2,16 +2,18 @@ import socket
 import threading
 import sys
 
-host = "192.168.0.100"
+host = "192.168.43.164"
 port = 1080
 sock = socket.socket()
 sock.connect((host, port))
+
 
 def Reciver():
     while 1:
         data = sock.recv(1024)
         if data:
             print(data.decode())
+
 
 def Sender():
     while 1:
@@ -21,6 +23,7 @@ def Sender():
             sys.exit()
         else:
             sock.send(message.encode())
+
 
 # init threads
 t1 = threading.Thread(target=Reciver)
