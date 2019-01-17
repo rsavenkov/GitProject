@@ -1,11 +1,13 @@
 import pickle
 
+
 class MyClass:
 
     def __init__(self, attr):
         self.attr = attr
 
     attr = 'Class attribute'
+
 
 with open('C:/Users/Ruslan/PycharmProjects/GitProject/rsavenkov/serializing/MyClass.pickle', 'wb') as f:
     pickle.dump(MyClass, f)

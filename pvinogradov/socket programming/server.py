@@ -2,11 +2,12 @@ import socket
 
 
 def Main():
-    host = '127.0.0.1'
-    port = 5001
+    host = ''
+
+    port = 5002
 
     mySocket = socket.socket()
-    mySocket.bind(host, port)
+    mySocket.bind((host, port))
 
     mySocket.listen(1)
     conn, addr = mySocket.accept()
@@ -19,7 +20,7 @@ def Main():
         print('from connected user: ' + str(data))
 
         data = str(data).upper()
-        print('Recived from user' + str(data))
+        print(' Recived from user ' + str(data))
 
         data = input(' ? ')
         conn.send(data.encode())
