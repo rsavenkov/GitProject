@@ -40,7 +40,7 @@ import socket
    Таким образом мы можем получать от клиента любое количество данных'''
 
 sock = socket.socket()
-sock.bind(('192.168.42.166', 9090))
+sock.bind(('192.168.43.164', 9090))
 sock.listen(1)
 conn, addr = sock.accept()
 
