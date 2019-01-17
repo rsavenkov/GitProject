@@ -8,7 +8,7 @@ def Main():
     mySocket = socket.socket()
     mySocket.bind((host, port))
 
-    mySocket.listen(1)
+    mySocket.listen(5)
     conn, addr = mySocket.accept()
     print("Connection from: " + str(addr))
 
