@@ -14,12 +14,10 @@ with open(file_name, 'r', encoding='utf-8') as f:
 with open(file_name, 'r', encoding="utf-8") as f:
     cont = f.readlines()
     Kol_pacientov: int = len(cont)
-    print('Kol_pacientov = ', Kol_pacientov)
+
 
     with open('Kol_pacientov.pickle','wb') as f:
         pickle.dump(Kol_pacientov, f)
 
     with open('Kol_pacientov.pickle','rb') as f:
-        print('Kol_pacientov = ', pickle.load)
-
-
+        print('Количество пациентов = ', Kol_pacientov)
