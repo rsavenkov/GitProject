@@ -7,7 +7,7 @@ port = 5001         # port which is used for connect
 
 newSocket = socket.socket()  # make socket
 newSocket.bind((host, port))  # soket stik with host_ip and port
-newSocket.listen(10)  #listen input connections
+newSocket.listen(5)  #listen input connections
 
 
 def new_client():
