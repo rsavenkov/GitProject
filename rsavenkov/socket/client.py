@@ -4,8 +4,8 @@ import socket
 Главная функция реализающая сокет клиент
 '''
 def Main():
-    host = '127.0.0.1'
-    port = 5001
+    host = "000.000.000"
+    port = 10001
 
     # создаем клиентский сокет
     mySocket = socket.socket()
@@ -20,7 +20,7 @@ def Main():
         # отправляем серверу сообщение
         mySocket.send(message.encode())
         # принимаем от сервера сообщение
-        data = mySocket.recv(1024).decode()
+        data = mySocket.recv(1024).decode('utf8')
 
         # печатаем его
         print('Received from server: ' + data)
