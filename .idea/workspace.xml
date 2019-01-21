@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0157a880-1105-490e-a985-7c0dd6d6a655" name="Default Changelist" comment="finish">
-      <change afterPath="$PROJECT_DIR$/afrolov/Socket/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="0157a880-1105-490e-a985-7c0dd6d6a655" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +36,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/afrolov/Socket/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
+            <state relative-caret-position="183">
               <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
@@ -326,7 +324,7 @@
       <workItem from="1547717222133" duration="890000" />
       <workItem from="1547718368138" duration="2332000" />
       <workItem from="1547720805624" duration="636000" />
-      <workItem from="1548086922646" duration="5155000" />
+      <workItem from="1548086922646" duration="5945000" />
     </task>
     <task id="LOCAL-00001" summary="finish">
       <created>1547371420285</created>
@@ -370,23 +368,30 @@
       <option name="project" value="LOCAL" />
       <updated>1547581168858</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finish">
+      <created>1548092203398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548092203399</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45783000" />
+    <option name="totallyTimeSpent" value="46573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49584487" weight="0.3090615" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49584487" visible="true" weight="0.3090615" />
       <window_info id="Structure" order="1" sideWeight="0.5041551" side_tool="true" weight="0.30063966" />
       <window_info id="Favorites" order="2" sideWeight="0.5041551" side_tool="true" weight="0.30063966" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8821962" visible="true" weight="0.3768116" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8821962" visible="true" weight="0.3768116" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39834026" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -608,7 +613,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/afrolov/Socket/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
+        <state relative-caret-position="183">
           <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
