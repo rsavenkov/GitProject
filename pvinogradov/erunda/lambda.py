@@ -1,13 +1,7 @@
-def fn(start, end, fn):
-    n = 0
-    for i in range(start, end + 1):
-        n += fn(i)
-    return n
+from appJar import gui
+from PIL import Image, ImageTk
 
-
-def siruia(x):
-    return x ** 2
-
-
-print(fn(1, 10, siruia))
-print(fn(1, 10, lambda n: n * 83))
+app = gui()
+photo = ImageTk.PhotoImage(Image.open("images.jpg"))
+app.addImageData("pic", photo, fmt="PhotoImage")
+app.go()

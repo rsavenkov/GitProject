@@ -2,8 +2,8 @@ import socket
 
 
 def Main():
-    host = '127.0.0.1'
-    port = 5001
+    host = 'local host'
+    port = 2001
 
     mySocket = socket.socket()
     mySocket.connect((host, port))
@@ -17,7 +17,6 @@ def Main():
         print('receive from server: ' + data)
         message = input(' ? ')
     mySocket.close()
+Main()
 
 
-if __name__ == '__main__':
-    Main()

@@ -2,7 +2,7 @@ import socket
 
 
 def Main():
-    host = ''
+    host = '192.168.43.164'
 
     port = 5002
 
