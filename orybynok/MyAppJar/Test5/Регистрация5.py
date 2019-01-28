@@ -19,6 +19,7 @@ def press(button):
         user = usr + ' '+ name + ' ' + otch
         users['Пациент'] = user
         age = app.getEntry("Ваш возраст")
+        users['Ваш возраст'] = age
 
         pwd = app.getAllOptionBoxes()
 
@@ -53,7 +54,7 @@ def press(button):
                     print(L)
 
                     with db.xact():
-                        tablReg('6', 'Rybynok Galina Olegovna','23', 'Консультация', '123456789012', 'grybynok@mail.ru','G03061995')
+                        tablReg(L[0], str(L[1]), L[2], str(L[3]), L[4], str(L[5]),str(L[6]))
 # create a GUI variable called app
 app = gui("Галина Рыбынок ", "380x350")
 app.setBg("yellow")
