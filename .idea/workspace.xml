@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0157a880-1105-490e-a985-7c0dd6d6a655" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/reпistration5.5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/reпistration5.5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Регистрация5.py" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Регистрация5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rsavenkov/db/example2.py" beforeDir="false" afterPath="$PROJECT_DIR$/rsavenkov/db/example2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rsavenkov/multithreading/my_multiprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/rsavenkov/multithreading/my_multiprocessing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,55 +17,60 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GitProject$dump2.coverage" NAME="dump2 Coverage Results" MODIFIED="1547529088935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/serializing" />
-    <SUITE FILE_PATH="coverage/GitProject$f_read_zapisi.coverage" NAME="f_read_zapisi Coverage Results" MODIFIED="1547720012345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$dump.coverage" NAME="dump Coverage Results" MODIFIED="1547490629009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/serializing" />
-    <SUITE FILE_PATH="coverage/GitProject$my_thread.coverage" NAME="my_thread Coverage Results" MODIFIED="1547484077862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/multithreading" />
-    <SUITE FILE_PATH="coverage/GitProject$my_gui.coverage" NAME="my_gui Coverage Results" MODIFIED="1545646182076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$server.coverage" NAME="server Coverage Results" MODIFIED="1548091746689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/afrolov/Socket" />
-    <SUITE FILE_PATH="coverage/GitProject$f_r_zap.coverage" NAME="f_r_zap Coverage Results" MODIFIED="1547371802989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$f_read_registr.coverage" NAME="f_read_registr Coverage Results" MODIFIED="1547721352916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1548089294638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/socket" />
-    <SUITE FILE_PATH="coverage/GitProject$file_read.coverage" NAME="file_read Coverage Results" MODIFIED="1547372384184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$my_threading.coverage" NAME="my_threading Coverage Results" MODIFIED="1547485851795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/multithreading" />
-    <SUITE FILE_PATH="coverage/GitProject$client.coverage" NAME="client Coverage Results" MODIFIED="1547715592864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
-    <SUITE FILE_PATH="coverage/GitProject$.coverage" NAME="Регистрация Coverage Results" MODIFIED="1547657096753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$my_socet.coverage" NAME="my socet Coverage Results" MODIFIED="1547658642432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
-    <SUITE FILE_PATH="coverage/GitProject$my_sockrt_ser.coverage" NAME="my_sockrt_ser Coverage Results" MODIFIED="1547717237706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
     <SUITE FILE_PATH="coverage/GitProject$my_gui2.coverage" NAME="my_gui2 Coverage Results" MODIFIED="1545646149301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$f_read_zapisi.coverage" NAME="f_read_zapisi Coverage Results" MODIFIED="1547720012345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$example2.coverage" NAME="example2 Coverage Results" MODIFIED="1548411924775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/db" />
+    <SUITE FILE_PATH="coverage/GitProject$dump.coverage" NAME="dump Coverage Results" MODIFIED="1547490629009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/serializing" />
+    <SUITE FILE_PATH="coverage/GitProject$dump2.coverage" NAME="dump2 Coverage Results" MODIFIED="1547529088935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/serializing" />
+    <SUITE FILE_PATH="coverage/GitProject$my_threading.coverage" NAME="my_threading Coverage Results" MODIFIED="1547485851795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/multithreading" />
+    <SUITE FILE_PATH="coverage/GitProject$my_thread.coverage" NAME="my_thread Coverage Results" MODIFIED="1548355257354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/multithreading" />
+    <SUITE FILE_PATH="coverage/GitProject$5.coverage" NAME="Регистрация5 Coverage Results" MODIFIED="1548691746639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$server.coverage" NAME="server Coverage Results" MODIFIED="1548091746689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/afrolov/Socket" />
+    <SUITE FILE_PATH="coverage/GitProject$.coverage" NAME="Регистрация Coverage Results" MODIFIED="1547657096753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$file_read.coverage" NAME="file_read Coverage Results" MODIFIED="1547372384184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$my_gui.coverage" NAME="my_gui Coverage Results" MODIFIED="1545646182076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$my_sockrt_ser.coverage" NAME="my_sockrt_ser Coverage Results" MODIFIED="1547717237706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
+    <SUITE FILE_PATH="coverage/GitProject$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1548089294638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/socket" />
+    <SUITE FILE_PATH="coverage/GitProject$f_r_zap.coverage" NAME="f_r_zap Coverage Results" MODIFIED="1547371802989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$my_multiprocessing.coverage" NAME="my_multiprocessing Coverage Results" MODIFIED="1548355238246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/multithreading" />
+    <SUITE FILE_PATH="coverage/GitProject$client.coverage" NAME="client Coverage Results" MODIFIED="1547715592864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
+    <SUITE FILE_PATH="coverage/GitProject$f_read_registr.coverage" NAME="f_read_registr Coverage Results" MODIFIED="1547721352916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$my_socet.coverage" NAME="my socet Coverage Results" MODIFIED="1547658642432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="GitProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/afrolov/Socket/server.py">
+        <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/Регистрация5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rsavenkov/multithreading/my_thread.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rsavenkov/multithreading/my_multiprocessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="77">
+              <caret line="60" column="15" lean-forward="true" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/reпistration5.5.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -102,21 +113,22 @@
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/f_read_registr.py" />
         <option value="$PROJECT_DIR$/rsavenkov/socket/client.py" />
         <option value="$PROJECT_DIR$/afrolov/Socket/server.py" />
+        <option value="$PROJECT_DIR$/rsavenkov/db/example2.py" />
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Регистрация5.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="447" />
-    <option name="y" value="13" />
-    <option name="width" value="939" />
-    <option name="height" value="878" />
+    <option name="x" value="441" />
+    <option name="y" value="7" />
+    <option name="width" value="945" />
+    <option name="height" value="896" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,42 +139,47 @@
             <path>
               <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="GitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="afrolov" type="462c0819:PsiDirectoryNode" />
+              <item name="orybynok" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="GitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="afrolov" type="462c0819:PsiDirectoryNode" />
-              <item name="Socket" type="462c0819:PsiDirectoryNode" />
+              <item name="orybynok" type="462c0819:PsiDirectoryNode" />
+              <item name="MyAppJar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitProject" type="462c0819:PsiDirectoryNode" />
+              <item name="orybynok" type="462c0819:PsiDirectoryNode" />
+              <item name="MyAppJar" type="462c0819:PsiDirectoryNode" />
+              <item name="Test5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="GitProject" type="462c0819:PsiDirectoryNode" />
               <item name="rsavenkov" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rsavenkov" type="462c0819:PsiDirectoryNode" />
-              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rsavenkov" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Course" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="GitProject" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="GitProject" />
+      </console-settings>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,30 +193,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.server">
-    <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GitProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rsavenkov/socket" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rsavenkov/socket/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="f_read_registr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Регистрация5">
+    <configuration name="Регистрация5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,7 +207,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/f_read_registr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Регистрация5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="f_read_zapisi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="example2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,12 +224,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rsavenkov/db" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/f_read_zapisi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rsavenkov/db/example2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="my_sockrt_ser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="my_multiprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,12 +246,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/orybynok" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rsavenkov/multithreading" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/orybynok/my_sockrt_ser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rsavenkov/multithreading/my_multiprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rsavenkov/multithreading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rsavenkov/multithreading/my_thread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Регистрация5" />
+        <item itemvalue="Python.example2" />
+        <item itemvalue="Python.my_thread" />
+        <item itemvalue="Python.my_multiprocessing" />
         <item itemvalue="Python.server" />
-        <item itemvalue="Python.client (1)" />
-        <item itemvalue="Python.f_read_registr" />
-        <item itemvalue="Python.f_read_zapisi" />
-        <item itemvalue="Python.my_sockrt_ser" />
       </list>
     </recent_temporary>
   </component>
@@ -325,6 +342,13 @@
       <workItem from="1547718368138" duration="2332000" />
       <workItem from="1547720805624" duration="636000" />
       <workItem from="1548086922646" duration="5945000" />
+      <workItem from="1548354407606" duration="3217000" />
+      <workItem from="1548360359833" duration="193000" />
+      <workItem from="1548400813367" duration="2354000" />
+      <workItem from="1548411807890" duration="420000" />
+      <workItem from="1548498384676" duration="18000" />
+      <workItem from="1548680411982" duration="978000" />
+      <workItem from="1548690414485" duration="1329000" />
     </task>
     <task id="LOCAL-00001" summary="finish">
       <created>1547371420285</created>
@@ -375,44 +399,58 @@
       <option name="project" value="LOCAL" />
       <updated>1548092203399</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finish">
+      <created>1548681304782</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1548681304782</updated>
+    </task>
+    <task id="LOCAL-00009" summary="finish">
+      <created>1548681352784</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548681352784</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46573000" />
+    <option name="totallyTimeSpent" value="55082000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49584487" visible="true" weight="0.3090615" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49584487" visible="true" weight="0.22060165" />
       <window_info id="Structure" order="1" sideWeight="0.5041551" side_tool="true" weight="0.30063966" />
       <window_info id="Favorites" order="2" sideWeight="0.5041551" side_tool="true" weight="0.30063966" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8821962" visible="true" weight="0.3768116" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39834026" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8821962" visible="true" weight="0.5795207" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39816934" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49772105" weight="0.3268921" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008091" side_tool="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49772105" weight="0.3267974" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008091" side_tool="true" weight="0.3272311" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49919093" weight="0.32850242" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49919093" weight="0.32850242" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" sideWeight="0.49960968" weight="0.32935154" />
-      <window_info anchor="right" x="0" y="0" width="548" height="576" id="Documentation" weight="0.32928804" />
+      <window_info anchor="bottom" id="Messages" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.351377" />
       <window_info anchor="right" id="Cargo" order="7" />
+      <window_info anchor="right" x="0" y="0" width="548" height="576" id="Documentation" order="8" weight="0.32928804" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497721" />
@@ -571,13 +609,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/socket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="204" column="8" selection-start-line="204" selection-start-column="8" selection-end-line="204" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/socket.py" />
     <entry file="file://$PROJECT_DIR$/rsavenkov/socket/multithreaded_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -597,7 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rsavenkov/multithreading/my_multiprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="106">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -606,15 +639,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rsavenkov/multithreading/my_thread.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="208">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/afrolov/Socket/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/87f3c039-ccb5-4150-b378-edf5627ecc0f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/postgresql/driver/pq3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1249">
+          <caret line="531" selection-start-line="531" selection-end-line="531" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsavenkov/db/example.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsavenkov/db/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsavenkov/db/example2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/reпistration5.5.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/Регистрация5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="60" column="15" lean-forward="true" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
