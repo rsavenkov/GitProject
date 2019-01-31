@@ -73,7 +73,7 @@ app.setLabelFg("title", "yellow")
 
 app.addLabelEntry("Фамилия")
 app.addLabelEntry("Имя")
-app.addLabelEntry("Отчество
+app.addLabelEntry("Отчество")
 app.addLabelEntry("Ваш возраст")
 app.addLabelOptionBox("- Цель Визита -", ["Консультация",
                                      "Классический массаж", "СПА", "Медитация"])
