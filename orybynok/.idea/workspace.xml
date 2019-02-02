@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea57fb6e-b96a-4cc2-be6d-0ddbbc5e691c" name="Default Changelist" comment="" />
+    <list default="true" id="ea57fb6e-b96a-4cc2-be6d-0ddbbc5e691c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyAppJar/Test5/Регистрация5.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyAppJar/Test5/Регистрация5.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/orybynok$5.coverage" NAME="Регистрация5 Coverage Results" MODIFIED="1548885191137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/orybynok$5.coverage" NAME="Регистрация5 Coverage Results" MODIFIED="1548959884307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyAppJar/Test5" />
     <SUITE FILE_PATH="coverage/orybynok$my_gui2__1_.coverage" NAME="my_gui2 (1) Coverage Results" MODIFIED="1545734958231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyAppJar/Test5" />
     <SUITE FILE_PATH="coverage/orybynok$gui_program.coverage" NAME="gui program Coverage Results" MODIFIED="1545645901600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../rsavenkov/install packages" />
     <SUITE FILE_PATH="coverage/orybynok$my_gui2.coverage" NAME="my_gui2 Coverage Results" MODIFIED="1545732410569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test5" />
@@ -69,11 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyAppJar/Test5/my_gui2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
+            <state relative-caret-position="833">
               <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="50" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyAppJar/Test5/Регистрация5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="119">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -134,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,7 +158,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,6 +348,8 @@
       <workItem from="1548760173996" duration="12077000" />
       <workItem from="1548772772861" duration="359000" />
       <workItem from="1548879700979" duration="476000" />
+      <workItem from="1548885168126" duration="3436000" />
+      <workItem from="1548943312577" duration="4397000" />
     </task>
     <task id="LOCAL-00001" summary="Tet2">
       <created>1544088633506</created>
@@ -377,21 +379,43 @@
       <option name="project" value="LOCAL" />
       <updated>1548880058892</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tet2">
+      <created>1548885260377</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548885260377</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Tet2">
+      <created>1548887014444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548887014444</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Tet2">
+      <created>1548944570187</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548944570187</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19245000" />
+    <option name="totallyTimeSpent" value="27078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="6" width="1906" height="1032" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25785482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26327193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32987553" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.496208" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4951246" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49772105" weight="0.39726028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,11 +423,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.503792" side_tool="true" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5048754" side_tool="true" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32365146" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32305935" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32990867" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -513,13 +537,13 @@
     <entry file="file://$PROJECT_DIR$/MyAppJar/Test5/Запись1.py" />
     <entry file="file://$PROJECT_DIR$/MyAppJar/Test5/my_gui2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
+        <state relative-caret-position="833">
           <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="50" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e6c02ebc-ed79-48a7-8ba5-01a9717d3dd2/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://e6c02ebc-ed79-48a7-8ba5-01a9717d3dd2/database/my_db/schema/public/table/registration5">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -528,13 +552,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e6c02ebc-ed79-48a7-8ba5-01a9717d3dd2/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyAppJar/Test5/Регистрация5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="119">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>

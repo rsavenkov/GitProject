@@ -57,7 +57,6 @@ def press(button):
                     V.insert(0, N)
                     L = tuple(V)
                     print(L)
-
                     with db.xact():
                         tablReg(L[0], str(L[1]), L[2], str(L[3]), L[4], str(L[5]),str(L[6]))
 
@@ -73,7 +72,7 @@ app.setLabelFg("title", "yellow")
 
 app.addLabelEntry("Фамилия")
 app.addLabelEntry("Имя")
-app.addLabelEntry("Отчество
+app.addLabelEntry("Отчество")
 app.addLabelEntry("Ваш возраст")
 app.addLabelOptionBox("- Цель Визита -", ["Консультация",
                                      "Классический массаж", "СПА", "Медитация"])
