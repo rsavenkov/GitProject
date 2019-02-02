@@ -3,11 +3,13 @@ import postgresql
 
 app = gui('Add datebase', '500x300')
 
-# def menuPress():
-#     pass
-#
-# fileMenus = ["Open", "Save", "Save as...", "-", "Export", "Print", "-", "Close"]
-# app.addMenuList("File", fileMenus, menuPress)
+def connect():
+    global db
+    name = input("Input data base user : ")
+    password = input("Input date base user password : ")
+    db_name = input("Write your date base name")
+    db =  postgresql.open('pq://' + name + ':' + '@' + connection + '/' + db_name)
+    return db
 
 def press(btn):
 
@@ -34,13 +36,7 @@ def press(btn):
         for row in table:
             app.message(row)
 
-def connect():
-    global db
-    name = input("Input data base user : ")
-    password = input("Input date base user password : ")
-    db_name = input("Write your date base name")
-    db =  postgresql.open('pq://' + name + ':' + '@' + connection + '/' + db_name)
-
+# made unifi connection to db
 
 choice = input(" Your data base is local (127.0.0.1:5432) ? (yes/no) \n")
 if choice == "yes":
@@ -51,6 +47,9 @@ elif choice == "no":
     connect()
 else:
     print(" Your choise incorrect !")
+
+
+# gui construckt
 
 app.addEntry( 'name1', column=0, row=0 )
 app.setEntryDefault("name1", "Name")
@@ -64,4 +63,3 @@ app.setEntryDefault("Age", "Age")
 app.buttons(["Add database", "Show", "Cancel"], press)
 
 app.go()
-
