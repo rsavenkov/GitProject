@@ -1,10 +1,169 @@
+import postgresql
 from appJar import gui
+from tkinter import * #
+from tkinter import messagebox #
+from tkinter import ttk #
 
-app = gui()
-app.addTextArea("t1", text='')
-app.addScrolledTextArea("t2", text='')
-app.addScrolledTextArea("t3", text='courses')
-app.setTextArea("t1", ' добавили текст', end=True, callFunction=True)
-# app.clearTextArea("t1", callFunction=True)  # очистить ввод
+app = gui( 'Add datebase', '500x300' )
+
+db = postgresql.open( "pq://postgres:123@127.0.0.1:5432/paveldb" )
+
+
+
+
+def menuPress():
+    root = Tk()
+    root.title( 'Calculiator' )
+
+    def calc(key):
+        global memory
+        if key == "=":
+
+            str1 = "//%-+1234567890./*"
+            if calc_entry.get()[0] not in str1:
+                calc_entry.insert( END, " The first character is not a number" )
+                messagebox.showerror( "Mistake!!! you entered not a number" )
+
+            try:
+                result = eval( calc_entry.get() )
+                calc_entry.delete( 0, END )
+                calc_entry.insert( END, str( result ) )
+            except:
+                calc_entry.insert( END, " Mistake!" )
+                messagebox.showerror( 'Error ',' check data validity' )
+
+        elif key == "c":
+            calc_entry.delete( 0, END )
+
+        elif key == '-/+':
+            if '=' in calc_entry.get():
+                calc_entry.delete( 0, END )
+            try:
+                if calc_entry.get()[0] == '-':
+                    calc_entry.delete( 0 )
+                else:
+                    calc_entry.insert( 0, '-' )
+            except IndexError:
+                pass
+        else:
+            if '=' in calc_entry.get():
+                calc_entry.delete( 0, END )
+            calc_entry.insert( END, key )
+
+
+
+    bttn_list = [
+        '7', '8', '9', '+', '-',
+        '4', '5', '6', '*', '/',
+        '1', '2', '3', '-/+', '=',
+        '0', '.', 'c', '//', '%',
+    ]
+    r = 1
+    c = 0
+    for i in bttn_list:
+        cmd = lambda x=i: calc( x )
+        ttk.Button( root, text=i, command=cmd ).grid( row=r, column=c, sticky=E )
+        c += 1
+
+        if c > 4:
+            c = 0
+            r += 1
+
+    calc_entry = Entry( root, width=50, borderwidth=5 )
+
+    calc_entry.grid( row=0, column=0, columnspan=5 )
+    root.mainloop()
+
+fileMenus = ["Open", "Save", "Save as...", "-", "Export", "Print", "-", "Close"]
+app.addMenuList("File", fileMenus, menuPress)
+fileMenus1 = ['Calculator']
+app.addMenuList("Tools", fileMenus1, menuPress)
+
+
+def menu():
+    app.setBg("green")
+    app.setFont(18)
+    app.addButtons(["Revision", "Quiz", "Progress"], press)
+
+
+def press(btn):
+    if btn == 'Cancel':
+        app.stop()
+        print( 'Finish' )
+    elif btn == 'Add database':
+        name = app.getEntry( 'name1' )
+        surname = app.getEntry( 'SurName1' )
+        age = int( app.getEntry( 'Age' ) )
+
+
+        ochered = db.prepare( '''
+
+        insert into ochered
+        values ($1, $2, $3)
+
+        ''' )
+        ochered( name, surname, age )
+    elif btn == 'Show':
+        table = db.prepare( '''
+                           select  *
+                           from ochered; 
+                           ''' )
+        # a = []
+
+        for row in table:
+            # a.append( row )
+            print( row )
+
+            app.addMessage(row)
+
+    elif btn == 'Reset':
+        print( '123' )
+        menu()
+
+
+
+# this is a pop-up
+
+
+app.addLabel( 'title', '        Hello please add values datebase ' )
+app.setLabelFg( "title", "#00FA9A" )
+
+tools = ["ABOUT", "REFRESH", "OPEN", "CLOSE", "SAVE",
+         "NEW", "SETTINGS", "PRINT", "SEARCH", "UNDO",
+         "REDO", "PREFERENCES", "HOME", "HELP", "CALENDAR",
+         "WEB", "OFF"]
+
+app.addToolbar( tools, press, findIcon=True )
+
+app.addEntry( 'name1', column=0, row=0 )
+app.setEntryDefault( "name1", "Name" )
+
+
+
+app.addEntry( 'SurName1', column=0, row=1 )
+app.setEntryDefault( "SurName1", "Surname" )
+
+app.addEntry( 'Age', column=0, row=2 )
+app.setEntryDefault( "Age", "Age" )
+
+app.buttons( ["Add database", "Show", "Cancel", "Reset"], press )
+
+# a = 'wqe'
+# def changeLabel(btn,*args):
+#     pass
+#
+#
+# app.addLabel("l1", "Simple Demo")
+# app.addEntry("text")
+# app.addButton("OK", changeLabel)
+# app.addEmptyLabel("l2")
+# app.addStatusbar(fields=3)
+# app.setStatusbar("Line: 20", 0)
+# app.setStatusbar("Column: 4", 1)
+# app.setStatusbar("Mode: Edit", 2)
+# app.go()
+#
+# app.setBg('green')
+# app.setFont(15)
 
 app.go()
