@@ -71,13 +71,7 @@ def menuPress(btn):
         root.mainloop()
 
 
-fileMenus = ["Open", "Save", "Save as...", "-", "Export", "Print", "-", "Close"]
-app.addMenuList( "File", fileMenus, menuPress )
-fileMenus1 = ['Calculator', 'Paint']
-app.addMenuList( "Tools", fileMenus1, menuPress )
 
-
-# def menu():
 #     app.setBg("green")
 #     app.setFont(18)
 #     app.addButtons(["Revision", "Quiz", "Progress"], press)
@@ -86,6 +80,7 @@ app.addMenuList( "Tools", fileMenus1, menuPress )
 def press1(btn):
     if btn == "OFF":
         app.stop()
+        print('The End')
 
 
 def press(btn):
@@ -116,12 +111,12 @@ def press(btn):
             print( row )
 
             app.addMessage( row )
-
     elif btn == 'Reset':
         a1.delete( [0], END )
         a2.delete( [0], END )
         a3.delete( [0], END )
         # menu()
+
 
 
 # this is a pop-up
@@ -148,6 +143,12 @@ app.setEntryDefault( "Age", "Age" )
 
 app.buttons( ["Add database", "Show", "Cancel", "Reset"], press )
 
+# def menu():
+
+fileMenus = ["Open", "Save", "Save as...", "-", "Export", "Print", "-", "Close"]
+app.addMenuList( "File", fileMenus, menuPress )
+fileMenus1 = ['Calculator']
+app.addMenuList( "Tools", fileMenus1, menuPress )
 # a = 'wqe'
 # def changeLabel(btn,*args):
 #     pass
