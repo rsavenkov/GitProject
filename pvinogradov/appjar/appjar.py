@@ -74,7 +74,7 @@ def menuPress(btn):
 
 #     app.setBg("green")
 #     app.setFont(18)
-#     app.addButtons(["Revision", "Quiz", "Progress"], press)
+
 
 
 def press1(btn):
@@ -100,6 +100,7 @@ def press(btn):
         ''' )
         ochered( name, surname, age )
     elif btn == 'Show':
+        app.setFg( '#ff0066' )
         table = db.prepare( '''
                            select  *
                            from ochered; 
@@ -109,8 +110,17 @@ def press(btn):
         for row in table:
             # a.append( row )
             print( row )
-
             app.addMessage( row )
+    elif btn == 'NUMBER OF PEOPLE':
+        print('123')
+        app.setFg( '#ff0066' )
+        table1 = db.prepare( '''
+                                   select  COUNT ("age")
+                                   from ochered; 
+                                   ''' )
+        for i in table1:
+            app.addMessage('Total number of people' + str(i))
+
     elif btn == 'Reset':
         a1.delete( [0], END )
         a2.delete( [0], END )
@@ -141,7 +151,7 @@ app.setEntryDefault( "SurName1", "Surname" )
 a3 = app.addEntry( 'Age', column=0, row=2 )
 app.setEntryDefault( "Age", "Age" )
 
-app.buttons( ["Add database", "Show", "Cancel", "Reset"], press )
+app.buttons( ["Add database", "Show", "Cancel", "Reset",'NUMBER OF PEOPLE'], press )
 
 # def menu():
 
@@ -164,7 +174,7 @@ app.addMenuList( "Tools", fileMenus1, menuPress )
 # app.setStatusbar("Mode: Edit", 2)
 # app.go()
 #
-# app.setBg('green')
-# app.setFont(15)
+app.setBg('#0000ff')
+app.setFont(14)
 
 app.go()
