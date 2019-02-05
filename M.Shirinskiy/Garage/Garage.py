@@ -1,6 +1,5 @@
-from truck import Truck
-from Transport_trucks import VolvoFMX
-from Transport_trucks import VolvoFE
+from Прочее.truck import Truck
+
 
 class NotMachineLikeTruckAcceptableInGarage(Exception):
 

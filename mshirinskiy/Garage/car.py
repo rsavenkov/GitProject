@@ -1,4 +1,4 @@
-from machine import Machine
+from Прочее.machine import Machine
 
 class Car(Machine):
 

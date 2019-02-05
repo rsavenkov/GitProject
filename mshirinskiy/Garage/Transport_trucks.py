@@ -1,4 +1,4 @@
-from truck import Truck
+from Прочее.truck import Truck
 from Garage import Garage, NotMachineLikeTruckAcceptableInGarage, Garage_Box, NotVolvoFMXInBox, NotVolvoFEInBox
 
 class VolvoFMX(Truck):

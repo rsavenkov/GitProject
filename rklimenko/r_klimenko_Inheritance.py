@@ -1,5 +1,5 @@
-from car import Car
-from truck import Truck
+from Прочее.car import Car
+from Прочее.truck import Truck
 from r_klimenko_garage import Garage
 
 class Owner:

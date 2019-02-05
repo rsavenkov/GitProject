@@ -1,4 +1,4 @@
-from truck import Truck
+from Прочее.truck import Truck
 
 class NotMachineLikeTruckAcceptableInGarage:
 

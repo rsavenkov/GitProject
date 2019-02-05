@@ -1,4 +1,4 @@
-from car import Car
+from Прочее.car import Car
 from Garage import Garage, NotMachineLikeTruckAcceptableInGarage
 
 class AudiA5(Car):

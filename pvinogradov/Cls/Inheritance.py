@@ -1,6 +1,6 @@
-from car import Car
-from truck import Truck
-from garage import Garage, NotMachineLikeTruckAcceptableInGarage
+from Прочее.car import Car
+from Прочее.truck import Truck
+from Прочее.garage import Garage, NotMachineLikeTruckAcceptableInGarage
 
 class Owner:
 
