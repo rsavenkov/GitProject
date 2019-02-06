@@ -7,7 +7,7 @@ from appJar import gui
 
 app = gui( 'Add datebase', '710x300' )
 
-db = postgresql.open( "pq://postgres:123@127.0.0.1:5432/paveldb" )
+db = postgresql.open( "pq://postgres:123@192.168.50.120:5432/paveldb" )
 
 
 def menuPress(btn):
@@ -106,11 +106,15 @@ def press(btn):
                            from ochered; 
                            ''' )
         # a = []
-
+        _str = ''
         for row in table:
-            # a.append( row )
-            print( row )
-            app.addMessage( row )
+            for row1 in row:
+                _str += ' ' + str(row1)
+            print(row)
+            _str += '\n'
+
+        app.addMessage(_str)
+
     elif btn == 'NUMBER OF PEOPLE':
         print('123')
         app.setFg( '#ff0066' )
