@@ -119,13 +119,16 @@ def press(btn):
                                    from ochered; 
                                    ''' )
         for i in table1:
-            app.addMessage('Total number of people' + str(i))
+            app.addMessage(i)
 
     elif btn == 'Reset':
         a1.delete( [0], END )
         a2.delete( [0], END )
         a3.delete( [0], END )
         # menu()
+    elif btn == 'To clear datebase':
+        print( '123' )
+
 
 
 
@@ -151,7 +154,7 @@ app.setEntryDefault( "SurName1", "Surname" )
 a3 = app.addEntry( 'Age', column=0, row=2 )
 app.setEntryDefault( "Age", "Age" )
 
-app.buttons( ["Add database", "Show", "Cancel", "Reset",'NUMBER OF PEOPLE'], press )
+app.buttons( ["Add database", "Show", "Cancel", "Reset",'NUMBER OF PEOPLE', 'To clear datebase'], press )
 
 # def menu():
 
@@ -159,21 +162,7 @@ fileMenus = ["Open", "Save", "Save as...", "-", "Export", "Print", "-", "Close"]
 app.addMenuList( "File", fileMenus, menuPress )
 fileMenus1 = ['Calculator']
 app.addMenuList( "Tools", fileMenus1, menuPress )
-# a = 'wqe'
-# def changeLabel(btn,*args):
-#     pass
-#
-#
-# app.addLabel("l1", "Simple Demo")
-# app.addEntry("text")
-# app.addButton("OK", changeLabel)
-# app.addEmptyLabel("l2")
-# app.addStatusbar(fields=3)
-# app.setStatusbar("Line: 20", 0)
-# app.setStatusbar("Column: 4", 1)
-# app.setStatusbar("Mode: Edit", 2)
-# app.go()
-#
+
 app.setBg('#0000ff')
 app.setFont(14)
 
