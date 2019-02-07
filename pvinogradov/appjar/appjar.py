@@ -7,8 +7,7 @@ from appJar import gui
 
 app = gui( 'Add datebase', '710x300' )
 
-db = postgresql.open( "pq://postgres:123@192.168.50.120:5432/paveldb" )
-
+db = postgresql.open( "pq://postgres:123@127.0.0.1:5432/paveldb" )
 
 def menuPress(btn):
     if btn == 'Calculator':
@@ -70,24 +69,13 @@ def menuPress(btn):
         calc_entry.grid( row=0, column=0, columnspan=5 )
         root.mainloop()
 
-
-
-#     app.setBg("green")
-#     app.setFont(18)
-
-
-
 def press1(btn):
     if btn == "OFF":
         app.stop()
         print('The End')
 
-
 def press(btn):
-    if btn == 'Cancel':
-        app.stop()
-        print( 'Finish' )
-    elif btn == 'Add database':
+    if btn == 'Add database':
         name = app.getEntry( 'name1' )
         surname = app.getEntry( 'SurName1' )
         age = int( app.getEntry( 'Age' ) )
@@ -99,20 +87,22 @@ def press(btn):
 
         ''' )
         ochered( name, surname, age )
+        a1.delete([0], END)
+        a2.delete([0], END)
+        a3.delete([0], END)
+        app.addMessage('data successfully entered')
     elif btn == 'Show':
         app.setFg( '#ff0066' )
         table = db.prepare( '''
                            select  *
                            from ochered; 
                            ''' )
-        # a = []
         _str = ''
         for row in table:
             for row1 in row:
                 _str += ' ' + str(row1)
             print(row)
             _str += '\n'
-
         app.addMessage(_str)
 
     elif btn == 'NUMBER OF PEOPLE':
@@ -124,20 +114,6 @@ def press(btn):
                                    ''' )
         for i in table1:
             app.addMessage(i)
-
-    elif btn == 'Reset':
-        a1.delete( [0], END )
-        a2.delete( [0], END )
-        a3.delete( [0], END )
-        # menu()
-    elif btn == 'To clear datebase':
-        print( '123' )
-
-
-
-
-# this is a pop-up
-
 
 app.addLabel( 'title', '        Hello please add values datebase ' )
 app.setLabelFg( "title", "#00FA9A" )
@@ -158,9 +134,7 @@ app.setEntryDefault( "SurName1", "Surname" )
 a3 = app.addEntry( 'Age', column=0, row=2 )
 app.setEntryDefault( "Age", "Age" )
 
-app.buttons( ["Add database", "Show", "Cancel", "Reset",'NUMBER OF PEOPLE', 'To clear datebase'], press )
-
-# def menu():
+app.buttons( ["Add database", "Show",'NUMBER OF PEOPLE', 'To clear datebase'], press )
 
 fileMenus = ["Open", "Save", "Save as...", "-", "Export", "Print", "-", "Close"]
 app.addMenuList( "File", fileMenus, menuPress )
