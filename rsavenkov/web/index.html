@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="utf-8" />
-      <title>HTML Document</title>
-   </head>
-   <body>
-      <p>
-         <b>
-            Этот текст будет полужирным, <i>а этот — ещё и курсивным</i>.
-         </b>
-      </p>
-   </body>
+<head>
+    <meta charset="utf-8"/>
+    <title>HTML Document</title>
+</head>
+<body>
+<div style="text-align: center">
+    <form action="/sendData">
+        <table>
+            <tr>
+                <td>Имя<input type="input" name="name"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Фамилия<input type="input" name="surname"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Отчество<input type="input" name="thord_name"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Возраст
+                    <select name="age">
+                        <option>1960 - 1990</option>
+                        <option>1990 - 2010</option>
+                        <option>2010 - по наше время</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Пол
+                    <input type="radio" name="male">М.
+                    <input type="radio" name="female"/>Ж.
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
 </html>
