@@ -34,6 +34,9 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 lines = f.readlines() # читаем файл, результат получаем в виде списка строк
                 output = ''.join(lines) # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8')) # пишем нашу строку в сеть запросившему клиенту
+        elif (self.path == '/image.png'):
+            with open('python-happy.jpeg', 'rb') as f:
+                self.wfile.write(f.read())
         else: # случай когда uri запроса отличный от /form, на этот случай обработки не предусмотрено
             logging.warning('Url {} doesn\'t prodive handler!'.format(self.path)) # логгируем для собственного спокойствия
             self.wfile.write('No handler for {}'.format(self.path).encode('utf-8'))  # сообщение пользователю
