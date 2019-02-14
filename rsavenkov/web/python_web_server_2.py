@@ -53,9 +53,10 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
         # и ответить клиенту что операция на сервере произошла с ошибкой
         insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO public.student (id, first_name, last_name, middle_name, birth_date, gender, description, rating, teacher_id)
                                                             VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9);''')
-        insert(100, student[0], student[1], student[2], None, True, '', 0, 1)
+        id = MyHTTPRequestHandler.connection.prepare('select nextval(\'student_id_seq\')')()[0][0] # готовим и сразу выполняем select по sequence который в результате нам вернет новый id
+        insert(id, student[0], student[1], student[2], None, True, student[3], 0, 1)
         self._set_response() # готовим ответ
-        self.wfile.write("Студент {} добавлен!".format(''.join(student)).encode('utf-8')) # отвечаем клиенту всю ок
+        self.wfile.write("Student {} is added!<br><a href='/form'>Go back to registering form".format(''.join(student)).encode('utf-8')) # отвечаем клиенту что новый студент добавлен и даем ему ссылку на обратный переход на форму добавления
 
 '''
 Функция которая запускает сервер
@@ -66,6 +67,9 @@ def run():
         connection_string = 'pq://postgres:123456@127.0.0.1:5432/postgres'
         # создаем соединение с базой данной my_db по адресу хост 127.0.0.1, порт 5432, логин postgres, пароль 123456s
         db = postgresql.open(connection_string)
+        exist = db.prepare("SELECT COUNT(*) FROM pg_class WHERE relname = 'student_id_seq'")()[0][0] # проверяем в системных каталогах есть ли наша последовательность для студентов
+        if exist == 0: # если нет, то...
+            db.execute("CREATE SEQUENCE student_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 10000000000 START 1 CACHE 1") # создаем ее
     except Exception:
         logging.error('Cann\'t connect to database with url {}'.format(connection_string))
         exit(-1)

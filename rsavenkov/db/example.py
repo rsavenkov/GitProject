@@ -1,7 +1,7 @@
 # импортим в код библиотеку postgresql для работы с базой данных postgresql
 import postgresql
 
-# создаем соединение с базой данной my_db по адресу хост 127.0.0.1б порт 5432, логин postgres, пароль G24O02d24230303
+# создаем соединение с базой данной my_db по адресу хост 127.0.0.1, порт 5432, логин postgres, пароль G24O02d24230303
 db = postgresql.open("pq://postgres:G24O02d24230303@127.0.0.1:5432/my_db")
 # выполяем ddl sql который создает табличку emp с полями emp_name и emp_salary
 db.execute("CREATE TABLE emp (emp_name text PRIMARY KEY, emp_salary numeric)")
