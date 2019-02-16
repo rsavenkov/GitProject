@@ -1,5 +1,5 @@
 # импортим в скрипт код библиотеки tornado
-# https://www.tornadoweb.org/en/stable/
+#https://www.tornadoweb.org/en/stable/
 import tornado.ioloop
 import tornado.web
 

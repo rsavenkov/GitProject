@@ -29,8 +29,8 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
     '''
     def do_GET(self):
         self._set_response()
-        if (self.path == '/form'): # если uri содержит /form
-            with open('registraciy.html', 'r+', encoding='UTF-8') as f: # читаем текстовый файл
+        if (self.path == '/form'):  # если uri содержит /form
+            with open('registraciy.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
                 lines = f.readlines() # читаем файл, результат получаем в виде списка строк
                 output = ''.join(lines) # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8')) # пишем нашу строку в сеть запросившему клиенту
@@ -39,7 +39,7 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 self.wfile.write(f.read())
         else: # случай когда uri запроса отличный от /form, на этот случай обработки не предусмотрено
             logging.warning('Url {} doesn\'t prodive handler!'.format(self.path)) # логгируем для собственного спокойствия
-            self.wfile.write('No handler for {}'.format(self.path).encode('UTF-8'))  # сообщение пользователю
+            self.wfile.write('No handler for {}'.format(self.path).encode('utf-8'))  # сообщение пользователю
 
     '''
     Переопределяем от родителя метод который обрабатывает все post запросы к серверу

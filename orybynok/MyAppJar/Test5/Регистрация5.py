@@ -9,7 +9,7 @@ users = {}
 ents = {}
 # handle button events
 
-db = postgresql.open("pq://postgres:G24O02d24230303@127.0.0.1:5432/my_db")
+db = postgresql.open("pq://postgres:0306@127.0.0.1:5432/Galy")
 db.execute("CREATE TABLE IF NOT EXISTS registration5 (id numeric PRIMARY KEY,fio text, age numeric,v_purpose varchar(20), tel numeric, mail varchar(20), pasport varchar(20))")
 
 #postgresql.exceptions.DuplicateTableError: relation "registration5" already exists

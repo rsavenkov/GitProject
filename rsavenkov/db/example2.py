@@ -13,7 +13,7 @@ data = 'data.txt'
 #   задаваемый этой либой               базе                        user:password                       пар            запущен сервер бд        host:port               работает сервер бд
 db = postgresql.open("pq://postgres:G24O02d24230303@127.0.0.1:5432/my_db")
 # готовим через объект соединение select в базу по табличке student. Выбираем все поля
-my_select = db.prepare("SELECT * FROM tstudent")
+my_select = db.prepare("SELECT * FROM students")
 
 # открывает транзакцию. Кстати, можно спокойно работать без этой строчки!
 with db.xact():
