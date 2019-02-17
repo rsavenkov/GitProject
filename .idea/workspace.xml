@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0157a880-1105-490e-a985-7c0dd6d6a655" name="Default Changelist" comment="finish">
-      <change afterPath="$PROJECT_DIR$/orybynok/MyAppJar/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rsavenkov/web/Dir/Test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rsavenkov/web/Dir/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GitProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GitProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/mytestdb.PJFpBw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/mytestdb.PJFpBw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/mytestdb.PJFpBw/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/mytestdb.PJFpBw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/mytestdb.PJFpBw/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/mytestdb.PJFpBw/schema/pg_temp_1.zkWuFg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/mytestdb.PJFpBw/schema/pg_toast.33HYYw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/mytestdb.PJFpBw/schema/pg_toast_temp_1.5ixBaA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/mytestdb.PJFpBw/schema/probe.sMdfBg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/mytestdb.PJFpBw/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_temp_1.zkWuFg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_toast.33HYYw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_toast_temp_1.5ixBaA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/test.kkQ2AA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/test.kkQ2AA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/test.kkQ2AA/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/test.kkQ2AA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/test.kkQ2AA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/test.kkQ2AA/schema/pg_temp_1.zkWuFg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/test.kkQ2AA/schema/pg_toast.33HYYw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/test.kkQ2AA/schema/pg_toast_temp_1.5ixBaA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d041e64-ae42-4489-8af8-ad823a322510/storage_v2/_src_/database/test.kkQ2AA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orybynok/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orybynok/.idea/orybynok.iml" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/.idea/orybynok.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orybynok/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/registration_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/registration_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/zapis.html" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/zapis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsavenkov/web/python_web_server_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/rsavenkov/web/python_web_server_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +20,7 @@
     <SUITE FILE_PATH="coverage/GitProject$server.coverage" NAME="server Coverage Results" MODIFIED="1548091746689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/afrolov/Socket" />
     <SUITE FILE_PATH="coverage/GitProject$.coverage" NAME="Регистрация Coverage Results" MODIFIED="1547657096753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
     <SUITE FILE_PATH="coverage/GitProject$my_gui.coverage" NAME="my_gui Coverage Results" MODIFIED="1545646182076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$registration_server.coverage" NAME="registration_server Coverage Results" MODIFIED="1550407663472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar" />
+    <SUITE FILE_PATH="coverage/GitProject$registration_server.coverage" NAME="registration_server Coverage Results" MODIFIED="1550409620820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar" />
     <SUITE FILE_PATH="coverage/GitProject$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1548089294638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/socket" />
     <SUITE FILE_PATH="coverage/GitProject$_.coverage" NAME="Регистрация Студентов Coverage Results" MODIFIED="1549054687171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/my_db" />
     <SUITE FILE_PATH="coverage/GitProject$f_r_zap.coverage" NAME="f_r_zap Coverage Results" MODIFIED="1547371802989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
@@ -168,10 +127,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1807">
+            <state relative-caret-position="1909">
               <caret line="532" column="55" lean-forward="true" selection-start-line="532" selection-start-column="55" selection-end-line="532" selection-end-column="55" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/title.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -457,7 +421,7 @@
       <workItem from="1550339984226" duration="5511000" />
       <workItem from="1550349765199" duration="1837000" />
       <workItem from="1550353098466" duration="2785000" />
-      <workItem from="1550383490637" duration="14728000" />
+      <workItem from="1550383490637" duration="15959000" />
     </task>
     <task id="LOCAL-00001" summary="finish">
       <created>1547371420285</created>
@@ -529,11 +493,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549356956821</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="finish">
+      <created>1550408362824</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550408362824</updated>
+    </task>
+    <task id="LOCAL-00012" summary="finish">
+      <created>1550409750441</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550409750441</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112122000" />
+    <option name="totallyTimeSpent" value="113353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,7 +531,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5041551" side_tool="true" weight="0.30063966" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32826087" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.79352224" visible="true" weight="0.39253998" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.61133605" visible="true" weight="0.39253998" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.79676116" weight="0.45648313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -561,7 +539,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49716598" weight="0.3250444" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502834" side_tool="true" weight="0.3250444" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.38866398" side_tool="true" weight="0.39253998" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49919093" weight="0.32826087" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49919093" weight="0.32826087" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
@@ -624,16 +602,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rsavenkov/multithreading/my_multiprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rsavenkov/multithreading/my_thread.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -890,9 +858,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/title.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1807">
+        <state relative-caret-position="1909">
           <caret line="532" column="55" lean-forward="true" selection-start-line="532" selection-start-column="55" selection-end-line="532" selection-end-column="55" />
         </state>
       </provider>
