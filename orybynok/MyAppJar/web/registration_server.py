@@ -5,6 +5,7 @@ import logging
 # импортим в код библиотеку postgresql для работы с базой данных postgresql
 import postgresql
 
+
 '''
 Исходя из названия, обработчик http запросов. Необходим нам при создании http сервера
 Определяет два метода которые будут обрабатывать get и post запросы, в которых мы напишем свою логику обработки запросов
@@ -61,12 +62,23 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
                 output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
-                    # Стрю Ьассаж
-                elif (self.path == '/Massage):
-                with open('Massage.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
-                    lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
-                    output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
-                    self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
+                    # Стр. Massage
+        elif (self.path == '/Massage'):
+            with open('Massage.html', 'r', encoding='UTF-8') as f:  # читаем текстовый файл
+                lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
+                output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
+                self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
+                    # Стрю 5,6
+        #elif (self.path == '/Massage'):
+            #with open('Massage.html', 'r', encoding='UTF-8') as f:  # читаем текстовый файл
+                #lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
+                #output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
+                #self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
+        #elif (self.path == '/Massage'):
+            #with open('Massage.html', 'r', encoding='UTF-8') as f:  # читаем текстовый файл
+                #lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
+                #output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
+                #self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
                     # Титульная Стр.
         else: # случай когда uri запроса отличный от /form, на этот случай обработки не предусмотрено
             with open('base.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
