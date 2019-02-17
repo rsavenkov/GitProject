@@ -44,6 +44,18 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
                 output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
+        elif (self.path == '/str2'):
+            with open('str.2.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
+                lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
+                output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
+                self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
+        elif (self.path == '/str3'):
+            with open('str.3.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
+                lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
+                output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
+                self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
+
+
         else: # случай когда uri запроса отличный от /form, на этот случай обработки не предусмотрено
             with open('base.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
                 lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
