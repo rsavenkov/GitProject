@@ -29,6 +29,7 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
     '''
     def do_GET(self):
         self._set_response()
+                #Запросы:
         if (self.path == '/form'):  # если uri содержит /form
             with open('registraciy.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
                 lines = f.readlines() # читаем файл, результат получаем в виде списка строк
@@ -44,6 +45,7 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
                 output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
+                    # Стр. 2,3,4
         elif (self.path == '/str2'):
             with open('str.2.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
                 lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
@@ -59,6 +61,13 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
                 output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
+                    # Стрю Ьассаж
+                elif (self.path == '/Massage):
+                with open('Massage.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
+                    lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
+                    output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
+                    self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
+                    # Титульная Стр.
         else: # случай когда uri запроса отличный от /form, на этот случай обработки не предусмотрено
             with open('base.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
                 lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
