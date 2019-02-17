@@ -30,7 +30,7 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         self._set_response()
         if (self.path == '/form'): # если uri содержит /form
-            with open('registraciy.html', 'r+', encoding='UTF-8') as f: # читаем текстовый файл
+            with open('form.html', 'r+', encoding='UTF-8') as f: # читаем текстовый файл
                 lines = f.readlines() # читаем файл, результат получаем в виде списка строк
                 output = ''.join(lines) # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8')) # пишем нашу строку в сеть запросившему клиенту

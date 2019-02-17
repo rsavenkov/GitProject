@@ -34,32 +34,41 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 lines = f.readlines() # читаем файл, результат получаем в виде списка строк
                 output = ''.join(lines) # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8')) # пишем нашу строку в сеть запросившему клиенту
-        elif (self.path == '/image.png'):
-            with open('python-happy.jpeg', 'rb') as f:
-                self.wfile.write(f.read())
+        elif (self.path == '/zapis'):
+            with open('zapis.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
+                lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
+                output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
+                self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
+        elif (self.path == '/cont'):
+            with open('Contact.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
+                lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
+                output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
+                self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
         else: # случай когда uri запроса отличный от /form, на этот случай обработки не предусмотрено
-            logging.warning('Url {} doesn\'t prodive handler!'.format(self.path)) # логгируем для собственного спокойствия
-            self.wfile.write('No handler for {}'.format(self.path).encode('utf-8'))  # сообщение пользователю
-
+            with open('base.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
+                lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
+                output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
+                self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
     '''
     Переопределяем от родителя метод который обрабатывает все post запросы к серверу
     '''
     def do_POST(self):
         content_length = int(self.headers['Content-Length']) # определяем размер входящего сообщения
         post_data = self.rfile.read(content_length) # читаем это сообщение
-        student = []
+        registracyi = []
         data = str(post_data).split('&') # обрабатываем данные от запроса
         for d in data:
             logging.info(d.split('=')[1])
-            student.append(d.split('=')[1])
+            registracyi.append(d.split('=')[1])
+            print(registracyi)
         # вот здесь по-хорошему insert в базу надо взять в try-except на тот случай если произойдет ошибка
         # и ответить клиенту что операция на сервере произошла с ошибкой
-        insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO public.student (id, first_name, last_name, middle_name, birth_date, gender, description, rating, teacher_id)
+        insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO public.postgres (id, first_namr, last_name, midle_name, age, v_purpose, tel, mail, passport)
                                                             VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9);''')
-        id = MyHTTPRequestHandler.connection.prepare('select nextval(\'student_id_seq\')')()[0][0] # готовим и сразу выполняем select по sequence который в результате нам вернет новый id
-        insert(id, student[0], student[1], student[2], None, True, student[3], 0, 1)
+        id = MyHTTPRequestHandler.connection.prepare('select nextval(\'postgres_id_seq\')')()[0][0] # готовим и сразу выполняем select по sequence который в результате нам вернет новый id
+        insert(registracyi[0], registracyi[1], registracyi[2], registracyi[3], registracyi[4], registracyi[5], registracyi[6], registracyi[7], registracyi[8], registracyi[9])
         self._set_response() # готовим ответ
-        self.wfile.write("Student {} is added!<br><a href='/form'>Go back to registering form".format(''.join(student)).encode('utf-8')) # отвечаем клиенту что новый студент добавлен и даем ему ссылку на обратный переход на форму добавления
+        self.wfile.write("Registracyi {} is added!<br><a href='/form'>Go back to registracyi.html".format(''.join(registracyi)).encode('utf-8')) # отвечаем клиенту что новый студент добавлен и даем ему ссылку на обратный переход на форму добавления
 
 '''
 Функция которая запускает сервер
@@ -67,12 +76,12 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
 def run():
     db = None
     try:
-        connection_string = 'pq://postgres:123456@127.0.0.1:5432/postgres'
+        connection_string = 'pq://postgres:G24O02d24230303@127.0.0.1:5432/postgres'
         # создаем соединение с базой данной my_db по адресу хост 127.0.0.1, порт 5432, логин postgres, пароль 123456s
         db = postgresql.open(connection_string)
-        exist = db.prepare("SELECT COUNT(*) FROM pg_class WHERE relname = 'student_id_seq'")()[0][0] # проверяем в системных каталогах есть ли наша последовательность для студентов
+        exist = db.prepare("SELECT COUNT(*) FROM pg_class WHERE relname = 'postgres_id_seq'")()[0][0] # проверяем в системных каталогах есть ли наша последовательность для студентов
         if exist == 0: # если нет, то...
-            db.execute("CREATE SEQUENCE student_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 10000000000 START 1 CACHE 1") # создаем ее
+            db.execute("CREATE SEQUENCE postgres_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 10000000000 START 1 CACHE 1") # создаем ее
     except Exception:
         logging.error('Cann\'t connect to database with url {}'.format(connection_string))
         exit(-1)
