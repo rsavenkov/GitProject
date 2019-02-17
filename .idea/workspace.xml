@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0157a880-1105-490e-a985-7c0dd6d6a655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/orybynok/venv/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/my_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/Test5/my_console.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/web/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/web/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/web/str.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/web/str.2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +23,7 @@
     <SUITE FILE_PATH="coverage/GitProject$server.coverage" NAME="server Coverage Results" MODIFIED="1548091746689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/afrolov/Socket" />
     <SUITE FILE_PATH="coverage/GitProject$.coverage" NAME="Регистрация Coverage Results" MODIFIED="1547657096753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
     <SUITE FILE_PATH="coverage/GitProject$my_gui.coverage" NAME="my_gui Coverage Results" MODIFIED="1545646182076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$registration_server.coverage" NAME="registration_server Coverage Results" MODIFIED="1550409620820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar" />
+    <SUITE FILE_PATH="coverage/GitProject$registration_server.coverage" NAME="registration_server Coverage Results" MODIFIED="1550410437953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar" />
     <SUITE FILE_PATH="coverage/GitProject$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1548089294638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/socket" />
     <SUITE FILE_PATH="coverage/GitProject$_.coverage" NAME="Регистрация Студентов Coverage Results" MODIFIED="1549054687171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/my_db" />
     <SUITE FILE_PATH="coverage/GitProject$f_r_zap.coverage" NAME="f_r_zap Coverage Results" MODIFIED="1547371802989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
@@ -44,6 +45,7 @@
     <SUITE FILE_PATH="coverage/GitProject$my_multiprocessing.coverage" NAME="my_multiprocessing Coverage Results" MODIFIED="1548355238246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/multithreading" />
     <SUITE FILE_PATH="coverage/GitProject$my_socet.coverage" NAME="my socet Coverage Results" MODIFIED="1547658642432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
     <SUITE FILE_PATH="coverage/GitProject$example1.coverage" NAME="example1 Coverage Results" MODIFIED="1549901141067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/exel" />
+    <SUITE FILE_PATH="coverage/GitProject$registration_server__1_.coverage" NAME="registration_server (1) Coverage Results" MODIFIED="1550411207481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/web" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -114,11 +116,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+            <state relative-caret-position="155">
+              <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
               <folding>
                 <element signature="e#59#117#0" expanded="true" />
               </folding>
@@ -126,11 +128,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1909">
-              <caret line="532" column="55" lean-forward="true" selection-start-line="532" selection-start-column="55" selection-end-line="532" selection-end-column="55" />
+            <state relative-caret-position="22">
+              <caret line="430" column="35" lean-forward="true" selection-start-line="430" selection-start-column="35" selection-end-line="430" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/zapis.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/Contact.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/str.2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="458" column="26" lean-forward="true" selection-start-line="458" selection-start-column="26" selection-end-line="458" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -141,8 +166,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/Contact.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/registraciy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="68" column="155" selection-start-line="68" selection-start-column="155" selection-end-line="68" selection-end-column="155" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -204,7 +233,9 @@
         <option value="$PROJECT_DIR$/rsavenkov/web/python_web_server_2.py" />
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/registration_server.py" />
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/base.html" />
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py" />
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/web/base.html" />
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/web/str.2.html" />
       </list>
     </option>
   </component>
@@ -225,6 +256,24 @@
             <path>
               <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="GitProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitProject" type="462c0819:PsiDirectoryNode" />
+              <item name="orybynok" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitProject" type="462c0819:PsiDirectoryNode" />
+              <item name="orybynok" type="462c0819:PsiDirectoryNode" />
+              <item name="MyAppJar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitProject" type="462c0819:PsiDirectoryNode" />
+              <item name="orybynok" type="462c0819:PsiDirectoryNode" />
+              <item name="MyAppJar" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,11 +327,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.registration_server">
+  <component name="RunManager" selected="Python.registration_server (1)">
     <configuration name="registraciy.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GitProject/orybynok/MyAppJar/web/registraciy.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="zapis.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GitProject/orybynok/MyAppJar/web/zapis.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="python_web_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -329,6 +375,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="registration_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/orybynok/MyAppJar/web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="registration_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -353,11 +421,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.registration_server (1)" />
         <item itemvalue="Python.registration_server" />
         <item itemvalue="Python.python_web_server_2" />
         <item itemvalue="Python.python_web_server" />
         <item itemvalue="JavaScript Debug.registraciy.html" />
-        <item itemvalue="JavaScript Debug.zapis.html" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +477,7 @@
       <workItem from="1550339984226" duration="5511000" />
       <workItem from="1550349765199" duration="1837000" />
       <workItem from="1550353098466" duration="2785000" />
-      <workItem from="1550383490637" duration="16200000" />
+      <workItem from="1550383490637" duration="17678000" />
     </task>
     <task id="LOCAL-00001" summary="finish">
       <created>1547371420285</created>
@@ -509,11 +577,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550410083569</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="finish">
+      <created>1550410210107</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1550410210107</updated>
+    </task>
+    <task id="LOCAL-00016" summary="finish">
+      <created>1550411399284</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1550411399284</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113594000" />
+    <option name="totallyTimeSpent" value="115072000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,13 +608,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49584487" visible="true" weight="0.19190283" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49584487" visible="true" weight="0.19190283" />
       <window_info id="Structure" order="1" sideWeight="0.5041551" side_tool="true" weight="0.30063966" />
       <window_info id="Favorites" order="2" sideWeight="0.5041551" side_tool="true" weight="0.30063966" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32826087" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61133605" visible="true" weight="0.39253998" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.61133605" visible="true" weight="0.39253998" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.79676116" weight="0.45648313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -603,13 +686,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rsavenkov/multithreading/my_thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/afrolov/Socket/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -754,13 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/zapis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://d4ab6abc-94df-4a23-8784-fa9b2b070d3d/database/postgres/schema/public/table/postgres">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -791,13 +860,6 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/registraciy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="68" column="155" selection-start-line="68" selection-start-column="155" selection-end-line="68" selection-end-column="155" />
         </state>
       </provider>
     </entry>
@@ -846,26 +908,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/Contact.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
-          <folding>
-            <element signature="e#59#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/title.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/zapis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/registraciy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="68" column="155" selection-start-line="68" selection-start-column="155" selection-end-line="68" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/Contact.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="532" column="55" lean-forward="true" selection-start-line="532" selection-start-column="55" selection-end-line="532" selection-end-column="55" />
+        <state relative-caret-position="22">
+          <caret line="430" column="35" lean-forward="true" selection-start-line="430" selection-start-column="35" selection-end-line="430" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/str.2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="458" column="26" lean-forward="true" selection-start-line="458" selection-start-column="26" selection-end-line="458" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+          <folding>
+            <element signature="e#59#117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
