@@ -291,10 +291,10 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.registration_server">
-    <configuration name="registraciy.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GitProject/orybynok/MyAppJar/registraciy.html" useBuiltInWebServerPort="true">
+    <configuration name="registraciy.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GitProject/orybynok/MyAppJar/web/registraciy.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="zapis.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GitProject/orybynok/MyAppJar/zapis.html" useBuiltInWebServerPort="true">
+    <configuration name="zapis.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GitProject/orybynok/MyAppJar/web/zapis.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="python_web_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -354,7 +354,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/orybynok/MyAppJar/registration_server.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Oleg\PycharmProjects\GitProject\orybynok\MyAppJar\web\registration_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
