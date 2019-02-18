@@ -36,7 +36,7 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 lines = f.readlines() # читаем файл, результат получаем в виде списка строк
                 output = ''.join(lines) # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8')) # пишем нашу строку в сеть запросившему клиенту
-        elif (self.path == '/image.png'):
+        elif (self.path == '/python-happy.jpeg'):
             #webbrowser.open(r'python-happy.jpeg')
             with open('python-happy.jpeg', 'rb') as f:
                 self.wfile.write(f.read())
@@ -83,7 +83,7 @@ def run():
         exit(-1)
     # Создаем http сервер который работает по порту 8000 и обрабатывает http запросы с помощью собственного MyHTTPRequestHandler
     try:
-        PORT = 8000
+        PORT = 8009
         server_address = ("", PORT)
         MyHTTPRequestHandler.connection = db
         with HTTPServer(server_address, MyHTTPRequestHandler) as httpd:
