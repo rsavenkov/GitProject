@@ -5,6 +5,7 @@ import logging
 # импортим в код библиотеку postgresql для работы с базой данных postgresql
 import postgresql
 from PIL import Image
+import webbrowser
 
 '''
 Исходя из названия, обработчик http запросов. Необходим нам при создании http сервера
@@ -36,9 +37,11 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 output = ''.join(lines) # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8')) # пишем нашу строку в сеть запросившему клиенту
         elif (self.path == '/image.png'):
-                f = open('python-happy.jpeg', 'rb')
-                img = Image.open(f)
+            #webbrowser.open(r'python-happy.jpeg')
+            with open('python-happy.jpeg', 'rb') as f:
                 self.wfile.write(f.read())
+            #img = Image.open('python-happy.jpeg')
+            #img.show()
         else: # случай когда uri запроса отличный от /form, на этот случай обработки не предусмотрено
             logging.warning('Url {} doesn\'t prodive handler!'.format(self.path)) # логгируем для собственного спокойствия
             self.wfile.write('No handler for {}'.format(self.path).encode('UTF-8'))  # сообщение пользователю

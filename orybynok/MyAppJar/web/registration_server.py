@@ -4,6 +4,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import logging
 # импортим в код библиотеку postgresql для работы с базой данных postgresql
 import postgresql
+from PIL import Image
 
 
 '''
@@ -69,6 +70,12 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
                     # Стрю 5,6
+        elif (self.path == '/srt5'):
+            img = Image.open('srt5.jpg')
+            img.show()
+        elif (self.path == '/str6'):
+            img = Image.open('str6.jpg')
+            img.show()
         #elif (self.path == '/Massage'):
             #with open('Massage.html', 'r', encoding='UTF-8') as f:  # читаем текстовый файл
                 #lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
