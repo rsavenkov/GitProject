@@ -4,7 +4,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import logging
 # импортим в код библиотеку postgresql для работы с базой данных postgresql
 import postgresql
-from PIL import Image
+# from PIL import Image
 import webbrowser
 
 '''
@@ -72,10 +72,10 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
 def run():
     db = None
     try:
-        connection_string = 'pq://postgres:123456@127.0.0.1:5432/postgres'
+        connection_string = 'pq://egor:123@192.168.50.118:5432/mytestdb'
         # создаем соединение с базой данной my_db по адресу хост 127.0.0.1, порт 5432, логин postgres, пароль 123456s
         db = postgresql.open(connection_string)
-        exist = db.prepare("SELECT COUNT(*) FROM pg_class WHERE relname = 'student_id_seq'")()[0][0] # проверяем в системных каталогах есть ли наша последовательность для студентов
+        exist = db.prepare("SELECT COUNT(*) FROM pg_class WHERE relname = 'students'")()[0][0] # проверяем в системных каталогах есть ли наша последовательность для студентов
         if exist == 0: # если нет, то...
             db.execute("CREATE SEQUENCE student_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 10000000000 START 1 CACHE 1") # создаем ее
     except Exception:
