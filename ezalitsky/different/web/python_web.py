@@ -29,22 +29,21 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
     '''
     def do_GET(self):
 
-        global path
         path = self.path
 
-        def Output():
-            lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
-            output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
-            self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
-
         self._set_response()
+
         if (path == '/form_student'): # если uri содержит /form_student
             with open('form_student.html', 'r+', encoding='UTF-8') as f: # читаем текстовый файл
-                Output()
+                lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
+                output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
+                self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
 
         elif (path == '/form_teacher'): # если uri содержит /form_student
             with open('form_teacher.html', 'r+', encoding='UTF-8') as f: # читаем текстовый файл
-                Output()
+                lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
+                output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
+                self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
 
         elif (path == '/python-happy.jpeg'):
             #webbrowser.open(r'python-happy.jpeg')
@@ -65,7 +64,8 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
         student = []
         teacher = []
         data = str(post_data)[0:-1].split('&') # обрабатываем данные от запроса
-        if (path == '/form_student'):
+        self._set_response()
+        if (self.path == 'register_student'):
             for d in data:
                 logging.info(d.split('=')[1])
                 student.append(d.split('=')[1])
@@ -77,7 +77,7 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
             insert(id, student[0], student[1], student[2], None, True, student[3], int(student[4]), 1)
             self._set_response() # готовим ответ
             self.wfile.write("Student {} is added!<br><a href='/form_student'>Go back to registering form".format(''.join(student)).encode('utf-8')) # отвечаем клиенту что новый студент добавлен и даем ему ссылку на обратный переход на форму добавления
-        elif (path == '/form_teacher'):
+        elif (self.path == 'register_teacher'):
             for d in data:
                 logging.info(d.split('=')[1])
                 teacher.append(d.split('=')[1])
@@ -87,8 +87,9 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
             insert(id, teacher[0], teacher[1], None, True, teacher[2])
             self._set_response()  # готовим ответ
             self.wfile.write("Teacher {} is added!<br><a href='/form_teacher'>Go back to registering form".format(''.join(teacher)).encode('utf-8'))  # отвечаем клиенту что новый студент добавлен и даем ему ссылку на обратный переход на форму добавления
-
-'''         
+        else:
+            self.wfile.write("Bad push on server".encode('utf-8'))
+'''          
 Функция которая запускает сервер
 '''
 def run():
