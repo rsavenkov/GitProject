@@ -8,35 +8,142 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
           integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <style>
+        body {
+            padding-top: 5rem;
+        }
 
-    <title>Hello, world!</title>
+        .starter-template {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
-<img src="/python-happy.jpeg"/>
-<form action="/register" method="POST">
-    <div class="form-group">
-        <label for="name">Имя</label>
-        <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Имя" name="name">
-    </div>
-    <div class="form-group">
-        <label for="surname">Фамилия</label>
-        <input type="text" class="form-control" id="surname" aria-describedby="emailHelp" placeholder="Фамилия" name="surname">
-    </div>
-    <div class="form-group">
-        <label for="third_name">Отчество</label>
-        <input type="text" class="form-control" id="third_name" aria-describedby="emailHelp" placeholder="Отчетсво" name="third_name">
-    </div>
-    <div class="form-group">
-        <label for="description">Характеристика студента</label>
-        <textarea class="form-control" aria-label="With textarea" id="description" name="description"></textarea>
-    </div>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Мой сайт</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <div class="form-group">
-        <label for="rating">rating</label>
-        <textarea class="form-control" aria-label="With textarea" id="rating" name="rating"></textarea>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Домой <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/form">Студенты</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="/form" tabindex="-1" aria-disabled="true">Учителя</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Настройки</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">1</a>
+                    <a class="dropdown-item" href="#">2</a>
+                    <a class="dropdown-item" href="#">3</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
     </div>
-    <button type="submit" class="btn btn-primary">Добавить студента</button>
-</form>
+</nav>
+
+<main role="main" class="container">
+    <img src="/python-happy.jpeg" class="img-fluid" alt="Responsive image">
+    <!--<div class="starter-template">-->
+    <form action="/register" method="POST">
+        <div class="row">
+            <div class="col">
+                <label for="name">Имя</label>
+                <input type="text" class="form-control required" id="name" aria-describedby="emailHelp" placeholder="Имя"
+                       name="name">
+            </div>
+            <div class="col">
+                <label for="surname">Фамилия</label>
+                <input type="text" class="form-control" id="surname" aria-describedby="emailHelp"
+                       placeholder="Фамилия"
+                       name="surname">
+            </div>
+            <div class="col">
+                <label for="third_name">Отчество</label>
+                <input type="text" class="form-control" id="third_name" aria-describedby="emailHelp"
+                       placeholder="Отчетсво" name="third_name">
+            </div>
+        </div>
+        <div class="row" style="padding-top: 10px;">
+            <div class="col">
+                <label for="email">Email</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="email" placeholder="Username"
+                           aria-describedby="inputGroupPrepend3" required>
+                </div>
+            </div>
+            <div class="col">
+                <label for="description">Пол</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                           value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Муж</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                           value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Жен</label>
+                </div>
+            </div>
+            <div class="col">
+                <label for="description">Дата рожденья</label>
+                <input id="datepicker" type="text" class="form-control">
+                <!--<div class="input-group date datepicker" data-provide="datepicker">
+                    <input type="text" class="form-control">
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-th"></span>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        <div class="row" style="padding-top: 10px;">
+            <div class="col">
+                <label for="description">Характеристика студента</label>
+                <textarea class="form-control" aria-label="With textarea" id="description"
+                          name="description"></textarea>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 10px;">
+            <div class="col">
+                <label for="rating">Рейтинг</label>
+                <input type="text" class="form-control" id="rating" aria-describedby="emailHelp"
+                       placeholder="Рейтинг"
+                       name="surname">
+            </div>
+            <div class="col">
+                <label for="teacher">Курс</label>
+                <div class="col-auto my-1">
+                    <label class="mr-sm-2 sr-only" for="teacher">Preference</label>
+                    <select class="custom-select mr-sm-2" id="teacher">
+                        <option value="1">Python</option>
+                        <option value="2">Java</option>
+                        <option value="3">Web</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary align-items-end">Добавить студента</button>
+    </form>
+    <!--</div>-->
+</main>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

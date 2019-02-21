@@ -4,8 +4,6 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import logging
 # импортим в код библиотеку postgresql для работы с базой данных postgresql
 import postgresql
-# from PIL import Image
-import webbrowser
 
 '''
 Исходя из названия, обработчик http запросов. Необходим нам при создании http сервера
@@ -83,15 +81,15 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
 def run():
     db = None
     try:
-        connection_string = 'pq://egor:123@192.168.50.118:5432/mytestdb'
+        connection_string = 'pq://postgres:123456@localhost:5432/postgres'
         # создаем соединение с базой данной my_db по адресу хост 127.0.0.1, порт 5432, логин postgres, пароль 123456s
         db = postgresql.open(connection_string)
-        exist = db.prepare("SELECT COUNT(*) FROM pg_class WHERE relname = 'students'")()[0][0]  # проверяем в системных каталогах есть ли наша последовательность для студентов
+        exist = db.prepare("SELECT COUNT(*) FROM pg_class WHERE relname = 'student_id_seq'")()[0][0]  # проверяем в системных каталогах есть ли наша последовательность для студентов
         if exist == 0:  # если нет, то...
             db.execute(
                 "CREATE SEQUENCE student_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 10000000000 START 1 CACHE 1")  # создаем ее
-    except Exception:
-        logging.error('Cann\'t connect to database with url {}'.format(connection_string))
+    except Exception as e:
+        logging.error('Cann\'t connect to database with url {} {}'.format(connection_string, e))
         exit(-1)
     # Создаем http сервер который работает по порту 8000 и обрабатывает http запросы с помощью собственного MyHTTPRequestHandler
     try:
@@ -99,7 +97,7 @@ def run():
         server_address = ("", PORT)
         MyHTTPRequestHandler.connection = db
         with HTTPServer(server_address, MyHTTPRequestHandler) as httpd:
-            logging.debug("serving at port", PORT)
+            logging.info("serving at port", PORT)
             # судя по описанию метода - обрабатывает запрос и ждет следующий пока сервер не будет выключен
             httpd.serve_forever()
     except Exception as e:
