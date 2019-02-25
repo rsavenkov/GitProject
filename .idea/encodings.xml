@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
-    <file url="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/tokenize.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/f_read_zapisi.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/registration3.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/orybynok/venv/123.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rsavenkov/multithreading/my_multiprocessing.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rsavenkov/socket/client.py" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/rsavenkov/socket/multithreaded_server.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rsavenkov/web/my_tornado.py" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>

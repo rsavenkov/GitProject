@@ -9,18 +9,29 @@
     <h1>Ajax + jquery</h1>
     <h2>Время сгенерированное при запросе этой страницы ${date}</h2>
 
-    <h2>Получаем время с помощью ajax <span id="time" style="background-color: rgba(119,128,123,0.27)">___________</span></h2>
+    <h2>Получаем время с помощью ajax <span id="time"
+                                            style="background-color: rgba(119,128,123,0.27)">___________</span></h2>
 
     <button id="my-button" type="button">Ajax</button>
+    <button id="my-button1" type="button">Ajax1</button>
 </div>
 <script>
-     $(document).ready(function () {
-        $('#my-button').click(function(data) {
-            $.get('/my_ajax', function(result) {
+    $(document).ready(function () {
+        $('#my-button').click(function (data) {
+            $.get('/my_ajax', function (result) {
                 document.getElementById("time").textContent = result;
             })
         })
-     });
+        $('#my-button1').click(function (data) {
+            $.get('/my_ajax1', function (result) {
+                // document.getElementById("time").textContent = result;
+                var br = document.createElement("br");
+                var text = document.createTextNode(result);
+                document.body.appendChild(br);
+                document.body.appendChild(text);
+            })
+        })
+    });
 </script>
 </body>
 </html>

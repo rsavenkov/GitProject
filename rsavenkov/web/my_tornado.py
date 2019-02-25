@@ -1,28 +1,27 @@
-# импортим в скрипт код библиотеки tornado
-#https://www.tornadoweb.org/en/stable/
+
 import tornado.ioloop
 import tornado.web
 
 '''
-Пользовательский класс обработчик запросов
+РџРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёР№ РєР»Р°СЃСЃ РѕР±СЂР°Р±РѕС‚С‡РёРє Р·Р°РїСЂРѕСЃРѕРІ
 '''
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
         self.write("Hello, world")
 
 '''
-Создает tornado веб сервер со ссылкой на обработчик запросов
+РЎРѕР·РґР°РµС‚ tornado РІРµР± СЃРµСЂРІРµСЂ СЃРѕ СЃСЃС‹Р»РєРѕР№ РЅР° РѕР±СЂР°Р±РѕС‚С‡РёРє Р·Р°РїСЂРѕСЃРѕРІ
 '''
 def make_app():
-    return tornado.web.Application([
-        (r"/", MainHandler),
-    ])
+    return tornado.web.Application((
+        (r'/', MainHandler),
+    ))
 
-# для самостоятельного запуска скрипта
+# РґР»СЏ СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕРіРѕ Р·Р°РїСѓСЃРєР° СЃРєСЂРёРїС‚Р°
 if __name__ == "__main__":
-    # создаем tornado веб сервер
+    # СЃРѕР·РґР°РµРј tornado РІРµР± СЃРµСЂРІРµСЂ
     app = make_app()
-    # ставим его слушать по порту 8888
+    # СЃС‚Р°РІРёРј РµРіРѕ СЃР»СѓС€Р°С‚СЊ РїРѕ РїРѕСЂС‚Сѓ 8888
     app.listen(8888)
-    # запускаем сервер
+    # Р·Р°РїСѓСЃРєР°РµРј СЃРµСЂРІРµСЂ
     tornado.ioloop.IOLoop.current().start()

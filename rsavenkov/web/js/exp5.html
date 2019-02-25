@@ -6,13 +6,23 @@
 </head>
 <body>
 Прример с jQuery
-<a href="http://jquery.com">Жми</a>
+<a class="my-class" href="http://jquery.com">Жми</a><br>
+<a href="#" class="a123">жму</a>
 <script type="text/javascript">
     $(document).ready(function () {
-        $("a").click(function (event) {
+
+
+        $(".my-class").click(function (event) {
             alert("Мы не перешли по ссылке потому что перехватили click кнопки");
             event.preventDefault();
+        })
+        ;
+        $(".a123").click(function (event) {
+            alert("www");
+            event.preventDefault();
         });
+
+
     });
 </script>
 </body>

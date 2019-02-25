@@ -29,7 +29,7 @@ db = postgresql.open("pq://egor:1236@127.0.0.1:5432/mytestdb")
 
 group_by = db.prepare('''
 select  teacher.first_name, teacher.id, count(students.*)
-  from students join teacher on students.teacher_id = teacher.id
+  from student join teacher on students.teacher_id = teacher.id
 group by teacher.id, teacher.first_name;
  
 ''')

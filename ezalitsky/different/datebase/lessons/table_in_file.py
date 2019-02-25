@@ -1,7 +1,7 @@
 import postgresql
 
 db = postgresql.open('pq://egor:123@127.0.0.1:5432/mytestdb')
-get_emp_with_salary_lt = db.prepare("SELECT * FROM students")
+get_emp_with_salary_lt = db.prepare("SELECT * FROM student")
 
 with db.xact():
     with open(

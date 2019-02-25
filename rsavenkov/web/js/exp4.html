@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
     <title>JavaScript Animation</title>
     <script type="text/javascript">
         var imgObj = null;
@@ -34,7 +35,11 @@
         document.onkeydown = checkKey;
 
         function setStep() {
-            step = parseInt(document.getElementById('step').value);
+            var input = document.getElementById('step').value;
+            if (isNan(input)) {
+                return ;
+            }
+            step = parseInt(input);
         }
 
         function checkKey(e) {

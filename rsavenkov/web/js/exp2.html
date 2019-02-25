@@ -10,6 +10,9 @@
 <a href="" onclick="return alert(factorial(document.getElementById('my-input').value));">Рассчитать факториал</a>
 <script type="application/javascript">
     function factorial(n) {
+        if (    isNaN(n)) {
+            return alert('вы ввели не число');
+        }
         if (n === 0) {
             return 1;
         }

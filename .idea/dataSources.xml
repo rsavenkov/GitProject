@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="postgres@127.0.0.1" uuid="9f290afa-2efb-4267-b481-d834a28f3168">
+    <data-source source="LOCAL" name="postgres@localhost" uuid="9f290afa-2efb-4267-b481-d834a28f3168">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/postgres</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mytestdb@192.168.50.133" uuid="97b0f2fd-4452-44e0-922e-2ff2d2e49ac9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.50.133:5432/mytestdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="paveldb@localhost" uuid="b77de87c-40d4-4736-87c0-de2bdccace62">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/paveldb</jdbc-url>
     </data-source>
   </component>
 </project>

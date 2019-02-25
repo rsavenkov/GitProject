@@ -8,7 +8,7 @@ db = postgresql.open( "pq://paveldb:123@127.0.0.1:5432/paveldb" )
 #
 # make_my_test = db.prepare("INSERT INTO my_test VALUES ($1, $2)")
 # raise_my_test = db.prepare("UPDATE my_test SET my_test_salary = my_test_salary + $2 WHERE my_test_name = $1")
-lis = db.prepare( "SELECT * FROM students " )
+lis = db.prepare( "SELECT * FROM student " )
 
 # with db.xact():
 # make_my_test("John Doe", 150)
