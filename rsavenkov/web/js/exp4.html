@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Animation</title>
+    <script type="text/javascript">
+        var imgObj = null;
+
+        var step = 10;
+
+        function init() {
+            imgObj = document.getElementById('myImage');
+            imgObj.style.position = 'relative';
+            imgObj.style.left = '0px';
+            imgObj.style.top = '0px';
+        }
+
+        function moveUp() {
+            imgObj.style.top = parseInt(imgObj.style.top) - step + 'px';
+        }
+
+        function moveDown() {
+            imgObj.style.top = parseInt(imgObj.style.top) + step + 'px';
+        }
+
+        function moveRight() {
+            imgObj.style.left = parseInt(imgObj.style.left) + step + 'px';
+        }
+
+        function moveLeft() {
+            imgObj.style.left = parseInt(imgObj.style.left) - step + 'px';
+        }
+
+        window.onload = init;
+        document.onkeydown = checkKey;
+
+        function setStep() {
+            step = parseInt(document.getElementById('step').value);
+        }
+
+        function checkKey(e) {
+            e = e || window.event;
+            if (e.keyCode == '38') {
+                moveUp();
+            }
+            else if (e.keyCode == '40') {
+                moveDown();
+            }
+            else if (e.keyCode == '37') {
+                moveLeft();
+            }
+            else if (e.keyCode == '39') {
+                moveRight();
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+<img id="myImage" src="python-logo.png" width="10%"/>
+<p>Управляйте движением картинки</p>
+<p>
+    <input type="button" value="&#8594;" onclick="moveRight();"/>
+    <input type="button" value="&#8593;" onclick="moveUp();"/>
+    <input type="button" value="&#8595;" onclick="moveDown();"/>
+    <input type="button" value="&#8592;" onclick="moveLeft();"/>
+</p>
+Задайте шаг <input id="step">
+<button onclick="setStep();">Применить</button>
+</body>
+</html>

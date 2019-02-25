@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input id="my-input"/>
+<button id="my-button">Угадай число от 1 до 10</button>
+<script>
+    document.getElementById('my-button').onclick = function () {
+        var number = Math.floor(Math.random() * 10) + 1;
+        var my_number = document.getElementById('my-input').value;
+        if (number == my_number) {
+            alert('Поздравляю вы угадали число');
+            return
+        }
+        var br = document.createElement("br");
+        var text = document.createTextNode('Вы ввели число ' + my_number + '. Неверно! Загадано было другое!');
+        document.body.appendChild(br);
+        document.body.appendChild(text);
+    };
+</script>
+
+</body>
+</html>

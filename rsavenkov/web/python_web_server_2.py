@@ -55,18 +55,18 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
     def do_POST(self):
         content_length = int(self.headers['Content-Length'])  # определяем размер входящего сообщения
         post_data = self.rfile.read(content_length)  # читаем это сообщение
-        student = []
+        student = {}
         data = str(post_data)[0:-1].split('&')  # обрабатываем данные от запроса
         for d in data:
-            logging.info(d.split('=')[1])
-            student.append(d.split('=')[1])
+            data = d.split('=')
+            student[data[0]] = data[1]
         # вот здесь по-хорошему insert в базу надо взять в try-except на тот случай если произойдет ошибка
         # и ответить клиенту что операция на сервере произошла с ошибкой
         insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO public.student 
-        (id, first_name, last_name, middle_name,birthday_date, gender, description, rating, teacher_id)
+        (id, first_name, last_name, middle_name, birth_date, gender, description, rating, teacher_id)
           VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9);''')
         id = MyHTTPRequestHandler.connection.prepare('select nextval(\'student_id_seq\')')()[0][0]  # готовим и сразу выполняем select по sequence который в результате нам вернет новый id
-        insert(id, student[0], student[1], student[2], None, True, student[3],int(student[4]), 1)
+        insert(id, student['b\'name'], student['surname'], student['third_name'], None, True, student[3], int(student[4]), int(student['teacher']))
         self._set_response()  # готовим ответ
         self.wfile.write(
             "Student {} is added!<br><a href='/form'>Go back to registering form".format(''.join(student)).encode(

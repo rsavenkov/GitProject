@@ -12,7 +12,6 @@
         body {
             padding-top: 5rem;
         }
-
         .starter-template {
             padding: 3rem 1.5rem;
             text-align: center;
@@ -63,19 +62,18 @@
         <div class="row">
             <div class="col">
                 <label for="name">Имя</label>
-                <input type="text" class="form-control required" id="name" aria-describedby="emailHelp" placeholder="Имя"
-                       name="name">
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Имя" name="name" required>
             </div>
             <div class="col">
                 <label for="surname">Фамилия</label>
                 <input type="text" class="form-control" id="surname" aria-describedby="emailHelp"
                        placeholder="Фамилия"
-                       name="surname">
+                       name="surname" required>
             </div>
             <div class="col">
                 <label for="third_name">Отчество</label>
                 <input type="text" class="form-control" id="third_name" aria-describedby="emailHelp"
-                       placeholder="Отчетсво" name="third_name">
+                       placeholder="Отчетсво" name="third_name" required>
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -85,32 +83,31 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroupPrepend3">@</span>
                     </div>
-                    <input type="text" class="form-control" id="email" placeholder="Username"
+                    <input type="text" class="form-control" id="email" placeholder="Email" name="email"
                            aria-describedby="inputGroupPrepend3" required>
                 </div>
             </div>
             <div class="col">
                 <label for="description">Пол</label><br>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                           value="option1">
+                    <input class="form-check-input" type="radio" name="male" id="inlineRadio1"
+                           value="male">
                     <label class="form-check-label" for="inlineRadio1">Муж</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                           value="option2">
+                    <input class="form-check-input" type="radio" name="female" id="inlineRadio2"
+                           value="female">
                     <label class="form-check-label" for="inlineRadio2">Жен</label>
                 </div>
             </div>
             <div class="col">
                 <label for="description">Дата рождения</label>
-                <input id="datepicker" type="text" class="form-control">
-                <!--<div class="input-group date datepicker" data-provide="datepicker">
-                    <input type="text" class="form-control">
+                <div class="input-group date datepicker" data-provide="datepicker">
+                    <input type="text" class="form-control" readonly>
                     <div class="input-group-addon">
                         <span class="glyphicon glyphicon-th"></span>
                     </div>
-                </div>-->
+                </div>
             </div>
         </div>
         <div class="row" style="padding-top: 10px;">
@@ -125,13 +122,13 @@
                 <label for="rating">Рейтинг</label>
                 <input type="text" class="form-control" id="rating" aria-describedby="emailHelp"
                        placeholder="Рейтинг"
-                       name="surname">
+                       name="rating">
             </div>
             <div class="col">
                 <label for="teacher">Курс</label>
                 <div class="col-auto my-1">
                     <label class="mr-sm-2 sr-only" for="teacher">Preference</label>
-                    <select class="custom-select mr-sm-2" id="teacher">
+                    <select class="custom-select mr-sm-2" id="teacher" name="teacher">
                         <option value="1">Python</option>
                         <option value="2">Java</option>
                         <option value="3">Web</option>
