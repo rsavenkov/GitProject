@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
+          integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <style>
+
+        body {
+            padding-top: 5rem;
+        }
+        .starter-template {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Мой сайт</a>
+<!-- Добавляет верхнюю полоску -->
+
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+<!-- Непонятно что делает  -->
+
+
+     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Домой <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/form">Студенты</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="/form" tabindex="-1" aria-disabled="true">Учителя</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Настройки</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">A</a>
+                    <a class="dropdown-item" href="#">B</a>
+                    <a class="dropdown-item" href="#">C</a>
+                </div>
+            </li>
+        </ul>
+         <!-- Добавляет кнопки наверху, но пока они не активны  -->
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+         <!-- Добавляет строку поиска  -->
+
+     </div>
+</nav>
+
+<main role="main" class="container">
+    <img src="python-sad.jpg" class="img-fluid" alt="Responsive image">
+    <!--<div class="starter-template">-->
+    <form action="/register" method="POST">
+        <div class="row">
+            <div class="col">
+                <label for="name">Имя</label>
+                <!-- Добавляет надпись сверху ячейки  -->
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Массимо" name="name" required>
+                <!-- Добавляет надпись внутри ячейки  -->
+            </div>
+            <div class="col">
+                <label for="surname">Фамилия</label>
+                <input type="text" class="form-control" id="surname" aria-describedby="emailHelp"
+                       placeholder="Атутов"
+                       name="surname" required>
+            </div>
+            <div class="col">
+                <label for="third_name">Отчество</label>
+                <input type="text" class="form-control" id="third_name" aria-describedby="emailHelp"
+                       placeholder="Аватович" name="third_name" required>
+            </div>
+        </div>
+        <!-- Добавялет ячейки для ввода данных   -->
+
+               <div class="row" style="padding-top: 10px;">
+            <div class="col">
+                <label for="email">Email</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="email" placeholder="Почта" name="email"
+                           aria-describedby="inputGroupPrepend3" required>
+                </div>
+                 <!-- Добавялет строку с мылом   -->
+
+                <div class="col">
+                <label for="description">Пол</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="male" id="inlineRadio1"
+                           value="male">
+                    <label class="form-check-label" for="inlineRadio1">Муж</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="female" id="inlineRadio2"
+                           value="female">
+                    <label class="form-check-label" for="inlineRadio2">Жен</label>
+                </div>
+            </div>
+                <!-- Добавялет выбор пола   -->
+
+                <div class="col">
+                <label for="description">Дата рождения</label>
+                <div class="input-group date datepicker" data-provide="datepicker">
+                    <input type="text" class="form-control" readonly>
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-th"></span>
+                    </div>
+                </div>
+            </div>
+           <!-- Добавялет дату рождения   -->
+
+                <div class="row" style="padding-top: 10px;">
+            <div class="col">
+                <label for="description">Характеристика студента</label>
+                <textarea class="form-control" aria-label="With textarea" id="description"
+                          name="description"></textarea>
+            </div>
+                      <!-- Добавялет строку с характеристикой   -->
+        </div>
+        <div class="row" style="padding-top: 10px;">
+            <div class="col">
+                <label for="rating">Рейтинг</label>
+                <input type="text" class="form-control" id="rating" aria-describedby="emailHelp"
+                       placeholder="Рейтинг"
+                       name="rating">
+            </div>
+             <!-- Добавялет строку с рейтингом   -->
+
+             <div class="col">
+                <label for="teacher">Курс</label>
+                <div class="col-auto my-1">
+                    <label class="mr-sm-2 sr-only" for="teacher">Preference</label>
+                    <select class="custom-select mr-sm-2" id="teacher" name="teacher">
+                        <option value="1">Python</option>
+                        <option value="2">Java</option>
+                        <option value="3">Web</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary align-items-end">Добавить студента</button>
+    </form>
+    <!--</div>-->
+</main>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"
+        integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+</body>
+
