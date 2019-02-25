@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div id="demo">
+    <h1>Ajax + pure html</h1>
+    <h2>Время сгенерированное при запросе этой страницы ${date}</h2>
+    <h2>Получаем время с помощью ajax <span id="time" style="background-color: rgba(119,128,123,0.27)">___________</span></h2>
+    <button type="button" onclick="loadDoc('/my_ajax', myFunction)">Ajax</button>
+</div>
+<script>
+    function loadDoc(url, cFunction) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                cFunction(this);
+            }
+        };
+        xhttp.open("GET", url, true);
+        xhttp.send();
+    }
+
+    function myFunction(xhttp) {
+        document.getElementById("time").textContent = xhttp.responseText;
+    }
+</script>
+</body>
+</html>

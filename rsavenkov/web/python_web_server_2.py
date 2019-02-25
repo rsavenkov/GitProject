@@ -4,6 +4,8 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import logging
 # импортим в код библиотеку postgresql для работы с базой данных postgresql
 import postgresql
+# импортируем библиотеку для работы с временем
+from datetime import datetime
 
 '''
 Исходя из названия, обработчик http запросов. Необходим нам при создании http сервера
@@ -43,6 +45,19 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 self.wfile.write(f.read())
             # img = Image.open('python-happy.jpeg')
             # img.show()
+        elif (self.path == '/js/exp6'):
+            with open('js/exp6.html', 'r+', encoding='utf-8') as f:
+                lines = f.readlines()
+                output = ''.join(lines).replace('${date}', str(datetime.now()))
+                self.wfile.write(output.encode('utf-8'))
+        elif (self.path == '/js/exp7'):
+            with open('js/exp7.html', 'r+', encoding='utf-8') as f:
+                lines = f.readlines()
+                output = ''.join(lines).replace('${date}', str(datetime.now()))
+                self.wfile.write(output.encode('utf-8'))
+        elif (self.path == '/my_ajax'):
+            self.send_header('Content-type', 'application/json')
+            self.wfile.write(str(datetime.now()).encode('UTF-8'))
         else:  # случай когда uri запроса отличный от /form, на этот случай обработки не предусмотрено
             logging.warning(
                 'Url {} doesn\'t prodive handler!'.format(self.path))  # логгируем для собственного спокойствия

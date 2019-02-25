@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="demo">
+    <h1>Ajax + jquery</h1>
+    <h2>Время сгенерированное при запросе этой страницы ${date}</h2>
+
+    <h2>Получаем время с помощью ajax <span id="time" style="background-color: rgba(119,128,123,0.27)">___________</span></h2>
+
+    <button id="my-button" type="button">Ajax</button>
+</div>
+<script>
+     $(document).ready(function () {
+        $('#my-button').click(function(data) {
+            $.get('/my_ajax', function(result) {
+                document.getElementById("time").textContent = result;
+            })
+        })
+     });
+</script>
+</body>
+</html>
