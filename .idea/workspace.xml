@@ -1,50 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/rsavenkov/web/python_web_server_2.py" line="42" mnemonic="3" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="0157a880-1105-490e-a985-7c0dd6d6a655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/img" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/img/SNO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/img/ppp.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/img/sn.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/img/summer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/img/tr1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/img/tr2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/img/winter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/img/вещи1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/site.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/site2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/style" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/style/css1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pvinogradov/HTML/www.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orybynok/MyAppJar/web/foto3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/GitProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GitProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f290afa-2efb-4267-b481-d834a28f3168.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f290afa-2efb-4267-b481-d834a28f3168.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f290afa-2efb-4267-b481-d834a28f3168/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f290afa-2efb-4267-b481-d834a28f3168/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ezalitsky/different/datebase/homework/homework2_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/ezalitsky/different/datebase/homework/homework2_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ezalitsky/different/datebase/lessons/table_in_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/ezalitsky/different/datebase/lessons/table_in_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ezalitsky/different/web/form_student.html" beforeDir="false" afterPath="$PROJECT_DIR$/ezalitsky/different/web/form_student.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ezalitsky/different/web/form_teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/ezalitsky/different/web/form_teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mshirinskiy/Select_teachers.py" beforeDir="false" afterPath="$PROJECT_DIR$/mshirinskiy/Select_teachers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pvinogradov/database/db1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pvinogradov/database/db1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pvinogradov/socket programming/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pvinogradov/socket programming/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsavenkov/db/example2.py" beforeDir="false" afterPath="$PROJECT_DIR$/rsavenkov/db/example2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsavenkov/web/js/exp2.html" beforeDir="false" afterPath="$PROJECT_DIR$/rsavenkov/web/js/exp2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsavenkov/web/js/exp4.html" beforeDir="false" afterPath="$PROJECT_DIR$/rsavenkov/web/js/exp4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsavenkov/web/js/exp5.html" beforeDir="false" afterPath="$PROJECT_DIR$/rsavenkov/web/js/exp5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsavenkov/web/js/exp7.html" beforeDir="false" afterPath="$PROJECT_DIR$/rsavenkov/web/js/exp7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsavenkov/web/my_tornado.py" beforeDir="false" afterPath="$PROJECT_DIR$/rsavenkov/web/my_tornado.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsavenkov/web/python_web_server_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/rsavenkov/web/python_web_server_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orybynok/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/web/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/web/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/web/str.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/web/str.2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/web/str.3.html" beforeDir="false" afterPath="$PROJECT_DIR$/orybynok/MyAppJar/web/str.3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orybynok/MyAppJar/web/str.4.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,42 +21,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GitProject$lesson_task.coverage" NAME="lesson_task Coverage Results" MODIFIED="1549900727380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/db" />
+    <SUITE FILE_PATH="coverage/GitProject$dump.coverage" NAME="dump Coverage Results" MODIFIED="1547490629009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/serializing" />
+    <SUITE FILE_PATH="coverage/GitProject$dump2.coverage" NAME="dump2 Coverage Results" MODIFIED="1547529088935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/serializing" />
+    <SUITE FILE_PATH="coverage/GitProject$my_thread.coverage" NAME="my_thread Coverage Results" MODIFIED="1548355257354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/multithreading" />
+    <SUITE FILE_PATH="coverage/GitProject$cherrypy_web.coverage" NAME="cherrypy_web Coverage Results" MODIFIED="1549901567454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/afrolov/Web" />
+    <SUITE FILE_PATH="coverage/GitProject$5.coverage" NAME="Регистрация5 Coverage Results" MODIFIED="1549052599186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$server.coverage" NAME="server Coverage Results" MODIFIED="1548091746689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/afrolov/Socket" />
+    <SUITE FILE_PATH="coverage/GitProject$.coverage" NAME="Регистрация Coverage Results" MODIFIED="1547657096753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$my_gui.coverage" NAME="my_gui Coverage Results" MODIFIED="1545646182076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$registration_server.coverage" NAME="registration_server Coverage Results" MODIFIED="1550410437953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar" />
+    <SUITE FILE_PATH="coverage/GitProject$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1548089294638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/socket" />
+    <SUITE FILE_PATH="coverage/GitProject$_.coverage" NAME="Регистрация Студентов Coverage Results" MODIFIED="1549054687171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/my_db" />
+    <SUITE FILE_PATH="coverage/GitProject$f_r_zap.coverage" NAME="f_r_zap Coverage Results" MODIFIED="1547371802989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$client.coverage" NAME="client Coverage Results" MODIFIED="1547715592864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
+    <SUITE FILE_PATH="coverage/GitProject$python_web_server_2.coverage" NAME="python_web_server_2 Coverage Results" MODIFIED="1552072187285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/web" />
+    <SUITE FILE_PATH="coverage/GitProject$f_read_registr.coverage" NAME="f_read_registr Coverage Results" MODIFIED="1547721352916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$my_gui2.coverage" NAME="my_gui2 Coverage Results" MODIFIED="1545646149301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$f_read_zapisi.coverage" NAME="f_read_zapisi Coverage Results" MODIFIED="1547720012345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
     <SUITE FILE_PATH="coverage/GitProject$example2.coverage" NAME="example2 Coverage Results" MODIFIED="1548411924775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/db" />
     <SUITE FILE_PATH="coverage/GitProject$my_threading.coverage" NAME="my_threading Coverage Results" MODIFIED="1547485851795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/multithreading" />
-    <SUITE FILE_PATH="coverage/GitProject$my_tornado.coverage" NAME="my_tornado Coverage Results" MODIFIED="1551110330149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/web" />
-    <SUITE FILE_PATH="coverage/GitProject$lesson_task.coverage" NAME="lesson_task Coverage Results" MODIFIED="1549900727380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/db" />
+    <SUITE FILE_PATH="coverage/GitProject$raise.coverage" NAME="raise Coverage Results" MODIFIED="1549900865851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/exception handling" />
     <SUITE FILE_PATH="coverage/GitProject$multiple_exceptions.coverage" NAME="multiple exceptions Coverage Results" MODIFIED="1549900688911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/exception handling" />
     <SUITE FILE_PATH="coverage/GitProject$catch_all_exceptions.coverage" NAME="catch all exceptions Coverage Results" MODIFIED="1549900602208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/exception handling" />
-    <SUITE FILE_PATH="coverage/GitProject$f_read_zapisi.coverage" NAME="f_read_zapisi Coverage Results" MODIFIED="1547720012345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$my_sockrt_ser.coverage" NAME="my_sockrt_ser Coverage Results" MODIFIED="1547717237706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
-    <SUITE FILE_PATH="coverage/GitProject$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1548089294638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/socket" />
-    <SUITE FILE_PATH="coverage/GitProject$python_web_server_2.coverage" NAME="python_web_server_2 Coverage Results" MODIFIED="1551120922537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/web" />
-    <SUITE FILE_PATH="coverage/GitProject$123.coverage" NAME="123 Coverage Results" MODIFIED="1550506825531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/venv" />
-    <SUITE FILE_PATH="coverage/GitProject$python_web.coverage" NAME="python_web Coverage Results" MODIFIED="1550681648810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ezalitsky/different/web" />
-    <SUITE FILE_PATH="coverage/GitProject$my_gui.coverage" NAME="my_gui Coverage Results" MODIFIED="1545646182076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$f_r_zap.coverage" NAME="f_r_zap Coverage Results" MODIFIED="1547371802989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$raise.coverage" NAME="raise Coverage Results" MODIFIED="1549900865851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/exception handling" />
-    <SUITE FILE_PATH="coverage/GitProject$server.coverage" NAME="server Coverage Results" MODIFIED="1548091746689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/afrolov/Socket" />
-    <SUITE FILE_PATH="coverage/GitProject$f_read_registr.coverage" NAME="f_read_registr Coverage Results" MODIFIED="1547721352916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$my_socet.coverage" NAME="my socet Coverage Results" MODIFIED="1547658642432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
-    <SUITE FILE_PATH="coverage/GitProject$registration_server__1_.coverage" NAME="registration_server (1) Coverage Results" MODIFIED="1550482849586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/web" />
-    <SUITE FILE_PATH="coverage/GitProject$dump.coverage" NAME="dump Coverage Results" MODIFIED="1547490629009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/serializing" />
-    <SUITE FILE_PATH="coverage/GitProject$python_web_server.coverage" NAME="python_web_server Coverage Results" MODIFIED="1550356311637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/web" />
-    <SUITE FILE_PATH="coverage/GitProject$5.coverage" NAME="Регистрация5 Coverage Results" MODIFIED="1549052599186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$.coverage" NAME="Регистрация Coverage Results" MODIFIED="1547657096753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$my_thread.coverage" NAME="my_thread Coverage Results" MODIFIED="1548355257354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/multithreading" />
-    <SUITE FILE_PATH="coverage/GitProject$dump2.coverage" NAME="dump2 Coverage Results" MODIFIED="1547529088935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/serializing" />
-    <SUITE FILE_PATH="coverage/GitProject$cherrypy_web.coverage" NAME="cherrypy_web Coverage Results" MODIFIED="1549901567454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/afrolov/Web" />
-    <SUITE FILE_PATH="coverage/GitProject$try_finally.coverage" NAME="try-finally Coverage Results" MODIFIED="1549900583724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/exception handling" />
-    <SUITE FILE_PATH="coverage/GitProject$example1.coverage" NAME="example1 Coverage Results" MODIFIED="1549901141067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/exel" />
-    <SUITE FILE_PATH="coverage/GitProject$my_gui2.coverage" NAME="my_gui2 Coverage Results" MODIFIED="1545646149301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/Test5" />
-    <SUITE FILE_PATH="coverage/GitProject$_.coverage" NAME="Регистрация Студентов Coverage Results" MODIFIED="1549054687171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/my_db" />
-    <SUITE FILE_PATH="coverage/GitProject$client.coverage" NAME="client Coverage Results" MODIFIED="1547715592864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
     <SUITE FILE_PATH="coverage/GitProject$custom_exception.coverage" NAME="custom exception Coverage Results" MODIFIED="1549900803929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/exception handling" />
-    <SUITE FILE_PATH="coverage/GitProject$1.coverage" NAME="1 Coverage Results" MODIFIED="1550676426588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pvinogradov/socket programming" />
-    <SUITE FILE_PATH="coverage/GitProject$my_multiprocessing.coverage" NAME="my_multiprocessing Coverage Results" MODIFIED="1548355238246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/multithreading" />
-    <SUITE FILE_PATH="coverage/GitProject$registration_server.coverage" NAME="registration_server Coverage Results" MODIFIED="1550410437953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar" />
+    <SUITE FILE_PATH="coverage/GitProject$python_web_server.coverage" NAME="python_web_server Coverage Results" MODIFIED="1550356311637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/web" />
+    <SUITE FILE_PATH="coverage/GitProject$python_web.coverage" NAME="python_web Coverage Results" MODIFIED="1552079781893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ezalitsky/different/web" />
     <SUITE FILE_PATH="coverage/GitProject$file_read.coverage" NAME="file_read Coverage Results" MODIFIED="1547372384184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/Test5" />
+    <SUITE FILE_PATH="coverage/GitProject$my_sockrt_ser.coverage" NAME="my_sockrt_ser Coverage Results" MODIFIED="1547717237706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
+    <SUITE FILE_PATH="coverage/GitProject$try_finally.coverage" NAME="try-finally Coverage Results" MODIFIED="1549900583724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/exception handling" />
+    <SUITE FILE_PATH="coverage/GitProject$123.coverage" NAME="123 Coverage Results" MODIFIED="1550506825531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/venv" />
+    <SUITE FILE_PATH="coverage/GitProject$my_multiprocessing.coverage" NAME="my_multiprocessing Coverage Results" MODIFIED="1548355238246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/multithreading" />
+    <SUITE FILE_PATH="coverage/GitProject$my_socet.coverage" NAME="my socet Coverage Results" MODIFIED="1547658642432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok" />
+    <SUITE FILE_PATH="coverage/GitProject$example1.coverage" NAME="example1 Coverage Results" MODIFIED="1549901141067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rsavenkov/exel" />
+    <SUITE FILE_PATH="coverage/GitProject$registration_server__1_.coverage" NAME="registration_server (1) Coverage Results" MODIFIED="1552086281336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/orybynok/MyAppJar/web" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -104,81 +70,52 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mytestdb@192.168.50.133" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres@127.0.0.1" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mytestdb@192.168.50.133" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres@127.0.0.1" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mytestdb@192.168.50.133" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres@127.0.0.1" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mytestdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mytestdb@192.168.50.133" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres@127.0.0.1" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mytestdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mytestdb@192.168.50.133" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres@127.0.0.1" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mytestdb: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mytestdb@192.168.50.133" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mytestdb: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="paveldb@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="paveldb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="paveldb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="paveldb: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="paveldb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="paveldb: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="paveldb@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="paveldb: database" type="162271b6:PgImplModel$Database" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="paveldb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres@127.0.0.1" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="paveldb: database" type="162271b6:PgImplModel$Database" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
     </expand>
     <select />
@@ -187,105 +124,13 @@
     <favorites_list name="GitProject" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5979866">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp7.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/rsavenkov/web/python_web_server_2.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="54" selection-start-line="54" selection-end-line="54" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://C:/soft/Python/Lib/http/server.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="413" selection-start-line="413" selection-end-line="413" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/rsavenkov/web/form.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp3.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="21" selection-end-column="40" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp4.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="936">
-                  <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp5.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp6.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="10" column="42" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Setup Script" />
         <option value="Python Script" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -293,7 +138,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>\</find>
-      <find>step</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -301,11 +145,23 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/f_r_zap.py" />
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/file_read.py" />
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Запись.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py" />
+        <option value="$PROJECT_DIR$/orybynok/my_threading1.py" />
+        <option value="$PROJECT_DIR$/rsavenkov/multithreading/my_threading.py" />
+        <option value="$PROJECT_DIR$/rsavenkov/serializing/dump.py" />
+        <option value="$PROJECT_DIR$/rsavenkov/serializing/dump2.py" />
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/Регистрация.py" />
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/f_read_zapisi.py" />
+        <option value="$PROJECT_DIR$/orybynok/my socet.py" />
+        <option value="$PROJECT_DIR$/orybynok/client.py" />
         <option value="$PROJECT_DIR$/orybynok/my_sockrt_ser.py" />
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/Test5/f_read_registr.py" />
         <option value="$PROJECT_DIR$/rsavenkov/socket/client.py" />
@@ -327,44 +183,23 @@
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/registration_server.py" />
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/base.html" />
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/web/str.2.html" />
-        <option value="$PROJECT_DIR$/orybynok/MyAppJar/web/str.3.html" />
         <option value="$PROJECT_DIR$/orybynok/MyAppJar/web/str.4.html" />
-        <option value="$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py" />
-        <option value="$PROJECT_DIR$/orybynok/MyAppJar/web/base.html" />
+        <option value="$PROJECT_DIR$/rsavenkov/web/form.html" />
+        <option value="$PROJECT_DIR$/rsavenkov/web/python_web_server_2.py" />
         <option value="$PROJECT_DIR$/orybynok/venv/123.py" />
         <option value="$PROJECT_DIR$/orybynok/venv/form.html" />
-        <option value="97b0f2fd-4452-44e0-922e-2ff2d2e49ac9/database/mytestdb/schema/public/sequence/student_id_seq" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/97b0f2fd-4452-44e0-922e-2ff2d2e49ac9/console.sql" />
-        <option value="$PROJECT_DIR$/pvinogradov/socket programming/1.py" />
-        <option value="$PROJECT_DIR$/ezalitsky/different/web/form_teacher.html" />
-        <option value="$PROJECT_DIR$/ezalitsky/different/web/form_student.html" />
-        <option value="$PROJECT_DIR$/ezalitsky/different/web/python_web.py" />
-        <option value="$PROJECT_DIR$/pvinogradov/socket programming/html.html" />
-        <option value="$PROJECT_DIR$/pvinogradov/socket programming/css1.css" />
-        <option value="$PROJECT_DIR$/pvinogradov/HTML/css1.css" />
-        <option value="$PROJECT_DIR$/pvinogradov/HTML/html.html" />
-        <option value="$PROJECT_DIR$/pvinogradov/HTML/js.js" />
-        <option value="$PROJECT_DIR$/pvinogradov/HTML/123.html" />
-        <option value="$PROJECT_DIR$/pvinogradov/HTML/site2.html" />
-        <option value="$PROJECT_DIR$/pvinogradov/HTML/www.html" />
-        <option value="$PROJECT_DIR$/pvinogradov/HTML/style/css1.css" />
-        <option value="$PROJECT_DIR$/pvinogradov/HTML/site.html" />
-        <option value="$PROJECT_DIR$/rsavenkov/web/my_tornado.py" />
-        <option value="$PROJECT_DIR$/rsavenkov/web/form.html" />
-        <option value="$PROJECT_DIR$/rsavenkov/web/js/exp2.html" />
-        <option value="$PROJECT_DIR$/rsavenkov/web/js/exp4.html" />
-        <option value="$PROJECT_DIR$/rsavenkov/web/js/exp5.html" />
-        <option value="$PROJECT_DIR$/rsavenkov/web/js/exp7.html" />
-        <option value="$PROJECT_DIR$/rsavenkov/web/python_web_server_2.py" />
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/web/str4.html" />
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/web/str.3.html" />
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py" />
+        <option value="$PROJECT_DIR$/orybynok/MyAppJar/web/base.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="740" />
-    <option name="y" value="270" />
-    <option name="width" value="1095" />
-    <option name="height" value="650" />
+    <option name="x" value="735" />
+    <option name="y" value="266" />
+    <option name="width" value="1099" />
+    <option name="height" value="662" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -372,8 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -384,46 +217,36 @@
             <path>
               <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="GitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="pvinogradov" type="462c0819:PsiDirectoryNode" />
+              <item name="orybynok" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="GitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="pvinogradov" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="orybynok" type="462c0819:PsiDirectoryNode" />
+              <item name="MyAppJar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="GitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rsavenkov" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rsavenkov" type="462c0819:PsiDirectoryNode" />
+              <item name="orybynok" type="462c0819:PsiDirectoryNode" />
+              <item name="MyAppJar" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GitProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitProject" type="462c0819:PsiDirectoryNode" />
-              <item name="rsavenkov" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test2/MyAppJar" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="sql.rename.search.for.storage.occurrences" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -436,18 +259,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\vinog\Projects\GitProject\pvinogradov\HTML\img" />
-      <recent name="C:\Users\vinog\Projects\GitProject\pvinogradov\socket programming" />
       <recent name="C:\Users\Oleg\PycharmProjects\GitProject\orybynok\venv" />
       <recent name="C:\Users\Oleg\PycharmProjects\GitProject\orybynok\venv\Scripts" />
       <recent name="C:\Users\Oleg\Desktop\Галин сайт\Сайт\index" />
+      <recent name="C:\Users\Oleg\PycharmProjects\GitProject\orybynok\MyAppJar" />
+      <recent name="C:\Users\Oleg\PycharmProjects\GitProject\rsavenkov\web\dir\" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\vinog\Projects\GitProject\pvinogradov\HTML\style" />
-      <recent name="C:\Users\vinog\Projects\GitProject\pvinogradov\HTML" />
       <recent name="C:\Users\Oleg\PycharmProjects\GitProject\orybynok\MyAppJar\Test5" />
       <recent name="C:\Users\Oleg\PycharmProjects\GitProject\orybynok\venv" />
       <recent name="C:\Users\Oleg\PycharmProjects\GitProject\orybynok\MyAppJar\web" />
+      <recent name="C:\Users\Oleg\PycharmProjects\GitProject\Прочее" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -462,17 +284,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.python_web_server_2">
-    <configuration name="exp2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GitProject/rsavenkov/web/js/exp2.html">
+  <component name="RunManager" selected="Python.registration_server (1)">
+    <configuration name="base.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GitProject/orybynok/MyAppJar/web/base.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="exp3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GitProject/rsavenkov/web/js/exp3.html">
+    <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/orybynok/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/orybynok/venv/123.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exp4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GitProject/rsavenkov/web/js/exp4.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="exp5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GitProject/rsavenkov/web/js/exp5.html">
+    <configuration name="python_web" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ezalitsky/different/web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ezalitsky/different/web/python_web.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="python_web_server_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -482,9 +339,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Oleg\AppData\Local\Programs\Python\Python37-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rsavenkov/web" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -497,37 +354,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="registration_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/orybynok/MyAppJar/web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.registration_server (1)" />
+        <item itemvalue="JavaScript Debug.base.html" />
+        <item itemvalue="Python.python_web" />
         <item itemvalue="Python.python_web_server_2" />
-        <item itemvalue="JavaScript Debug.exp5.html" />
-        <item itemvalue="JavaScript Debug.exp4.html" />
-        <item itemvalue="JavaScript Debug.exp3.html" />
-        <item itemvalue="JavaScript Debug.exp2.html" />
+        <item itemvalue="Python.123" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\vinog\AppData\Roaming\Subversion</configuration>
+    <configuration useDefault="false">C:\Users\Oleg\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
-  </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\vinog\Projects\GitProject" />
-          <option name="myCopyRoot" value="C:\Users\vinog\Projects\GitProject" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="C:\Users\vinog\Projects\GitProject" />
-          <option name="myCopyRoot" value="C:\Users\vinog\Projects\GitProject" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -577,15 +438,14 @@
       <workItem from="1550383490637" duration="23406000" />
       <workItem from="1550425025778" duration="11695000" />
       <workItem from="1550505308938" duration="1465000" />
-      <workItem from="1550510149526" duration="6758000" />
-      <workItem from="1550548794990" duration="2102000" />
-      <workItem from="1550576639147" duration="387000" />
-      <workItem from="1550675526498" duration="12331000" />
-      <workItem from="1550766125141" duration="48000" />
-      <workItem from="1550839296572" duration="15627000" />
-      <workItem from="1550887983449" duration="12677000" />
-      <workItem from="1550975915388" duration="1177000" />
-      <workItem from="1551109694649" duration="11213000" />
+      <workItem from="1551775789094" duration="797000" />
+      <workItem from="1551776591159" duration="627000" />
+      <workItem from="1552046396797" duration="288000" />
+      <workItem from="1552046704497" duration="758000" />
+      <workItem from="1552071716994" duration="1110000" />
+      <workItem from="1552074611723" duration="3958000" />
+      <workItem from="1552081007546" duration="5394000" />
+      <workItem from="1552117597060" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="finish">
       <created>1547371420285</created>
@@ -755,32 +615,11 @@
       <option name="project" value="LOCAL" />
       <updated>1550482807298</updated>
     </task>
-    <task id="LOCAL-00025" summary="server_new">
-      <created>1550510743980</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1550510743980</updated>
-    </task>
-    <task id="LOCAL-00026" summary="server_new_iixa">
-      <created>1550516415163</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1550516415163</updated>
-    </task>
-    <task id="LOCAL-00027" summary="server_new_iixa">
-      <created>1550898354466</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1550898354466</updated>
-    </task>
-    <option name="localTasksCounter" value="28" />
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196280000" />
+    <option name="totallyTimeSpent" value="162364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,142 +631,82 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.5058275" side_tool="true" weight="0.17919463" />
-      <window_info id="Favorites" order="1" sideWeight="0.5041551" side_tool="true" weight="0.30063966" />
-      <window_info id="DB Browser" order="2" weight="0.3295302" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49417248" weight="0.17919463" />
-      <window_info anchor="bottom" id="DB Execution Console" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32796487" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.60683763" weight="0.3455344" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.7958215" visible="true" weight="0.37188873" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4986577" weight="0.32796487" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.32796487" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4986577" weight="0.4919473" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49919093" weight="0.32826087" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" sideWeight="0.49960968" weight="0.32935154" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49932885" weight="0.329429" />
-      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32796487" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.16577181" />
-      <window_info anchor="right" id="Cargo" order="7" />
-      <window_info anchor="right" x="0" y="0" width="548" height="576" id="Documentation" order="8" weight="0.32928804" />
-      <window_info anchor="right" id="Version Control" order="9" sideWeight="0.55935425" weight="0.804698" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="DB Browser" order="0" weight="0.3295302" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49584487" visible="true" weight="0.21177588" />
       <window_info id="Structure" order="1" sideWeight="0.5041551" side_tool="true" weight="0.30063966" />
       <window_info id="Favorites" order="2" sideWeight="0.5041551" side_tool="true" weight="0.30063966" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49584487" visible="true" weight="0.13489933" />
-      <window_info anchor="bottom" id="DB Execution Console" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32826087" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.60683763" weight="0.3455344" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.7958215" weight="0.4509517" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4986577" weight="0.32796487" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49952516" weight="0.3272311" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6011396" weight="0.34553775" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7939221" weight="0.45308924" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32826087" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.55840456" weight="0.32265446" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.32796487" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4986577" weight="0.9385066" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3988604" side_tool="true" weight="0.34553775" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49919093" weight="0.32826087" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49919093" weight="0.32826087" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" sideWeight="0.49960968" weight="0.32935154" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49932885" weight="0.329429" />
-      <window_info anchor="bottom" id="Database Console" order="16" visible="true" weight="0.32796487" />
+      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32826087" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.22483222" />
+      <window_info anchor="right" id="Database" order="6" weight="0.25506073" />
       <window_info anchor="right" id="Cargo" order="7" />
       <window_info anchor="right" x="0" y="0" width="548" height="576" id="Documentation" order="8" weight="0.32928804" />
-      <window_info anchor="right" id="Version Control" order="9" sideWeight="0.55935425" weight="0.804698" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49584487" visible="true" weight="0.2288699" />
+      <window_info id="Structure" order="1" sideWeight="0.5041551" side_tool="true" weight="0.30063966" />
+      <window_info id="Favorites" order="2" sideWeight="0.5041551" side_tool="true" weight="0.30063966" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32826087" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61133605" visible="true" weight="0.47608694" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.79676116" weight="0.45648313" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32826087" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49716598" weight="0.3250444" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.38866398" side_tool="true" weight="0.39253998" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49919093" weight="0.32826087" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49919093" weight="0.32826087" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" sideWeight="0.49960968" weight="0.32935154" />
+      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32826087" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.25506073" />
+      <window_info anchor="right" id="Cargo" order="7" />
+      <window_info anchor="right" x="0" y="0" width="548" height="576" id="Documentation" order="8" weight="0.32928804" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finish" />
-    <MESSAGE value="server_new" />
-    <MESSAGE value="server_new_iixa" />
-    <option name="LAST_COMMIT_MESSAGE" value="server_new_iixa" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ezalitsky/different/web/python_web.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rsavenkov/web/python_web_server_2.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>self.path == '/form_teacher'</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str(post_data)[0:-1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str(post_data)[0:-2]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str(post_data)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>post_data</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>self.headers['Connection']</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>self.headers</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>content_length</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
       <expression>
         <expression-string>self.path</expression-string>
         <language-id>Python</language-id>
@@ -936,19 +715,84 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/str.3.html">
+    <entry file="file://$PROJECT_DIR$/rsavenkov/web/registraciy.html" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/08616d89-b566-4baa-9112-b31014a1f3ee/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="457" column="87" selection-start-line="457" selection-start-column="87" selection-end-line="457" selection-end-column="87" />
+        <state relative-caret-position="146">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/str.4.html">
+    <entry file="das://08616d89-b566-4baa-9112-b31014a1f3ee/database/my_db/schema/public/table/students" />
+    <entry file="file://$USER_HOME$/Desktop/Галин сайт/Сайт/index/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsavenkov/web/base.html/base.html" />
+    <entry file="file://$PROJECT_DIR$/rsavenkov/web/Dir/base.html/base.html" />
+    <entry file="file://$PROJECT_DIR$/rsavenkov/web/Dir/Test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="460" column="35" selection-start-line="460" selection-start-column="35" selection-end-line="460" selection-end-column="35" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Галин сайт/Сайт/index/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsavenkov/web/Dir/base.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsavenkov/web/python_web_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#37#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsavenkov/web/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d4ab6abc-94df-4a23-8784-fa9b2b070d3d/database/postgres/schema/public/table/postgres" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d4ab6abc-94df-4a23-8784-fa9b2b070d3d/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9f290afa-2efb-4267-b481-d834a28f3168/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://9f290afa-2efb-4267-b481-d834a28f3168/database/postgres/schema/public/table/postgres" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/http/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="425" selection-start-line="425" selection-end-line="425" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/postgresql/driver/pq3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="531" selection-start-line="531" selection-end-line="531" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ematsyk/WEB/My_cherrypy.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/Contact.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/Massage.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/zapis.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -956,9 +800,6 @@
           <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/title.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ematsyk/WEB/web.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -968,13 +809,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/srt5.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="480" column="67" selection-start-line="480" selection-start-column="67" selection-end-line="480" selection-end-column="67" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/Test5/Регистрация5.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -986,232 +820,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
-          <folding>
-            <element signature="e#59#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rsavenkov/web/python-happy.jpeg" />
     <entry file="file://$PROJECT_DIR$/orybynok/venv/Scripts/123.py" />
     <entry file="file://$PROJECT_DIR$/orybynok/venv/form.html" />
     <entry file="file://$PROJECT_DIR$/orybynok/venv/123.py" />
-    <entry file="das://97b0f2fd-4452-44e0-922e-2ff2d2e49ac9/database/mytestdb/schema/public/sequence/student_id_seq" />
-    <entry file="das://97b0f2fd-4452-44e0-922e-2ff2d2e49ac9/database/mytestdb/schema/public/table/students" />
-    <entry file="das://9f290afa-2efb-4267-b481-d834a28f3168/database/postgres/schema/public/table/postgres" />
-    <entry file="das://9f290afa-2efb-4267-b481-d834a28f3168/database/postgres/schema/public/table/django_admin_log" />
-    <entry file="das://9f290afa-2efb-4267-b481-d834a28f3168/database/postgres/schema/public/table/django_content_type" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/97b0f2fd-4452-44e0-922e-2ff2d2e49ac9/console.sql">
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/title.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/socketserver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="62">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b77de87c-40d4-4736-87c0-de2bdccace62/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://9f290afa-2efb-4267-b481-d834a28f3168/database/postgres/schema/public/table/django_migrations" />
-    <entry file="file://$PROJECT_DIR$/pvinogradov/socket programming/1.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/selectors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="62">
+          <caret line="314" selection-start-line="314" selection-end-line="314" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ezalitsky/different/web/form_teacher.html">
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/registraciy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="1088">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ezalitsky/different/web/form_student.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pvinogradov/HTML/js.js" />
-    <entry file="file://$PROJECT_DIR$/ezalitsky/different/web/python_web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#59#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pvinogradov/HTML/site2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pvinogradov/HTML/style/css1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pvinogradov/HTML/site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9f290afa-2efb-4267-b481-d834a28f3168/role/pavel">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b77de87c-40d4-4736-87c0-de2bdccace62/database/paveldb/schema/public/table/student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://97b0f2fd-4452-44e0-922e-2ff2d2e49ac9/database/mytestdb/schema/public/table/student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/console.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/web/python_web_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#37#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/web/1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/web/index_css.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/web/index_bootstrap.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/rsavenkov/web/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pvinogradov/HTML/www.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="68" column="10" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/web/my_tornado.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="137">
+          <caret line="29" column="21" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="54" />
           <folding>
-            <element signature="e#1#22#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/soft/Python/Lib/http/server.py">
+    <entry file="file://$PROJECT_DIR$/ematsyk/web+html/python-happy.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ematsyk/web+html/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ematsyk/web+html/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="413" selection-start-line="413" selection-end-line="413" />
+        <state relative-caret-position="102">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ematsyk/web+html/Python_web_server_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rsavenkov/web/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsavenkov/web/js/exp7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="13" column="6" selection-end-line="47" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rsavenkov/web/python_web_server_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="1037">
+          <caret line="133" column="38" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
+          <folding>
+            <element signature="e#59#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezalitsky/different/web/python_web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="121" column="9" lean-forward="true" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezalitsky/different/web/my_gunicorn.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezalitsky/different/web/my_cherrypy.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezalitsky/different/web/my_tornado.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/str.3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="471" column="40" selection-start-line="471" selection-start-column="40" selection-end-line="471" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/registration_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+          <folding>
+            <element signature="e#59#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/foto3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezalitsky/different/web/python_web_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="475" column="30" lean-forward="true" selection-start-line="475" selection-start-column="30" selection-end-line="475" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/str4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="453" column="44" selection-start-line="453" selection-start-column="44" selection-end-line="453" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orybynok/MyAppJar/web/str.2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="468" column="54" lean-forward="true" selection-start-line="465" selection-start-column="20" selection-end-line="471" selection-end-column="30" />
         </state>
       </provider>
     </entry>

@@ -59,7 +59,7 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
         elif (self.path == '/str4'):
-            with open('str.4.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
+            with open('str4.html', 'r+', encoding='UTF-8') as f:  # читаем текстовый файл
                 lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
                 output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
@@ -76,6 +76,40 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
         elif (self.path == '/str6'):
             img = Image.open('str6.jpg')
             img.show()
+            # Картинки
+        elif (self.path == '/title.png'):
+            with open('title.png', 'rb') as f:
+                self.wfile.write(f.read())
+        elif (self.path == '/foto1.jpg'):
+            with open('foto1.jpg', 'rb') as f:
+                self.wfile.write(f.read())
+        elif (self.path == '/foto2.jpg'):
+            with open('foto2.jpg', 'rb') as f:
+                self.wfile.write(f.read())
+        elif (self.path == '/foto3.jpg'):
+            with open('foto3.jpg', 'rb') as f:
+                self.wfile.write(f.read())
+        elif (self.path == '/utyb.png'):
+            with open('utyb.png', 'rb') as f:
+                self.wfile.write(f.read())
+        elif (self.path == '/mail.png'):
+            with open('mail.png', 'rb') as f:
+                self.wfile.write(f.read())
+        elif (self.path == '/odn.png'):
+            with open('odn.png', 'rb') as f:
+                self.wfile.write(f.read())
+        elif (self.path == '/tel.png'):
+            with open('tel.png', 'rb') as f:
+                self.wfile.write(f.read())
+        elif (self.path == '/vb.png'):
+            with open('vb.png', 'rb') as f:
+                self.wfile.write(f.read())
+        elif (self.path == '/wac.png'):
+            with open('wac.png', 'rb') as f:
+                self.wfile.write(f.read())
+        elif (self.path == '/hand.png'):
+            with open('hand.png', 'rb') as f:
+                self.wfile.write(f.read())
         #elif (self.path == '/Massage'):
             #with open('Massage.html', 'r', encoding='UTF-8') as f:  # читаем текстовый файл
                 #lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
@@ -130,7 +164,7 @@ def run():
         exit(-1)
     # Создаем http сервер который работает по порту 8000 и обрабатывает http запросы с помощью собственного MyHTTPRequestHandler
     try:
-        PORT = 8000
+        PORT = 8012
         server_address = ("", PORT)
         MyHTTPRequestHandler.connection = db
         with HTTPServer(server_address, MyHTTPRequestHandler) as httpd:
