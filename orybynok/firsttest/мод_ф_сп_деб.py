@@ -1,5 +1,5 @@
 from f_credit import credit
-from f_анк_деб import f_ank_deb
+from f_ank_deb import f_ank_deb
 
 bory = {'gender': True, 'age': 30, 'status': 'single', 'status1': 'jobless'}
 donat = {'gender': True, 'age': 35, 'status': 'married', 'status1': 'work'}

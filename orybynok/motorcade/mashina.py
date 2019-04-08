@@ -1,5 +1,3 @@
-import self as self
-
 class Mashina:
 
     def __init__(self, type: object, brend: object, model: object, color: object, year_of_man: object,

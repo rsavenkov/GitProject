@@ -1,5 +1,5 @@
 from mycar import a
-from Прочее.truck import b
+from truck import b
 from bas import c
 
 d = a + b + c
